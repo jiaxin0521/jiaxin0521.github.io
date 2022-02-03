@@ -23,6 +23,11 @@
       </tags>
   </entry>
   <entry>
+    <title>博客运用hexo-next主题的设置及美化</title>
+    <url>/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>用hexo+github搭建博客</title>
     <url>/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。</p>
@@ -159,6 +164,18 @@
 <p>该代码前面的内容会作为摘要显示，而后面的内容会替换为 “阅读全文” 隐藏起来。</p>
 <p>如下图：</p>
 <p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203140815732.png" alt="image-20220203140815732"></p>
+<h3 id="统计访问数量"><a href="#统计访问数量" class="headerlink" title="统计访问数量"></a>统计访问数量</h3><p>效果如下：</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203145053979.png" alt="image-20220203145053979"></p>
+<p>（不过这个访问量好像有点问题，等我想想啊）</p>
+<p>1、先在hexo-theme-next目录下的_config.yml文件的末尾加上下面的代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">busuanzi:</span><br><span class="line"> enable: true</span><br></pre></td></tr></table></figure>
+
+<p>2、打开D:\hexo\blog\node_modules\hexo-theme-next\layout_partials的footer.njk文件（这个文件相当于html文件）在最后另起一行加入如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;footer&gt;</span><br><span class="line">        &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;</span><br><span class="line">                本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_site_uv&quot; style=&#x27;display:none&#x27;&gt;</span><br><span class="line">                本站访客数&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/footer&gt;</span><br></pre></td></tr></table></figure>
+
+<p>3、打开D:\hexo\blog\node_modules\hexo-theme-next\layout_partials\post的post-footer.njk文件在最后另起一行加入如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;% if (theme.busuanzi &amp;&amp; theme.busuanzi.enable &amp;&amp; !index)&#123; %&gt;</span><br><span class="line">        &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_page_pv&quot; style=&#x27;display:none&#x27; class=&quot;&lt;%= class_name %&gt;&quot;&gt;</span><br><span class="line">              &lt;i class=&quot;icon-smile icon&quot;&gt;&lt;/i&gt; 阅读数：&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
   </entry>
 </search>
