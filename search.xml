@@ -46,6 +46,7 @@
 <p><img src="/.io//../node_modules/hexo-asset-image/image-20220203093820562.png" alt="image-20220203093820562"></p>
 <h3 id="优点和不足"><a href="#优点和不足" class="headerlink" title="优点和不足"></a><strong>优点和不足</strong></h3><p><strong>优点：</strong>完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……</p>
 <p><strong>不足：</strong>发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点慢。</p>
+<p>（通俗的说，就是敲hexo g -d敲到手软，每次因为github pages有延迟而只能hexo s 先预览文章）</p>
 <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a><strong>注意事项</strong></h3><ul>
 <li>输入代码时，核对准确，最好切换成英文输入法；</li>
 <li>将文中的 “用户名” 和 “邮箱” 替换为自己的 GitHub 账户名和绑定的邮箱；</li>
