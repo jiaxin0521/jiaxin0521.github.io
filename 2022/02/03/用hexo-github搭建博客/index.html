@@ -27,15 +27,15 @@
 <meta property="og:site_name" content="诗酒趁年华">
 <meta property="og:description" content="前言近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。 虽然搭建时比较麻烦，有点折腾，但是配置完成后，基本不需要操心维护的事，甚至放了几年都忘记了，打开来看文章依然还在。 本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://jiaxin0521.github.io/.io//image-20220203093820562.png">
-<meta property="og:image" content="http://jiaxin0521.github.io/.io//image-20220203094412675.png">
-<meta property="og:image" content="http://jiaxin0521.github.io/.io//image-20220203100030826.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203093820562.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203094412675.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203100030826.png">
 <meta property="article:published_time" content="2022-02-03T02:31:29.000Z">
 <meta property="article:modified_time" content="2022-02-03T05:47:31.906Z">
 <meta property="article:author" content="jiaxin">
 <meta property="article:tag" content="生活 技术 life technology">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://jiaxin0521.github.io/.io//image-20220203093820562.png">
+<meta name="twitter:image" content="http://jiaxin0521.github.io/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203093820562.png">
 
 
 <link rel="canonical" href="http://jiaxin0521.github.io/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
@@ -285,7 +285,7 @@
 <p>Hexo 是一个快速、简洁且高效的静态博客框架，它基于 Node.js 运行，可以将我们撰写的 Markdown 文档解析渲染成静态的 HTML 网页。</p>
 <h3 id="Hexo-GitHub-文章发布原理"><a href="#Hexo-GitHub-文章发布原理" class="headerlink" title="Hexo + GitHub 文章发布原理"></a><strong>Hexo + GitHub 文章发布原理</strong></h3><p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</p>
 <p>差不多就是下面这张图这样：（hexo g&amp;&amp;hexo d两个命令可以简化成一个命令hexo g -d，但是我建议每次部署之前都要先清理一下缓存，不然可能会出现奇奇怪怪的问题）</p>
-<p><img src="/.io//image-20220203093820562.png"></p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203093820562.png"></p>
 <h3 id="优点和不足"><a href="#优点和不足" class="headerlink" title="优点和不足"></a><strong>优点和不足</strong></h3><p><strong>优点：</strong>完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……</p>
 <p><strong>不足：</strong>发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点慢。</p>
 <p>（通俗的说，就是敲hexo g -d敲到手软，每次因为github pages有延迟而只能hexo s 先预览文章）</p>
@@ -302,7 +302,7 @@
 </ul>
 <p>下载 Node.js 和 Git 程序并安装，一路点 “下一步” 按默认配置完成安装。</p>
 <p>安装完成后，Win+R 输入 cmd 并打开，依次输入 <code>node -v</code>、<code>npm -v</code> 和 <code>git --version</code> 并回车，如下图出现程序版本号即可。</p>
-<p><img src="/.io//image-20220203094412675.png"></p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203094412675.png"></p>
 <h2 id="连接-Github"><a href="#连接-Github" class="headerlink" title="连接 Github"></a>连接 Github</h2><p>使用邮箱注册 <a href="https://link.zhihu.com/?target=https://github.com/">GitHub</a> 账户，选择免费账户（Free），并完成邮件验证。</p>
 <p>建一个空的文件夹（建议命名为hexo放在D盘目录下，以后每次都要先进入这个目录然后在地址栏敲cmd把本地文件push到github上去）</p>
 <p>右键-&gt;Git bash here,设置用户名和邮箱</p>
@@ -343,7 +343,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -p &quot;端口号&quot;    </span><br></pre></td></tr></table></figure>
 
 <p>比如端口号改为4001</p>
-<p><img src="/.io//image-20220203100030826.png"></p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203100030826.png"></p>
 <h2 id="部署-Hexo-到-GitHub-Pages"><a href="#部署-Hexo-到-GitHub-Pages" class="headerlink" title="部署 Hexo 到 GitHub Pages"></a>部署 Hexo 到 GitHub Pages</h2><p>本地博客测试成功后，就是上传到 GitHub 进行部署，使其能够在网络上访问。</p>
 <p>首先<strong>安装 hexo-deployer-git</strong>：（默认进入blog根目录进行操作）</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
