@@ -47,7 +47,7 @@
 <h3 id="优点和不足"><a href="#优点和不足" class="headerlink" title="优点和不足"></a><strong>优点和不足</strong></h3><p><strong>优点：</strong>完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……</p>
 <p><strong>不足：</strong>发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点慢。</p>
 <p>（通俗的说，就是敲hexo g -d敲到手软，每次因为github pages有延迟而只能hexo s 先预览文章）</p>
-<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a><strong>注意事项</strong></h3><ul>
+<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a><strong>注意事项</strong></h3><ul>
 <li>输入代码时，核对准确，最好切换成英文输入法；</li>
 <li>将文中的 “用户名” 和 “邮箱” 替换为自己的 GitHub 账户名和绑定的邮箱；</li>
 <li>统一使用 Git Bash 进行操作（支持 Win、Mac）；</li>
@@ -111,7 +111,7 @@
 
 <p>完成后运行 <code>hexo d</code> 将网站上传部署到 GitHub Pages。</p>
 <p>访问我们的 GitHub 域名 <code>https://用户名.github.io</code> 就可以看到 Hexo 网站了。</p>
-<h2 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h2><h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a><strong>发布文章</strong></h3><p>进入博客所在目录，右键打开 Git Bash Here，创建博文：</p>
+<h1 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h1><h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a><strong>发布文章</strong></h3><p>进入博客所在目录，右键打开 Git Bash Here，创建博文：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;hello&quot; #hello可以自由更改对应生成的文件名</span><br></pre></td></tr></table></figure>
 
 <p>然后在 D:\hexo\blog\source_posts 目录下会出现一个hello.md文件</p>
@@ -125,7 +125,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World # 标题</span><br><span class="line">date: 2019/3/26 hh:mm:ss # 时间</span><br><span class="line">categories: # 分类</span><br><span class="line">- Diary</span><br><span class="line">tags: # 标签</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br></pre></td></tr></table></figure>
 
 <p>写完hexo g -d部署到github pages上就可以了</p>
-<h2 id="hexo-博文插入图片"><a href="#hexo-博文插入图片" class="headerlink" title="hexo 博文插入图片"></a>hexo 博文插入图片</h2><p>更改hexo配置文件 (D:\hexo\blog\node_modules\hexo-theme-next/_config.yml`) 中的Writing配置项</p>
+<h3 id="hexo-博文插入图片"><a href="#hexo-博文插入图片" class="headerlink" title="hexo 博文插入图片"></a>hexo 博文插入图片</h3><p>更改hexo配置文件 (D:\hexo\blog\node_modules\hexo-theme-next/_config.yml`) 中的Writing配置项</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
 
 <p>在<strong>博客根目录</strong>下安装**<code>hexo-asset-image</code>**插件</p>
@@ -135,7 +135,7 @@
 <p>改成完全和下图一样的就可以了</p>
 <p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220203140416121.png" alt="image-20220203140416121"></p>
 <p>这样你在复制粘贴图片时会typora会自动帮你放到_post目录下的同名文件夹</p>
-<h2 id="hexo-添加标签页"><a href="#hexo-添加标签页" class="headerlink" title="hexo 添加标签页"></a>hexo 添加标签页</h2><p>在博客根目录下：</p>
+<h3 id="hexo-添加标签页"><a href="#hexo-添加标签页" class="headerlink" title="hexo 添加标签页"></a>hexo 添加标签页</h3><p>在博客根目录下：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
 
 <p>在 Front-matter 中添加：</p>
@@ -145,7 +145,7 @@
 <blockquote>
 <p>记得添加进入方式</p>
 </blockquote>
-<h2 id="hexo-添加关于页"><a href="#hexo-添加关于页" class="headerlink" title="hexo 添加关于页"></a>hexo 添加关于页</h2><p>在博客根目录下：</p>
+<h3 id="hexo-添加关于页"><a href="#hexo-添加关于页" class="headerlink" title="hexo 添加关于页"></a>hexo 添加关于页</h3><p>在博客根目录下：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
 
 <p>在 Front-matter 中添加：</p>
