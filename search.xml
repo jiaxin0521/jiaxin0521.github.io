@@ -21,7 +21,9 @@
   <entry>
     <title>第一篇先来个碎碎念</title>
     <url>/2022/02/02/hello/</url>
-    <content><![CDATA[<p>a最近是真的没干啥，然后第一篇也不知道写什么，然后搞博客还是在曹佬的敦促下完成的（他说我太闲所以emo）</p>
+    <content><![CDATA[<a id="more"></a>
+
+<p>a最近是真的没干啥，然后第一篇也不知道写什么，然后搞博客还是在曹佬的敦促下完成的（他说我太闲所以emo）</p>
 <p>记录一下搞这个博客的时候遇到的一些问题吧。</p>
 <p>（因为没有随时记录的习惯，所以有可能最后写出来就像胡言乱语似的，各位看官谨慎阅读，别污了您的眼）</p>
 <h6 id="忘记博客的网址"><a href="#忘记博客的网址" class="headerlink" title="忘记博客的网址"></a>忘记博客的网址</h6><p>我找历史记录、翻聊天记录，然后都没找到，”灵机一动“（各位大佬别骂了什么都不懂的人是这样的）想到网址不就是GitHub用户名+github.io吗？然后也没百度就这样解决了。</p>
@@ -41,7 +43,9 @@
   <entry>
     <title>博客运用hexo-next主题的设置及美化</title>
     <url>/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>上篇文章已经在Windows上将个人博客个搭建好了，使用的是默认主题landscape，不过有点不太符合我们的审美，这里使用最为常见的hexo-next主题为例。</p>
+    <content><![CDATA[<a id="more"></a>
+
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>上篇文章已经在Windows上将个人博客个搭建好了，使用的是默认主题landscape，不过有点不太符合我们的审美，这里使用最为常见的hexo-next主题为例。</p>
 <h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><h3 id="设置主题"><a href="#设置主题" class="headerlink" title="设置主题"></a>设置主题</h3><p>在blog根目录下进入命令行，输入下面的命令：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next --save</span><br></pre></td></tr></table></figure>
 
