@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第一篇先来个碎碎念</title>
+    <url>/2022/02/02/hello/</url>
+    <content><![CDATA[<a id="more"></a>
+
+<p>a最近是真的没干啥，然后第一篇也不知道写什么，然后搞博客还是在曹佬的敦促下完成的（他说我太闲所以emo）</p>
+<p>记录一下搞这个博客的时候遇到的一些问题吧。</p>
+<p>（因为没有随时记录的习惯，所以有可能最后写出来就像胡言乱语似的，各位看官谨慎阅读，别污了您的眼）</p>
+<h6 id="忘记博客的网址"><a href="#忘记博客的网址" class="headerlink" title="忘记博客的网址"></a>忘记博客的网址</h6><p>我找历史记录、翻聊天记录，然后都没找到，”灵机一动“（各位大佬别骂了什么都不懂的人是这样的）想到网址不就是GitHub用户名+github.io吗？然后也没百度就这样解决了。</p>
+<h6 id="不知道怎么开始写"><a href="#不知道怎么开始写" class="headerlink" title="不知道怎么开始写"></a>不知道怎么开始写</h6><p>其实就是hexo g把写好的md文件“编译”成网页源码然后再hexo d部署到GitHub上就可以了</p>
+<h6 id="连接到GitHub时超时了"><a href="#连接到GitHub时超时了" class="headerlink" title="连接到GitHub时超时了"></a>连接到GitHub时超时了</h6><p>报错信息：ssh: connect to host github.com port 22: Connection timed out</p>
+<p>后面就把ssh再配置一下就解决了然后把它复制到.yml文件里面</p>
+<h6 id="换主题"><a href="#换主题" class="headerlink" title="换主题"></a>换主题</h6><p>在<a href="https://hexo.io/themes/">hexo的主题库</a>里面找了一个叫<a href="https://dogzi.fun/">amazing</a>的主题，然后按照提示把它clone了下来，可能是因为我太菜看不懂配置教程，出现了下面的报错</p>
+<p><img src="/2022/02/02/hello/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220202155444.png" alt="微信图片_20220202155444"></p>
+<p>然后发现可能要npm安装，算了不管了怎么简单怎么来所以就有了这个next主题</p>
+<h6 id="不管输入什么命令都出现这些"><a href="#不管输入什么命令都出现这些" class="headerlink" title="不管输入什么命令都出现这些"></a>不管输入什么命令都出现这些</h6><p><img src="/2022/02/02/hello/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220202155639.jpg" alt="微信图片_20220202155639"></p>
+<p>因为我换了个好看的终端<a href="https://docs.microsoft.com/zh-cn/windows/terminal/install">Windows Terminal</a>，以前都是直接在blog根目录下输入cmd的，所以我忘记先进入D:hexo\blog这个目录下了，之后就找到了一条命令cd \d “路径”可以直接在cmd进入这个路径。不知道为啥powershell就直接cd “路径”就可以。</p>
+]]></content>
+      <tags>
+        <tag>碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客运用hexo-next主题的设置及美化</title>
     <url>/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<a id="more"></a>
@@ -47,28 +69,6 @@
 ]]></content>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一篇先来个碎碎念</title>
-    <url>/2022/02/02/hello/</url>
-    <content><![CDATA[<a id="more"></a>
-
-<p>a最近是真的没干啥，然后第一篇也不知道写什么，然后搞博客还是在曹佬的敦促下完成的（他说我太闲所以emo）</p>
-<p>记录一下搞这个博客的时候遇到的一些问题吧。</p>
-<p>（因为没有随时记录的习惯，所以有可能最后写出来就像胡言乱语似的，各位看官谨慎阅读，别污了您的眼）</p>
-<h6 id="忘记博客的网址"><a href="#忘记博客的网址" class="headerlink" title="忘记博客的网址"></a>忘记博客的网址</h6><p>我找历史记录、翻聊天记录，然后都没找到，”灵机一动“（各位大佬别骂了什么都不懂的人是这样的）想到网址不就是GitHub用户名+github.io吗？然后也没百度就这样解决了。</p>
-<h6 id="不知道怎么开始写"><a href="#不知道怎么开始写" class="headerlink" title="不知道怎么开始写"></a>不知道怎么开始写</h6><p>其实就是hexo g把写好的md文件“编译”成网页源码然后再hexo d部署到GitHub上就可以了</p>
-<h6 id="连接到GitHub时超时了"><a href="#连接到GitHub时超时了" class="headerlink" title="连接到GitHub时超时了"></a>连接到GitHub时超时了</h6><p>报错信息：ssh: connect to host github.com port 22: Connection timed out</p>
-<p>后面就把ssh再配置一下就解决了然后把它复制到.yml文件里面</p>
-<h6 id="换主题"><a href="#换主题" class="headerlink" title="换主题"></a>换主题</h6><p>在<a href="https://hexo.io/themes/">hexo的主题库</a>里面找了一个叫<a href="https://dogzi.fun/">amazing</a>的主题，然后按照提示把它clone了下来，可能是因为我太菜看不懂配置教程，出现了下面的报错</p>
-<p><img src="/2022/02/02/hello/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220202155444.png" alt="微信图片_20220202155444"></p>
-<p>然后发现可能要npm安装，算了不管了怎么简单怎么来所以就有了这个next主题</p>
-<h6 id="不管输入什么命令都出现这些"><a href="#不管输入什么命令都出现这些" class="headerlink" title="不管输入什么命令都出现这些"></a>不管输入什么命令都出现这些</h6><p><img src="/2022/02/02/hello/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220202155639.jpg" alt="微信图片_20220202155639"></p>
-<p>因为我换了个好看的终端<a href="https://docs.microsoft.com/zh-cn/windows/terminal/install">Windows Terminal</a>，以前都是直接在blog根目录下输入cmd的，所以我忘记先进入D:hexo\blog这个目录下了，之后就找到了一条命令cd \d “路径”可以直接在cmd进入这个路径。不知道为啥powershell就直接cd “路径”就可以。</p>
-]]></content>
-      <tags>
-        <tag>碎碎念</tag>
       </tags>
   </entry>
   <entry>
