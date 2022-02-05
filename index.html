@@ -252,7 +252,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-02-05 20:39:33 / 修改时间：20:40:28" itemprop="dateCreated datePublished" datetime="2022-02-05T20:39:33+08:00">2022-02-05</time>
+      <time title="创建时间：2022-02-05 20:39:33 / 修改时间：20:42:32" itemprop="dateCreated datePublished" datetime="2022-02-05T20:39:33+08:00">2022-02-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -290,51 +290,14 @@
     <div class="post-body" itemprop="articleBody">
           <h1 id="Math-Equations-数学方程"><a href="#Math-Equations-数学方程" class="headerlink" title="Math Equations(数学方程)"></a>Math Equations(数学方程)</h1><p>Math Formulas Render Support.</p>
 <p>可以使数学公式变得好看点。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"># Math Formulas Render Support</span><br><span class="line">math:</span><br><span class="line">  # Default (false) will load mathjax / katex script on demand.</span><br><span class="line">  # That is it only render those page which has `mathjax: true` in front-matter.</span><br><span class="line">  # If you set it to true, it will load mathjax / katex script EVERY PAGE.</span><br><span class="line">  every_page: false</span><br><span class="line"></span><br><span class="line">  mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    # Available values: none | ams | all</span><br><span class="line">    tags: none</span><br><span class="line"></span><br><span class="line">  katex:</span><br><span class="line">    enable: false</span><br><span class="line">    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span><br><span class="line">    copy_tex: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>默认 (false) 将按需加载 mathjax / katex 脚本。</p>
-<p>那就是它只渲染那些在 front-matter 中有 <code>mathjax: true</code> 的页面。</p>
-<p>如果你将它设置为 true，它将在每一页加载 mathjax / katex 脚本。</p>
-<h4 id="简单方程"><a href="#简单方程" class="headerlink" title="简单方程"></a>简单方程</h4><p>对于简单的方程，使用以下形式给出一个标签，</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq1&#125; </span><br><span class="line">e=mc^2 </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
-
-<p>e =mc^2</p>
-<p>然后，您可以使用以下内容轻松地在文本中引用此等式：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">爱因斯坦提出的著名物质能量方程$\eqref&#123;eq1&#125;$...</span><br></pre></td></tr></table></figure>
-
-<p>著名的物质能量方程(1)爱因斯坦提出…</p>
-<h4 id="多线方程"><a href="#多线方程" class="headerlink" title="多线方程"></a>多线方程</h4><p>对于多行方程，在<code>equation</code>环境内部，您可以使用<code>aligned</code>环境将其拆分为多行：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq2&#125; </span><br><span class="line">\begin&#123;aligned&#125; </span><br><span class="line">a &amp;= b + c \\ </span><br><span class="line">  &amp;= d + e + f + g \\ </span><br><span class="line">  &amp;= h + i </span><br><span class="line">\end&#123;aligned&#125; </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">方程 $\eqref&#123;eq2&#125;$ 是一个多线方程。</span><br></pre></td></tr></table></figure>
-
-<h4 id="多个对齐方程"><a href="#多个对齐方程" class="headerlink" title="多个对齐方程"></a>多个对齐方程</h4><p>我们可以使用<code>align</code>环境来对齐多个方程。这些方程中的每一个都会得到自己的数字。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">a &amp;= b + c \label&#123;eq3&#125; \\ </span><br><span class="line">x &amp;= yz \label&#123;eq4&#125; \\ </span><br><span class="line">l &amp;= m - n \label&#123;eq5&#125; </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
-
-<p>(3)一个=b+C(4)X=是的z(5)l=米-n</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">有三个对齐的方程：方程$\eqref&#123;eq3&#125;$、方程$\eqref&#123;eq4&#125;$和方程$\eqref&#123;eq5&#125;$。</span><br></pre></td></tr></table></figure>
-
-
-
-<p>因为<code>align</code>它本身就是一个完整的方程环境（阅读<a target="_blank" rel="noopener" href="https://tex.stackexchange.com/questions/95402/what-is-the-difference-between-aligned-in-displayed-mode-and-starred-align">这里</a><code>aligned</code>关于 LaTeX和LaTeX之间的区别<code>align</code>）。你不需要用<code>equation</code>环境包装它。</p>
-<h4 id="从编号中排除方程式"><a href="#从编号中排除方程式" class="headerlink" title="从编号中排除方程式"></a>从编号中排除方程式</h4><p>在<code>align</code>环境中，如果您不想对一个或一些方程式进行编号，只需<code>\nonumber</code>在这些方程式后面使用即可。如下所示：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">-4 + 5x &amp;= 2 + y \nonumber \\ </span><br><span class="line">w + 2 &amp;= -1 + w \\ </span><br><span class="line">ab &amp;= cb </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="用于-tag标记方程"><a href="#用于-tag标记方程" class="headerlink" title="用于\tag标记方程"></a>用于<code>\tag</code>标记方程</h4><p>有时，您想使用更“异国情调”的风格来引用您的方程式。您可以使用<code>\tag&#123;&#125;</code>来实现这一点。例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$x+1\over\sqrt&#123;1-x^2&#125; \tag&#123;i&#125;\label&#123;eq_tag&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">方程 $\eqref&#123;eq_tag&#125;$ 使用 `\tag&#123;&#125;` 代替自动编号。</span><br></pre></td></tr></table></figure>
-
-<p>）使用<code>\tag&#123;&#125;</code>而不是自动编号。</p>
-<p>参考文献：</p>
-<p><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/third-party-services/math-equations.html">https://theme-next.js.org/docs/third-party-services/math-equations.html</a></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/02/05/next%E6%95%B0%E5%AD%A6%E6%96%B9%E7%A8%8B%E7%9A%84%E8%A7%A3%E6%9E%90/index.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 

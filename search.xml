@@ -5,6 +5,8 @@
     <url>/2022/02/05/next%E6%95%B0%E5%AD%A6%E6%96%B9%E7%A8%8B%E7%9A%84%E8%A7%A3%E6%9E%90/index.html</url>
     <content><![CDATA[<h1 id="Math-Equations-数学方程"><a href="#Math-Equations-数学方程" class="headerlink" title="Math Equations(数学方程)"></a>Math Equations(数学方程)</h1><p>Math Formulas Render Support.</p>
 <p>可以使数学公式变得好看点。</p>
+<a id="more"></a>
+
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Math Formulas Render Support</span><br><span class="line">math:</span><br><span class="line">  # Default (false) will load mathjax / katex script on demand.</span><br><span class="line">  # That is it only render those page which has `mathjax: true` in front-matter.</span><br><span class="line">  # If you set it to true, it will load mathjax / katex script EVERY PAGE.</span><br><span class="line">  every_page: false</span><br><span class="line"></span><br><span class="line">  mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    # Available values: none | ams | all</span><br><span class="line">    tags: none</span><br><span class="line"></span><br><span class="line">  katex:</span><br><span class="line">    enable: false</span><br><span class="line">    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span><br><span class="line">    copy_tex: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>默认 (false) 将按需加载 mathjax / katex 脚本。</p>
