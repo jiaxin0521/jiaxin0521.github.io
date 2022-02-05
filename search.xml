@@ -104,6 +104,11 @@
 <p>运行结果如下，会再source文件下创建about、tags、categories文件夹，每个文件夹下还会创建一个index.md文件表示关于、标签页分类页面，编辑这三个MarkDown文件可以自定义这三个页面的内容</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyD:\hexo\blog&gt;hexo new page &quot;about&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\about\index.md`</span><br><span class="line"></span><br><span class="line">`D:\hexo\blog&gt;hexo new page &quot;tags&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\tags\index.md`</span><br><span class="line"></span><br><span class="line">`D:\hexo\blog&gt;hexo new page &quot;categories&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\categories\index.md`</span><br></pre></td></tr></table></figure>
 
+<h2 id="添加看板娘"><a href="#添加看板娘" class="headerlink" title="添加看板娘"></a>添加看板娘</h2><p>把这段代码添加到layout文件中</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    var jsonModel = [</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    ];</span><br><span class="line">    L2Dwidget.init(&#123; </span><br><span class="line">        &quot;model&quot;: &#123; </span><br><span class="line">            &quot;jsonPath&quot;: jsonModel[Math.floor(Math.random()*(jsonModel.length-1))],</span><br><span class="line">            &quot;scale&quot;: 1 </span><br><span class="line">        &#125;, </span><br><span class="line">        &quot;display&quot;: &#123; </span><br><span class="line">            &quot;position&quot;: &quot;right&quot;, // 位置left、right</span><br><span class="line">            &quot;width&quot;: 180, // 宽度</span><br><span class="line">            &quot;height&quot;: 240, // 高度</span><br><span class="line">            &quot;hOffset&quot;: 0, // 横向边距</span><br><span class="line">            &quot;vOffset&quot;: 0 // 众向边距</span><br><span class="line">        &#125;, </span><br><span class="line">        &quot;mobile&quot;: &#123; </span><br><span class="line">            &quot;show&quot;: true // 手机是否显示</span><br><span class="line">        &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205141336428.png" alt="image-20220205141336428"></p>
 ]]></content>
       <categories>
         <category>建站</category>
@@ -175,7 +180,7 @@
 <p>虽然搭建时比较麻烦，有点折腾，但是配置完成后，基本不需要操心维护的事，甚至放了几年都忘记了，打开来看文章依然还在。</p>
 <p>本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。</p>
 <p>为了照顾小白用户（第一次使用 GitHub 和 Hexo），尽可能详细，包括常见的坑和问题都有提示说明。下面目录中<strong>第 3~5 步为最重要的步骤</strong>，其他内容如果已经会的可以选择性跳过。</p>
-<p>看起来有点繁杂，捋顺了倒也简单，认真跟教程走，完整操作一遍大概需要 30 分钟。（事实上本人搭这个博客至少花了一天时间，花的时间多少主要看个人还有您看的教程是否对应最新版本，否则可能出现版本不兼容问题，然后这些问题因为我没有及时记录）</p>
+<p>看起来有点繁杂，捋顺了倒也简单，认真跟教程走，完整操作一遍大概需要 30 分钟。（事实上本人搭这个博客至少花了一天时间，花的时间多少主要看个人还有您看的教程是否对应最新版本，否则可能出现版本不兼容问题，然后这些问题因为我没有及时记录，所以就没有啦！解决了就行呜呜呜。）</p>
 <p>o(￣▽￣)ｄ</p>
 <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h3 id="GitHub-Pages-是什么？"><a href="#GitHub-Pages-是什么？" class="headerlink" title="GitHub Pages 是什么？"></a><strong>GitHub Pages 是什么？</strong></h3><ul>
 <li><a href="https://link.zhihu.com/?target=https://help.github.com/en/articles/what-is-github-pages">What is GitHub Pages? - GitHub Help</a></li>
@@ -310,12 +315,18 @@
 <p>1、先在hexo-theme-next目录下的_config.yml文件的末尾加上下面的代码：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">busuanzi:</span><br><span class="line"> enable: true</span><br></pre></td></tr></table></figure>
 
-<p>2、打开D:\hexo\blog\node_modules\hexo-theme-next\layout_partials的footer.njk文件（这个文件相当于html文件）在最后另起一行加入如下代码：</p>
+<p>2、打开D:\hexo\blog\node_modules\hexo-theme-next\layout\partials的footer.njk文件（这个文件相当于html文件）在最后另起一行加入如下代码：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;footer&gt;</span><br><span class="line">        &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;</span><br><span class="line">                本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_site_uv&quot; style=&#x27;display:none&#x27;&gt;</span><br><span class="line">                本站访客数&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/footer&gt;</span><br></pre></td></tr></table></figure>
 
-<p>3、打开D:\hexo\blog\node_modules\hexo-theme-next\layout_partials\post的post-footer.njk文件在最后另起一行加入如下代码：</p>
+<p>3、打开D:\hexo\blog\node_modules\hexo-theme-next\layout\partials\post的post-footer.njk文件在最后另起一行加入如下代码：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;% if (theme.busuanzi &amp;&amp; theme.busuanzi.enable &amp;&amp; !index)&#123; %&gt;</span><br><span class="line">        &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_page_pv&quot; style=&#x27;display:none&#x27; class=&quot;&lt;%= class_name %&gt;&quot;&gt;</span><br><span class="line">              &lt;i class=&quot;icon-smile icon&quot;&gt;&lt;/i&gt; 阅读数：&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
 
+<h3 id="对一些细节"><a href="#对一些细节" class="headerlink" title="对一些细节"></a>对一些细节</h3><p>1、每次对细节修改之后都要在blog根目录下hexo g -d</p>
+<p>然后hexo s本地预览一下</p>
+<p>2、layout.njk文件相当于是博客的前端html文件</p>
+<p>参考文献：</p>
+<p><a href="https://jomeswang.github.io/posts/fd1e545c/#more">https://jomeswang.github.io/posts/fd1e545c/#more</a></p>
+<p><a href="https://hasegawaazusa.github.io/hexo-note.html">https://hasegawaazusa.github.io/hexo-note.html</a></p>
 ]]></content>
       <categories>
         <category>建站</category>
