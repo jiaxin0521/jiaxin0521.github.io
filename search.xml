@@ -1,11 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第一篇先来个碎碎念</title>
-    <url>/2022/02/02/hello/index.html</url>
-    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+    <title>人文社科读书笔记</title>
+    <url>/2022/02/05/%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.html</url>
+    <content><![CDATA[<p>虽然我是工科生，可又怎么能割舍掉内心对人文的热爱呢？</p>
+<a id="more"></a>
+
+<h1 id="《乡土中国》"><a href="#《乡土中国》" class="headerlink" title="《乡土中国》"></a>《乡土中国》</h1><p>我们的民族是和泥土分不开的。“乡下人离不了泥土，因为在乡下住，种地是最普通的谋生方法。”就算是到了适宜游牧生活的美国大草原，中原人也依然会一家划一方地，种植起来；真像是往土里一钻，看不到其他利用这块地的方法了。写到这里，费孝通先生很有一些恨铁不成钢地写道“现在很有些飞不上天地样子”。</p>
+<p>但更多的时候，他是在客观地分析为何中国人（尤其是乡下人）土气：农业和游牧或工业不同，它是直接取资于土地的。游牧的人可以逐水草而居，飘忽无定；做工业的人可以择地而居，迁移无碍；而种地的人却搬不动地，长在土里的庄稼行动不得，侍候庄稼的老农也像是半截身子插入了泥土里，土气是因为不流动而发生的。</p>
+<p>因为土地，所以显得扎根于泥土中；因为土地，更解释了为什么中国人选择带着地球一起去流浪，而不是像一些美国史诗一样，只顾自己的逃亡。</p>
+<p>但是，更加有趣的是，人口必然会增加，一块地上只要几代人的繁殖，人口就到了饱和点，过剩的人口要养活，就必须拿起锄头去开辟新地。然后他们又形成一个小小的家族殖民地，找不到土地的就在各式各样的命运中被淘汰了，或是“发迹了”，去到城镇，然后开启一种新的生活。</p>
+<p>乡土社会在地方性的限制下成了生于斯、死于斯的社会。就像我们所说的落叶归根。这是一个熟悉的社会，没有陌生人的社会。</p>
+<p>在社会学里，我们常分出两种不同性质的社会，一种并没有具体目的，只是因为在一起生长而发生的社会，一种是为了要完成一件任务而结合的社会、用涂尔干的话说，前者是“有机的团结”，后者是“机械的团结”，前者是礼俗社会，后者是法理社会。乡民们平素所接触的是生而与俱的人物，正像我们的父母兄弟一般，并不是由于我们选择得来的关系，而是先我们而在的一个环境。</p>
+<p>乡土社会从熟悉里得到了信任。“我们大家是熟人，打个招呼就是了，还用得着多说吗？”现代社会是陌生人的社会，各人不知道各人的底细，所以要说得明明白白，还怕赖账，所以签个字，画个押，这样就发生了法律了。熟人社会是不需要法律得，大家都互相信任，欺骗了，他得名声就臭了，以后再也不能在这篇土地上立足，只能蝇营狗苟地生活下去，代价其实是很大的。</p>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
       <tags>
         <tag>碎碎念</tag>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>life trivia</title>
+    <url>/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index.html</url>
+    <content><![CDATA[<h1 id="唇釉和口红的区别"><a href="#唇釉和口红的区别" class="headerlink" title="唇釉和口红的区别"></a>唇釉和口红的区别</h1><p>给直男（指我自己）讲一下有什么区别</p>
+<a id="more"></a>
+
+<p>什么？居然有直男觉得唇釉和口红是一个东西？</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235559464.png" alt="image-20220204235559464"></p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235619899.png" alt="image-20220204235619899"></p>
+<p>首先，唇釉相当于是液体的口红。</p>
+<p>其次，效果当然是不一样的。</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235753733.png" alt="image-20220204235753733"></p>
+<p>看这张图他哪里一样了？</p>
+<p>唇釉可以晕染，口红，你说怎么晕染？</p>
+<p>晕染了会变血红大口的。</p>
+<p>但是口红需要经常补，唇釉不用，因为唇釉是直接成膜然后覆在嘴唇上面。</p>
+<p>看看知乎的分析：</p>
+<p>作者：骆先森<br>链接：<a href="https://zhuanlan.zhihu.com/p/388778829">https://zhuanlan.zhihu.com/p/388778829</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<p><strong>唇釉与口红有什么区别</strong></p>
+<p>　　<strong>1.质地</strong></p>
+<p>　　口红属于固体膏状，采用圆管的包装，看起来就像一只粗短的蜡笔；</p>
+<p>　　唇釉属于液体状，它的液体并不清澈，显得有点粘稠。采用灌装包装，自带唇刷。</p>
+<p>　　<strong>2.滋润度</strong></p>
+<p>　　口红的滋润度各有不同，有偏干、也有较为滋润的，但是唇釉的滋润度是一定高于口红的。</p>
+<p>　　即便是滋润型口红的滋润度也不及唇釉。</p>
+<p>　　<strong>3.显色度</strong></p>
+<p>　　专业性的口红显色度比较好，滋润型口红显色度差；</p>
+<p>　　唇釉的显色度则普遍不错，尤其是欧美的唇釉。</p>
+<p>　　<strong>4.上妆/补妆</strong></p>
+<p>　　口红在上妆时比较麻烦，但后续补妆非常方便，用纸巾擦拭掉之前的口红再重新上一层即可；</p>
+<p>　　唇釉在上妆时十分方便，但脱落后就很难擦拭掉再涂一层，涂太厚也容易起皮。</p>
+<p>　　<strong>5.使用方法</strong></p>
+<p>　　口红使用时先用润唇膏进行打底，再将口红膏体旋转出来，根据自己想要的效果进行涂抹；</p>
+<p>　　唇釉主要靠唇刷涂抹，借助唇刷这个载体将液体涂抹在唇部上。</p>
+<p>　　<strong>6.使用感受</strong></p>
+<p>　　口红质地较为干硬，使用时不容易涂抹开，涂抹后唇部皮肤也容易干燥，更容易脱妆；</p>
+<p>　　唇釉属于液体口红，使用时比较容易涂抹，质地也会水润许多。</p>
+<p> 　<strong>建议买口红还是买唇釉</strong></p>
+<p>　　买口红还是买唇釉主要根据个人喜好、妆感等来决定。</p>
+<p>　　如果想要上嘴舒服、补妆方便、质地滋润，那可以选择口红；如果想要持久度高、颜色鲜艳饱满，那就选择唇釉。</p>
+<p>　　新手如果要购买的话建议买口红，口红是固态的质地，方便涂抹且上色均匀，而唇釉为液体状，不容易掌握取用的度， 容易导致涂抹过多。</p>
+<p>镜面唇釉，个人不太喜欢，像抹了油似的</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220205000723575.png" alt="image-20220205000723575"></p>
+<p>丝绒唇釉就真的是yyds了！很戳我审美点！</p>
+<p>就是说，一般是建议口红，涂抹方便易于携带，可以随时补妆；但如果你喜欢唇釉的雾感，那就再买一支唇釉吧。</p>
+<p>直女建议一支口红一支唇釉就够了，买太多是浪费钱。</p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+        <tag>girls</tag>
       </tags>
   </entry>
   <entry>
@@ -33,30 +99,8 @@
   <entry>
     <title>write before</title>
     <url>/2022/02/03/write%20before/index.html</url>
-    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
       <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>人文社科读书笔记</title>
-    <url>/2022/02/05/%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.html</url>
-    <content><![CDATA[<p>虽然我是工科生，可又怎么能割舍掉内心对人文的热爱呢？</p>
-<a id="more"></a>
-
-<h1 id="《乡土中国》"><a href="#《乡土中国》" class="headerlink" title="《乡土中国》"></a>《乡土中国》</h1><p>我们的民族是和泥土分不开的。“乡下人离不了泥土，因为在乡下住，种地是最普通的谋生方法。”就算是到了适宜游牧生活的美国大草原，中原人也依然会一家划一方地，种植起来；真像是往土里一钻，看不到其他利用这块地的方法了。写到这里，费孝通先生很有一些恨铁不成钢地写道“现在很有些飞不上天地样子”。</p>
-<p>但更多的时候，他是在客观地分析为何中国人（尤其是乡下人）土气：农业和游牧或工业不同，它是直接取资于土地的。游牧的人可以逐水草而居，飘忽无定；做工业的人可以择地而居，迁移无碍；而种地的人却搬不动地，长在土里的庄稼行动不得，侍候庄稼的老农也像是半截身子插入了泥土里，土气是因为不流动而发生的。</p>
-<p>因为土地，所以显得扎根于泥土中；因为土地，更解释了为什么中国人选择带着地球一起去流浪，而不是像一些美国史诗一样，只顾自己的逃亡。</p>
-<p>但是，更加有趣的是，人口必然会增加，一块地上只要几代人的繁殖，人口就到了饱和点，过剩的人口要养活，就必须拿起锄头去开辟新地。然后他们又形成一个小小的家族殖民地，找不到土地的就在各式各样的命运中被淘汰了，或是“发迹了”，去到城镇，然后开启一种新的生活。</p>
-<p>乡土社会在地方性的限制下成了生于斯、死于斯的社会。就像我们所说的落叶归根。这是一个熟悉的社会，没有陌生人的社会。</p>
-<p>在社会学里，我们常分出两种不同性质的社会，一种并没有具体目的，只是因为在一起生长而发生的社会，一种是为了要完成一件任务而结合的社会、用涂尔干的话说，前者是“有机的团结”，后者是“机械的团结”，前者是礼俗社会，后者是法理社会。乡民们平素所接触的是生而与俱的人物，正像我们的父母兄弟一般，并不是由于我们选择得来的关系，而是先我们而在的一个环境。</p>
-<p>乡土社会从熟悉里得到了信任。“我们大家是熟人，打个招呼就是了，还用得着多说吗？”现代社会是陌生人的社会，各人不知道各人的底细，所以要说得明明白白，还怕赖账，所以签个字，画个押，这样就发生了法律了。熟人社会是不需要法律得，大家都互相信任，欺骗了，他得名声就臭了，以后再也不能在这篇土地上立足，只能蝇营狗苟地生活下去，代价其实是很大的。</p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>碎碎念</tag>
         <tag>life</tag>
       </tags>
   </entry>
@@ -110,7 +154,10 @@
 
 <p>效果如下：</p>
 <p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205141336428.png" alt="image-20220205141336428"></p>
-<h3 id="部分文章需要密码才能查看"><a href="#部分文章需要密码才能查看" class="headerlink" title="部分文章需要密码才能查看"></a>部分文章需要密码才能查看</h3><p>安装插件Hexo-Blog-Encrypt</p>
+<h3 id="部分文章需要密码才能查看"><a href="#部分文章需要密码才能查看" class="headerlink" title="部分文章需要密码才能查看"></a>部分文章需要密码才能查看</h3><p>效果如下：</p>
+<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205191804966.png" alt="image-20220205191804966"></p>
+<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205191650821.png" alt="image-20220205191650821"></p>
+<p>安装插件Hexo-Blog-Encrypt</p>
 <p>在 hexo 根目录的 package.json 中添加 <code>&quot;hexo-blog-encrypt&quot;: &quot;1.1.*&quot;</code> 依赖。<br>然后执行<code>npm install</code> 命令。<br>该插件会自动安装</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
 
@@ -122,6 +169,28 @@
 
 <p>如下面这篇：</p>
 <p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205143635827.png" alt="image-20220205143635827"></p>
+<h3 id="结尾添加“本文结束”标记"><a href="#结尾添加“本文结束”标记" class="headerlink" title="结尾添加“本文结束”标记"></a>结尾添加“本文结束”标记</h3><p> 设置方法：<br>在路径<code>themes/next/layout/_macro</code>中新建<code>passage-end-tag.swig</code>文件,并添加以下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copy&lt;div&gt;    </span><br><span class="line">    &#123;% if not is_index %&#125;        </span><br><span class="line">        &lt;div style=&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;            </span><br><span class="line">        -------------本文结束           </span><br><span class="line">        &lt;i class=&quot;fa fa-paw&quot;&gt;&lt;/i&gt;           </span><br><span class="line">        感谢您的阅读-------------        </span><br><span class="line">        &lt;/div&gt;   </span><br><span class="line">        &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>接着打开<code>themes/next/layout/_macro/post.njk</code>文件，在<code>post-body</code>之后，<code>post-footer</code>之前添加如下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;  </span><br><span class="line">    &#123;% if not is_index %&#125;    </span><br><span class="line">        &#123;% include &#x27;passage-end-tag.swig&#x27; %&#125;  </span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>然后打开主题配置文件<code>_config.yml</code>,在末尾添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:  </span><br><span class="line">    enabled: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="显示丝带："><a href="#显示丝带：" class="headerlink" title="显示丝带："></a>显示丝带：</h3><p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205181914733.png" alt="image-20220205181914733"></p>
+<p>在主题配置文件中把相关的信息修改成这个样子</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">canvas_ribbon:</span><br><span class="line"></span><br><span class="line"> enable: true </span><br></pre></td></tr></table></figure>
+
+<p>并且是可变的丝带哦</p>
+<h3 id="加上结尾的标签"><a href="#加上结尾的标签" class="headerlink" title="加上结尾的标签"></a>加上结尾的标签</h3><p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205182536396.png" alt="image-20220205182536396"></p>
+<p>修改D:\hexo\blog\node_modules\hexo-theme-next\layout_macro的post.njk文件，找到这一行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;&#123;&#123; url_for(tag.path) &#125;&#125;&quot; rel=&quot;tag&quot;&gt;&#123;&#123; tag_indicate &#125;&#125; &#123;&#123; tag.name &#125;&#125;&lt;/i&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>改为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;&#123;&#123; url_for(tag.path) &#125;&#125;&quot; rel=&quot;tag&quot;&gt;&#123;&#123; tag_indicate &#125;&#125; &#123;&#123; tag.name &#125;&#125;&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>就可以了。</p>
 ]]></content>
       <categories>
         <category>建站</category>
@@ -129,58 +198,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>life trivia</title>
-    <url>/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index.html</url>
-    <content><![CDATA[<h1 id="唇釉和口红的区别"><a href="#唇釉和口红的区别" class="headerlink" title="唇釉和口红的区别"></a>唇釉和口红的区别</h1><p>给直男（指我自己）讲一下有什么区别</p>
-<a id="more"></a>
-
-<p>什么？居然有直男觉得唇釉和口红是一个东西？</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235559464.png" alt="image-20220204235559464"></p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235619899.png" alt="image-20220204235619899"></p>
-<p>首先，唇釉相当于是液体的口红。</p>
-<p>其次，效果当然是不一样的。</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235753733.png" alt="image-20220204235753733"></p>
-<p>看这张图他哪里一样了？</p>
-<p>唇釉可以晕染，口红，你说怎么晕染？</p>
-<p>晕染了会变血红大口的。</p>
-<p>但是口红需要经常补，唇釉不用，因为唇釉是直接成膜然后覆在嘴唇上面。</p>
-<p>看看知乎的分析：</p>
-<p>作者：骆先森<br>链接：<a href="https://zhuanlan.zhihu.com/p/388778829">https://zhuanlan.zhihu.com/p/388778829</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-<p><strong>唇釉与口红有什么区别</strong></p>
-<p>　　<strong>1.质地</strong></p>
-<p>　　口红属于固体膏状，采用圆管的包装，看起来就像一只粗短的蜡笔；</p>
-<p>　　唇釉属于液体状，它的液体并不清澈，显得有点粘稠。采用灌装包装，自带唇刷。</p>
-<p>　　<strong>2.滋润度</strong></p>
-<p>　　口红的滋润度各有不同，有偏干、也有较为滋润的，但是唇釉的滋润度是一定高于口红的。</p>
-<p>　　即便是滋润型口红的滋润度也不及唇釉。</p>
-<p>　　<strong>3.显色度</strong></p>
-<p>　　专业性的口红显色度比较好，滋润型口红显色度差；</p>
-<p>　　唇釉的显色度则普遍不错，尤其是欧美的唇釉。</p>
-<p>　　<strong>4.上妆/补妆</strong></p>
-<p>　　口红在上妆时比较麻烦，但后续补妆非常方便，用纸巾擦拭掉之前的口红再重新上一层即可；</p>
-<p>　　唇釉在上妆时十分方便，但脱落后就很难擦拭掉再涂一层，涂太厚也容易起皮。</p>
-<p>　　<strong>5.使用方法</strong></p>
-<p>　　口红使用时先用润唇膏进行打底，再将口红膏体旋转出来，根据自己想要的效果进行涂抹；</p>
-<p>　　唇釉主要靠唇刷涂抹，借助唇刷这个载体将液体涂抹在唇部上。</p>
-<p>　　<strong>6.使用感受</strong></p>
-<p>　　口红质地较为干硬，使用时不容易涂抹开，涂抹后唇部皮肤也容易干燥，更容易脱妆；</p>
-<p>　　唇釉属于液体口红，使用时比较容易涂抹，质地也会水润许多。</p>
-<p> 　<strong>建议买口红还是买唇釉</strong></p>
-<p>　　买口红还是买唇釉主要根据个人喜好、妆感等来决定。</p>
-<p>　　如果想要上嘴舒服、补妆方便、质地滋润，那可以选择口红；如果想要持久度高、颜色鲜艳饱满，那就选择唇釉。</p>
-<p>　　新手如果要购买的话建议买口红，口红是固态的质地，方便涂抹且上色均匀，而唇釉为液体状，不容易掌握取用的度， 容易导致涂抹过多。</p>
-<p>镜面唇釉，个人不太喜欢，像抹了油似的</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220205000723575.png" alt="image-20220205000723575"></p>
-<p>丝绒唇釉就真的是yyds了！很戳我审美点！</p>
-<p>就是说，一般是建议口红，涂抹方便易于携带，可以随时补妆；但如果你喜欢唇釉的雾感，那就再买一支唇釉吧。</p>
-<p>直女建议一支口红一支唇釉就够了，买太多是浪费钱。</p>
-]]></content>
-      <tags>
-        <tag>life</tag>
-        <tag>girls</tag>
       </tags>
   </entry>
   <entry>
@@ -360,6 +377,14 @@
       <tags>
         <tag>hexo</tag>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一篇先来个碎碎念</title>
+    <url>/2022/02/02/hello/index.html</url>
+    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+      <tags>
+        <tag>碎碎念</tag>
       </tags>
   </entry>
 </search>
