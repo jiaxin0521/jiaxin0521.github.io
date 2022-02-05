@@ -104,7 +104,7 @@
 <p>运行结果如下，会再source文件下创建about、tags、categories文件夹，每个文件夹下还会创建一个index.md文件表示关于、标签页分类页面，编辑这三个MarkDown文件可以自定义这三个页面的内容</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyD:\hexo\blog&gt;hexo new page &quot;about&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\about\index.md`</span><br><span class="line"></span><br><span class="line">`D:\hexo\blog&gt;hexo new page &quot;tags&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\tags\index.md`</span><br><span class="line"></span><br><span class="line">`D:\hexo\blog&gt;hexo new page &quot;categories&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\categories\index.md`</span><br></pre></td></tr></table></figure>
 
-<h2 id="添加看板娘"><a href="#添加看板娘" class="headerlink" title="添加看板娘"></a>添加看板娘</h2><p>把这段代码添加到layout文件中</p>
+<h2 id="添加看板娘"><a href="#添加看板娘" class="headerlink" title="添加看板娘"></a>添加看板娘</h2><p>把这段代码添加到layout.njk文件中</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    var jsonModel = [</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    ];</span><br><span class="line">    L2Dwidget.init(&#123; </span><br><span class="line">        &quot;model&quot;: &#123; </span><br><span class="line">            &quot;jsonPath&quot;: jsonModel[Math.floor(Math.random()*(jsonModel.length-1))],</span><br><span class="line">            &quot;scale&quot;: 1 </span><br><span class="line">        &#125;, </span><br><span class="line">        &quot;display&quot;: &#123; </span><br><span class="line">            &quot;position&quot;: &quot;right&quot;, // 位置left、right</span><br><span class="line">            &quot;width&quot;: 180, // 宽度</span><br><span class="line">            &quot;height&quot;: 240, // 高度</span><br><span class="line">            &quot;hOffset&quot;: 0, // 横向边距</span><br><span class="line">            &quot;vOffset&quot;: 0 // 众向边距</span><br><span class="line">        &#125;, </span><br><span class="line">        &quot;mobile&quot;: &#123; </span><br><span class="line">            &quot;show&quot;: true // 手机是否显示</span><br><span class="line">        &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
 <p>效果如下：</p>
@@ -324,6 +324,11 @@
 <h3 id="对一些细节"><a href="#对一些细节" class="headerlink" title="对一些细节"></a>对一些细节</h3><p>1、每次对细节修改之后都要在blog根目录下hexo g -d</p>
 <p>然后hexo s本地预览一下</p>
 <p>2、layout.njk文件相当于是博客的前端html文件</p>
+<p>3、对新手小白的建议：</p>
+<p>备份！备份！备份！！！！非常重要！</p>
+<p>当时就是因为没备份然后再csdn上看了很多乱七八糟的东西，然后就错误地删掉了很多</p>
+<p>然后我不得不建了一个hexo副本文件夹再下载了一次这些文件代码然后再复制上去。</p>
+<p>乱改没关系，只要记得备份，不然一切都重来。</p>
 <p>参考文献：</p>
 <p><a href="https://jomeswang.github.io/posts/fd1e545c/#more">https://jomeswang.github.io/posts/fd1e545c/#more</a></p>
 <p><a href="https://hasegawaazusa.github.io/hexo-note.html">https://hasegawaazusa.github.io/hexo-note.html</a></p>
