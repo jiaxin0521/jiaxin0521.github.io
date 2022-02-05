@@ -30,7 +30,8 @@
 <h4 id="多个对齐方程"><a href="#多个对齐方程" class="headerlink" title="多个对齐方程"></a>多个对齐方程</h4><p>我们可以使用<code>align</code>环境来对齐多个方程。这些方程中的每一个都会得到自己的数字。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">a &amp;= b + c \label&#123;eq3&#125; \\ </span><br><span class="line">x &amp;= yz \label&#123;eq4&#125; \\ </span><br><span class="line">l &amp;= m - n \label&#123;eq5&#125; </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
 
-<p>(3)一个=b+C(4)X=是的z(5)l=米-n</p>
+
+
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有三个对齐的方程：方程$\eqref&#123;eq3&#125;$、方程$\eqref&#123;eq4&#125;$和方程$\eqref&#123;eq5&#125;$。</span><br></pre></td></tr></table></figure>
 
 
