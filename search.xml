@@ -851,6 +851,7 @@
 <h3 id="统计访问数量"><a href="#统计访问数量" class="headerlink" title="统计访问数量"></a>统计访问数量</h3><p>效果如下：</p>
 <p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203145053979.png" alt="image-20220203145053979"></p>
 <p>（不过这个访问量好像有点问题，等我想想啊）</p>
+<p>（后面补充：访问量在localhost形式下是有问题的没办法，在yourname\github.io\网址访问下是没有问题的。）</p>
 <p>1、先在hexo-theme-next目录下的_config.yml文件的末尾加上下面的代码：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">busuanzi:</span><br><span class="line"> enable: true</span><br></pre></td></tr></table></figure>
 
