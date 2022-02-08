@@ -1,41 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>《北京折叠》读后感想</title>
-    <url>/2022/02/08/%E3%80%8A%E5%8C%97%E4%BA%AC%E6%8A%98%E5%8F%A0%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F%E6%83%B3/index.html</url>
-    <content><![CDATA[<div class="pdf-container" data-target="./2016雨果奖《北京折叠》.pdf.pdf" data-height="500px"></div>
+    <title>Some life tips</title>
+    <url>/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index.html</url>
+    <content><![CDATA[<h1 id="matepad连接双屏"><a href="#matepad连接双屏" class="headerlink" title="matepad连接双屏"></a>matepad连接双屏</h1><a id="more"></a>
+
+
+
+<p><img src="/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index/image-20220204200831866.png" alt="image-20220204200831866"></p>
+<p>双击打开最后一个</p>
+<p><img src="/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index/image-20220204200947542.png" alt="image-20220204200947542"></p>
+<p>建议把spacedesk 和Videowall全部打开</p>
+<p>然后win+P设为扩展</p>
+<p>然后把要在副屏看的界面拖到主屏幕的右边就可以了</p>
+<p>理论上这样也可以实现对电脑的远程控制，但是实在是太慢了！！！！</p>
 ]]></content>
+      <categories>
+        <category>生活的技巧</category>
+      </categories>
       <tags>
         <tag>life</tag>
-        <tag>rending-note</tag>
       </tags>
   </entry>
   <entry>
-    <title>《白帽子讲web安全》reading note</title>
-    <url>/2022/02/06/%E3%80%8A%E7%99%BD%E5%B8%BD%E5%AD%90%E8%AE%B2web%E5%AE%89%E5%85%A8%E3%80%8Breading-note/index.html</url>
-    <content><![CDATA[<p>闲来无事扰看看书</p>
+    <title>第一篇先来个碎碎念</title>
+    <url>/2022/02/02/hello/index.html</url>
+    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+      <tags>
+        <tag>碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>next数学方程的解析</title>
+    <url>/2022/02/05/next%E6%95%B0%E5%AD%A6%E6%96%B9%E7%A8%8B%E7%9A%84%E8%A7%A3%E6%9E%90/index.html</url>
+    <content><![CDATA[<h1 id="Math-Equations-数学方程"><a href="#Math-Equations-数学方程" class="headerlink" title="Math Equations(数学方程)"></a>Math Equations(数学方程)</h1><p>Math Formulas Render Support.</p>
+<p>可以使数学公式变得好看点。</p>
 <a id="more"></a>
 
-<h1 id="世界观安全-安全基础知识"><a href="#世界观安全-安全基础知识" class="headerlink" title="世界观安全 安全基础知识"></a>世界观安全 安全基础知识</h1><p>吴澜清的安全世界观就是：互联网本来是安全的，自从有了研究安全的人之后，互联网就变得不安全了。</p>
-<p>对现代计算机系统来说，在用户态的最高权限是root（administrator）就是黑客们渴望获取的系统最高权限。</p>
-<p>黑客们使用的漏洞利用代码，被称为“exploit”。有的黑客精通计算机技术，能自己挖掘漏洞，并编写exploit;而有的黑客，则只对攻击本身感兴趣，对计算机原理和编程技术的了解比较粗浅，只懂得编译别人代码，自己并没有动手能力，称为“脚本小子”。主要搞破坏的，还是这些脚本小子。</p>
-<p>PHP语言至今仍然只能靠较好的代码规范来保证没有文件包含漏洞，无法从语言本身杜绝此类安全问题的发生。</p>
-<p>SQL注入时web安全史上的一个里程碑。通过SQL注入，可以获取很多重要的、敏感的数据，甚至能够通过数据库获取系统访问权限，这种效果并不比直接攻击系统软件差。</p>
-<p>xss（跨站脚本攻击）</p>
-<p>安全三要素是安全的基本组成元素，分别是机密性、完整性、可用性。</p>
-<p>机密性要求保护数据内容不能泄露，加密是实现机密性要求的常见手段。完整性则要求保护数据内容是完整。没有被篡改的。</p>
-<p>完整性则要求保护数据内容是完整的、没有被篡改的。常见的保证一致性的技术手段是数字签名。</p>
-<p>可用性要求保护资源是“随需而得”。</p>
-<h1 id="威胁分析"><a href="#威胁分析" class="headerlink" title="威胁分析"></a>威胁分析</h1><p>威胁分析就是把所有威胁都找出来，使用一个模型，帮助我们去想，如STRIDE模型，</p>
-<p><img src="/2022/02/06/%E3%80%8A%E7%99%BD%E5%B8%BD%E5%AD%90%E8%AE%B2web%E5%AE%89%E5%85%A8%E3%80%8Breading-note/index/image-20220206104750237.png" alt="image-20220206104750237"></p>
-<p>但是在维护系统安全时，最让安全工程师沮丧的事情就是花费很多时间与精力实施安全方案，但是攻击者却利用了事先完全没有想到的漏洞（漏洞的定义：系统中可能被威胁利用以造成危害的地方。）完成入侵。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Math Formulas Render Support</span><br><span class="line">math:</span><br><span class="line">  # Default (false) will load mathjax / katex script on demand.</span><br><span class="line">  # That is it only render those page which has `mathjax: true` in front-matter.</span><br><span class="line">  # If you set it to true, it will load mathjax / katex script EVERY PAGE.</span><br><span class="line">  every_page: false</span><br><span class="line"></span><br><span class="line">  mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    # Available values: none | ams | all</span><br><span class="line">    tags: none</span><br><span class="line"></span><br><span class="line">  katex:</span><br><span class="line">    enable: false</span><br><span class="line">    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span><br><span class="line">    copy_tex: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>默认 (false) 将按需加载 mathjax / katex 脚本。</p>
+<p>那就是它只渲染那些在 front-matter 中有 <code>mathjax: true</code> 的页面。</p>
+<p>如果你将它设置为 true，它将在每一页加载 mathjax / katex 脚本。</p>
+<h4 id="简单方程"><a href="#简单方程" class="headerlink" title="简单方程"></a>简单方程</h4><p>对于简单的方程，使用以下形式给出一个标签，</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq1&#125; </span><br><span class="line">e=mc^2 </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
+
+<p>e =mc^2</p>
+<p>然后，您可以使用以下内容轻松地在文本中引用此等式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">爱因斯坦提出的著名物质能量方程$\eqref&#123;eq1&#125;$...</span><br></pre></td></tr></table></figure>
+
+<p>著名的物质能量方程(1)爱因斯坦提出…</p>
+<h4 id="多线方程"><a href="#多线方程" class="headerlink" title="多线方程"></a>多线方程</h4><p>对于多行方程，在<code>equation</code>环境内部，您可以使用<code>aligned</code>环境将其拆分为多行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq2&#125; </span><br><span class="line">\begin&#123;aligned&#125; </span><br><span class="line">a &amp;= b + c \\ </span><br><span class="line">  &amp;= d + e + f + g \\ </span><br><span class="line">  &amp;= h + i </span><br><span class="line">\end&#123;aligned&#125; </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">方程 $\eqref&#123;eq2&#125;$ 是一个多线方程。</span><br></pre></td></tr></table></figure>
+
+<h4 id="多个对齐方程"><a href="#多个对齐方程" class="headerlink" title="多个对齐方程"></a>多个对齐方程</h4><p>我们可以使用<code>align</code>环境来对齐多个方程。这些方程中的每一个都会得到自己的数字。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">a &amp;= b + c \label&#123;eq3&#125; \\ </span><br><span class="line">x &amp;= yz \label&#123;eq4&#125; \\ </span><br><span class="line">l &amp;= m - n \label&#123;eq5&#125; </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有三个对齐的方程：方程$\eqref&#123;eq3&#125;$、方程$\eqref&#123;eq4&#125;$和方程$\eqref&#123;eq5&#125;$。</span><br></pre></td></tr></table></figure>
+
+
+
+<p>因为<code>align</code>它本身就是一个完整的方程环境（阅读<a href="https://tex.stackexchange.com/questions/95402/what-is-the-difference-between-aligned-in-displayed-mode-and-starred-align">这里</a><code>aligned</code>关于 LaTeX和LaTeX之间的区别<code>align</code>）。你不需要用<code>equation</code>环境包装它。</p>
+<h4 id="从编号中排除方程式"><a href="#从编号中排除方程式" class="headerlink" title="从编号中排除方程式"></a>从编号中排除方程式</h4><p>在<code>align</code>环境中，如果您不想对一个或一些方程式进行编号，只需<code>\nonumber</code>在这些方程式后面使用即可。如下所示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">-4 + 5x &amp;= 2 + y \nonumber \\ </span><br><span class="line">w + 2 &amp;= -1 + w \\ </span><br><span class="line">ab &amp;= cb </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="用于-tag标记方程"><a href="#用于-tag标记方程" class="headerlink" title="用于\tag标记方程"></a>用于<code>\tag</code>标记方程</h4><p>有时，您想使用更“异国情调”的风格来引用您的方程式。您可以使用<code>\tag&#123;&#125;</code>来实现这一点。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$x+1\over\sqrt&#123;1-x^2&#125; \tag&#123;i&#125;\label&#123;eq_tag&#125;$$</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">方程 $\eqref&#123;eq_tag&#125;$ 使用 `\tag&#123;&#125;` 代替自动编号。</span><br></pre></td></tr></table></figure>
+
+<p>）使用<code>\tag&#123;&#125;</code>而不是自动编号。</p>
+<p>参考文献：</p>
+<p><a href="https://theme-next.js.org/docs/third-party-services/math-equations.html">https://theme-next.js.org/docs/third-party-services/math-equations.html</a></p>
 ]]></content>
       <categories>
-        <category>web安全入门</category>
+        <category>建站</category>
       </categories>
       <tags>
-        <tag>reading-notes</tag>
-        <tag>web</tag>
+        <tag>hexo</tag>
+        <tag>maths</tag>
       </tags>
   </entry>
   <entry>
@@ -457,64 +510,57 @@
       </tags>
   </entry>
   <entry>
-    <title>next数学方程的解析</title>
-    <url>/2022/02/05/next%E6%95%B0%E5%AD%A6%E6%96%B9%E7%A8%8B%E7%9A%84%E8%A7%A3%E6%9E%90/index.html</url>
-    <content><![CDATA[<h1 id="Math-Equations-数学方程"><a href="#Math-Equations-数学方程" class="headerlink" title="Math Equations(数学方程)"></a>Math Equations(数学方程)</h1><p>Math Formulas Render Support.</p>
-<p>可以使数学公式变得好看点。</p>
+    <title>write before</title>
+    <url>/2022/02/03/write%20before/index.html</url>
+    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《北京折叠》读后感想</title>
+    <url>/2022/02/08/%E3%80%8A%E5%8C%97%E4%BA%AC%E6%8A%98%E5%8F%A0%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F%E6%83%B3/index.html</url>
+    <content><![CDATA[<center>北京折叠</center>
+
+<br>
+
+
+<div class="pdf-container" data-target="beijingzhedie.pdf" data-height="500px"></div>
+
+<br>
+
+]]></content>
+      <tags>
+        <tag>life</tag>
+        <tag>rending-note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《白帽子讲web安全》reading note</title>
+    <url>/2022/02/06/%E3%80%8A%E7%99%BD%E5%B8%BD%E5%AD%90%E8%AE%B2web%E5%AE%89%E5%85%A8%E3%80%8Breading-note/index.html</url>
+    <content><![CDATA[<p>闲来无事扰看看书</p>
 <a id="more"></a>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Math Formulas Render Support</span><br><span class="line">math:</span><br><span class="line">  # Default (false) will load mathjax / katex script on demand.</span><br><span class="line">  # That is it only render those page which has `mathjax: true` in front-matter.</span><br><span class="line">  # If you set it to true, it will load mathjax / katex script EVERY PAGE.</span><br><span class="line">  every_page: false</span><br><span class="line"></span><br><span class="line">  mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    # Available values: none | ams | all</span><br><span class="line">    tags: none</span><br><span class="line"></span><br><span class="line">  katex:</span><br><span class="line">    enable: false</span><br><span class="line">    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span><br><span class="line">    copy_tex: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>默认 (false) 将按需加载 mathjax / katex 脚本。</p>
-<p>那就是它只渲染那些在 front-matter 中有 <code>mathjax: true</code> 的页面。</p>
-<p>如果你将它设置为 true，它将在每一页加载 mathjax / katex 脚本。</p>
-<h4 id="简单方程"><a href="#简单方程" class="headerlink" title="简单方程"></a>简单方程</h4><p>对于简单的方程，使用以下形式给出一个标签，</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq1&#125; </span><br><span class="line">e=mc^2 </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
-
-<p>e =mc^2</p>
-<p>然后，您可以使用以下内容轻松地在文本中引用此等式：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">爱因斯坦提出的著名物质能量方程$\eqref&#123;eq1&#125;$...</span><br></pre></td></tr></table></figure>
-
-<p>著名的物质能量方程(1)爱因斯坦提出…</p>
-<h4 id="多线方程"><a href="#多线方程" class="headerlink" title="多线方程"></a>多线方程</h4><p>对于多行方程，在<code>equation</code>环境内部，您可以使用<code>aligned</code>环境将其拆分为多行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq2&#125; </span><br><span class="line">\begin&#123;aligned&#125; </span><br><span class="line">a &amp;= b + c \\ </span><br><span class="line">  &amp;= d + e + f + g \\ </span><br><span class="line">  &amp;= h + i </span><br><span class="line">\end&#123;aligned&#125; </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">方程 $\eqref&#123;eq2&#125;$ 是一个多线方程。</span><br></pre></td></tr></table></figure>
-
-<h4 id="多个对齐方程"><a href="#多个对齐方程" class="headerlink" title="多个对齐方程"></a>多个对齐方程</h4><p>我们可以使用<code>align</code>环境来对齐多个方程。这些方程中的每一个都会得到自己的数字。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">a &amp;= b + c \label&#123;eq3&#125; \\ </span><br><span class="line">x &amp;= yz \label&#123;eq4&#125; \\ </span><br><span class="line">l &amp;= m - n \label&#123;eq5&#125; </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有三个对齐的方程：方程$\eqref&#123;eq3&#125;$、方程$\eqref&#123;eq4&#125;$和方程$\eqref&#123;eq5&#125;$。</span><br></pre></td></tr></table></figure>
-
-
-
-<p>因为<code>align</code>它本身就是一个完整的方程环境（阅读<a href="https://tex.stackexchange.com/questions/95402/what-is-the-difference-between-aligned-in-displayed-mode-and-starred-align">这里</a><code>aligned</code>关于 LaTeX和LaTeX之间的区别<code>align</code>）。你不需要用<code>equation</code>环境包装它。</p>
-<h4 id="从编号中排除方程式"><a href="#从编号中排除方程式" class="headerlink" title="从编号中排除方程式"></a>从编号中排除方程式</h4><p>在<code>align</code>环境中，如果您不想对一个或一些方程式进行编号，只需<code>\nonumber</code>在这些方程式后面使用即可。如下所示：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">-4 + 5x &amp;= 2 + y \nonumber \\ </span><br><span class="line">w + 2 &amp;= -1 + w \\ </span><br><span class="line">ab &amp;= cb </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="用于-tag标记方程"><a href="#用于-tag标记方程" class="headerlink" title="用于\tag标记方程"></a>用于<code>\tag</code>标记方程</h4><p>有时，您想使用更“异国情调”的风格来引用您的方程式。您可以使用<code>\tag&#123;&#125;</code>来实现这一点。例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$x+1\over\sqrt&#123;1-x^2&#125; \tag&#123;i&#125;\label&#123;eq_tag&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">方程 $\eqref&#123;eq_tag&#125;$ 使用 `\tag&#123;&#125;` 代替自动编号。</span><br></pre></td></tr></table></figure>
-
-<p>）使用<code>\tag&#123;&#125;</code>而不是自动编号。</p>
-<p>参考文献：</p>
-<p><a href="https://theme-next.js.org/docs/third-party-services/math-equations.html">https://theme-next.js.org/docs/third-party-services/math-equations.html</a></p>
+<h1 id="世界观安全-安全基础知识"><a href="#世界观安全-安全基础知识" class="headerlink" title="世界观安全 安全基础知识"></a>世界观安全 安全基础知识</h1><p>吴澜清的安全世界观就是：互联网本来是安全的，自从有了研究安全的人之后，互联网就变得不安全了。</p>
+<p>对现代计算机系统来说，在用户态的最高权限是root（administrator）就是黑客们渴望获取的系统最高权限。</p>
+<p>黑客们使用的漏洞利用代码，被称为“exploit”。有的黑客精通计算机技术，能自己挖掘漏洞，并编写exploit;而有的黑客，则只对攻击本身感兴趣，对计算机原理和编程技术的了解比较粗浅，只懂得编译别人代码，自己并没有动手能力，称为“脚本小子”。主要搞破坏的，还是这些脚本小子。</p>
+<p>PHP语言至今仍然只能靠较好的代码规范来保证没有文件包含漏洞，无法从语言本身杜绝此类安全问题的发生。</p>
+<p>SQL注入时web安全史上的一个里程碑。通过SQL注入，可以获取很多重要的、敏感的数据，甚至能够通过数据库获取系统访问权限，这种效果并不比直接攻击系统软件差。</p>
+<p>xss（跨站脚本攻击）</p>
+<p>安全三要素是安全的基本组成元素，分别是机密性、完整性、可用性。</p>
+<p>机密性要求保护数据内容不能泄露，加密是实现机密性要求的常见手段。完整性则要求保护数据内容是完整。没有被篡改的。</p>
+<p>完整性则要求保护数据内容是完整的、没有被篡改的。常见的保证一致性的技术手段是数字签名。</p>
+<p>可用性要求保护资源是“随需而得”。</p>
+<h1 id="威胁分析"><a href="#威胁分析" class="headerlink" title="威胁分析"></a>威胁分析</h1><p>威胁分析就是把所有威胁都找出来，使用一个模型，帮助我们去想，如STRIDE模型，</p>
+<p><img src="/2022/02/06/%E3%80%8A%E7%99%BD%E5%B8%BD%E5%AD%90%E8%AE%B2web%E5%AE%89%E5%85%A8%E3%80%8Breading-note/index/image-20220206104750237.png" alt="image-20220206104750237"></p>
+<p>但是在维护系统安全时，最让安全工程师沮丧的事情就是花费很多时间与精力实施安全方案，但是攻击者却利用了事先完全没有想到的漏洞（漏洞的定义：系统中可能被威胁利用以造成危害的地方。）完成入侵。</p>
 ]]></content>
       <categories>
-        <category>建站</category>
+        <category>web安全入门</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
-        <tag>maths</tag>
+        <tag>reading-notes</tag>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -537,90 +583,6 @@
       <tags>
         <tag>life</tag>
         <tag>碎碎念</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>life trivia</title>
-    <url>/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index.html</url>
-    <content><![CDATA[<h1 id="唇釉和口红的区别"><a href="#唇釉和口红的区别" class="headerlink" title="唇釉和口红的区别"></a>唇釉和口红的区别</h1><p>给直男（指我自己）讲一下有什么区别</p>
-<a id="more"></a>
-
-<p>什么？居然有直男觉得唇釉和口红是一个东西？</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235559464.png" alt="image-20220204235559464"></p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235619899.png" alt="image-20220204235619899"></p>
-<p>首先，唇釉相当于是液体的口红。</p>
-<p>其次，效果当然是不一样的。</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235753733.png" alt="image-20220204235753733"></p>
-<p>看这张图他哪里一样了？</p>
-<p>唇釉可以晕染，口红，你说怎么晕染？</p>
-<p>晕染了会变血红大口的。</p>
-<p>但是口红需要经常补，唇釉不用，因为唇釉是直接成膜然后覆在嘴唇上面。</p>
-<p>看看知乎的分析：</p>
-<p>作者：骆先森<br>链接：<a href="https://zhuanlan.zhihu.com/p/388778829">https://zhuanlan.zhihu.com/p/388778829</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-<p><strong>唇釉与口红有什么区别</strong></p>
-<p>　　<strong>1.质地</strong></p>
-<p>　　口红属于固体膏状，采用圆管的包装，看起来就像一只粗短的蜡笔；</p>
-<p>　　唇釉属于液体状，它的液体并不清澈，显得有点粘稠。采用灌装包装，自带唇刷。</p>
-<p>　　<strong>2.滋润度</strong></p>
-<p>　　口红的滋润度各有不同，有偏干、也有较为滋润的，但是唇釉的滋润度是一定高于口红的。</p>
-<p>　　即便是滋润型口红的滋润度也不及唇釉。</p>
-<p>　　<strong>3.显色度</strong></p>
-<p>　　专业性的口红显色度比较好，滋润型口红显色度差；</p>
-<p>　　唇釉的显色度则普遍不错，尤其是欧美的唇釉。</p>
-<p>　　<strong>4.上妆/补妆</strong></p>
-<p>　　口红在上妆时比较麻烦，但后续补妆非常方便，用纸巾擦拭掉之前的口红再重新上一层即可；</p>
-<p>　　唇釉在上妆时十分方便，但脱落后就很难擦拭掉再涂一层，涂太厚也容易起皮。</p>
-<p>　　<strong>5.使用方法</strong></p>
-<p>　　口红使用时先用润唇膏进行打底，再将口红膏体旋转出来，根据自己想要的效果进行涂抹；</p>
-<p>　　唇釉主要靠唇刷涂抹，借助唇刷这个载体将液体涂抹在唇部上。</p>
-<p>　　<strong>6.使用感受</strong></p>
-<p>　　口红质地较为干硬，使用时不容易涂抹开，涂抹后唇部皮肤也容易干燥，更容易脱妆；</p>
-<p>　　唇釉属于液体口红，使用时比较容易涂抹，质地也会水润许多。</p>
-<p> 　<strong>建议买口红还是买唇釉</strong></p>
-<p>　　买口红还是买唇釉主要根据个人喜好、妆感等来决定。</p>
-<p>　　如果想要上嘴舒服、补妆方便、质地滋润，那可以选择口红；如果想要持久度高、颜色鲜艳饱满，那就选择唇釉。</p>
-<p>　　新手如果要购买的话建议买口红，口红是固态的质地，方便涂抹且上色均匀，而唇釉为液体状，不容易掌握取用的度， 容易导致涂抹过多。</p>
-<p>镜面唇釉，个人不太喜欢，像抹了油似的</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220205000723575.png" alt="image-20220205000723575"></p>
-<p>丝绒唇釉就真的是yyds了！很戳我审美点！</p>
-<p>就是说，一般是建议口红，涂抹方便易于携带，可以随时补妆；但如果你喜欢唇釉的雾感，那就再买一支唇釉吧。</p>
-<p>直女建议一支口红一支唇釉就够了，买太多是浪费钱。</p>
-<h1 id="直男行为图鉴"><a href="#直男行为图鉴" class="headerlink" title="直男行为图鉴"></a>直男行为图鉴</h1><p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220206123730775.png" alt="image-20220206123730775"></p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220206124714144.png" alt="image-20220206124714144"></p>
-]]></content>
-      <tags>
-        <tag>life</tag>
-        <tag>girls</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Some life tips</title>
-    <url>/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index.html</url>
-    <content><![CDATA[<h1 id="matepad连接双屏"><a href="#matepad连接双屏" class="headerlink" title="matepad连接双屏"></a>matepad连接双屏</h1><a id="more"></a>
-
-
-
-<p><img src="/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index/image-20220204200831866.png" alt="image-20220204200831866"></p>
-<p>双击打开最后一个</p>
-<p><img src="/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index/image-20220204200947542.png" alt="image-20220204200947542"></p>
-<p>建议把spacedesk 和Videowall全部打开</p>
-<p>然后win+P设为扩展</p>
-<p>然后把要在副屏看的界面拖到主屏幕的右边就可以了</p>
-<p>理论上这样也可以实现对电脑的远程控制，但是实在是太慢了！！！！</p>
-]]></content>
-      <categories>
-        <category>生活的技巧</category>
-      </categories>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>write before</title>
-    <url>/2022/02/03/write%20before/index.html</url>
-    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> U2FsdGVkX19AHE3zNYmLvSZd07FmtWFKU8x7uTQ5BrBT+r2dTxsRuf14RVpYHtORV0wjro515GvqqZ1/0q0N1mVk4NvIW+PTSkv6cUJQ7toBzNmMfrOR+d5xs1YrMZLo4WPUt+4FfmGSiEhp0Tlg/lBK2sM7sX/pgTwKSv2+uIHV91TXfxLQ+XDw/ZRIr7duYmeXfBgodWImFTbzq1j2qUGDc16KCJ8ff6vlqJSVIroj/rleEfW1uKnWLenx/uKyqtVJW38WJpW9AjcmyYPx8Zc4/gs8j/GT1rbK8gHK3BCysi/yKmYu36AqxTZAwFap/Z4uxcvdJ0tUdp1RRk9XxrX0J/XpV6/V28XhylWlDuSzc7EG5AQrLkcPTTftI3CNe5pXR+xAkc7uTaGFmPPMQ2Dfz12wgqwowNVoqoJLh0GEz4CFLhPyZzqCWIxWoLxvC6bsTGFh21mWHxvLRPvMl6qFnY52u9/9VoIgKxMAPe0MzRXHVtTOb8F54/WOhKDl4CW0sA+oPy+GmHsbX8gybmPIxev1TknBRZQhEprOHelyHVCwU36fUwwTBWMVh0ZUoteIhyET0Mi3PZtW1F57Y2QOFzFyxxIV+7+WNagMD8St7mZzvQKDRyJiZIWiTOI4ASoqVt9Uy1NrTr5+wbt/NFn+zfwiNt7hkocVDs3exmMs3xnDekuYc7c67GA9NWtm60TarlO90pO4KGmfPUAJlCCwW3mhTYgXaR1HgMQORLhhQlgaS7EppE1REfom7Tiz5mctOnS+Y9UWJGMNRcU2F9FYuKvLpx4X3+rHdU3hRzTZX9VYeyfxktYJE4oWg7Vj4cuje6bUAwgv8kw7salg9fkFwPmJi+RVFBZYiewjo+yKJOM0Zt0LZ54Rxqj8CroqT++oX+o3lFYUksHdgyLgimW9ubTMW8vWepNIPfTz8FjktvGrRoFqsYAc5fMOx+QfLY7lNS0Lic1A/3veSteg/9qqv/+LP4eFUeJkfaiOJJ4fUD1Ka7rDJlYUsplks5sRSqDS3egZODj0s/sS7K3MO7SaB5Y/x75m2OoJxTWeCDw4D5L5ft1+vTTKgHMSzEpGZIvtLM9zqRkAoDeFuJw18oWNi5ggMWGxjeIxqsrMsgTqAZtmYfm0bBJXwSOkIxP0sZaldlmoUmOZ3bdgptRgqqiJv5gogSt1VPWbQQYIojGfFppHmY3qBkuJoLnWMJCNiuRxa+W4+5YK2RObLdXqwOyFHOBqH9hJG6fBwhuqJ3wjqhs4hvPunZsUP+ePLsnapPrmDnWwofOW4uCuVkgdpk8WRwRNWm//f3dQ0yGpugr0UvsyQWTYXTTLzmStfZwTI5PnCSILV2+tvWxb1bY00HwsgJUtiZB7QRLNkQvl90HdbeUc/6et1hCirqWyVFyMbiyVKd/auSI2lAZ64lkNFHcbcFNg7AsYwY6qtnoQosj6FvVfxWB+aMC/2xV6erNaWz9QJ9Aws0gMYiLB0xQslq0gMGxa+SscY7K6GL4pkUNwYujzlqX5YEwcXd7hDQx87Qek3HRx8vICubi5/jJ6uihKZp1hrVoK3mu42V+fsJBNjyc3zd+loQlTR9d2ZN1vPVH6qP2FPYVAyD4Q7ISIdg5DXpvsb8xQz9Pm0Wmy244or55oot/RzYL/pjCL1jFdPUApD5SB+2z7iomtyH8PHhZrNoXjiJZutXJKW+jjR+jQsyI8pWsniOr+IKnhnuAxGQxEZXJVMcgksmbkmVDs57PmrDhHHMrEUQtQo5iwzKZSzbBjYMhU74j81lgylaJiW+FG3bObEwlObjFbK3k0KOIZevX4qz5Gxxn4K/zCVglzFfzWt8frYppCX6PDerCVisVvuMeAcswupQLS5rN+yoEeRNZgvJVzTzDNFm//DxX7EWkhAXo80fK0NNXaAaO39Z+IAEuu2QSKTy7+ry5Rtvfob3/OHuFGij61NgVS7zcywHjT5DWtJFwi1wlA0viS+KXO7DUUJK6+hX63YlAzrtkYs9N1PU8e1ZAuE21U1WancdMxdUyGf88aJBi/n21i5W1mw6T24+9poWwRylKVUc8N0OwAexXQKmP7AaqFpMrdwFqJNjwpqjWjBXDZVtb/HW//Xf5GoSZO0/uHKCxttNOLJNo4FBgoj5O6969qGZDnaXvPeqqXbFth//CmpWMBExQbIl/omgzlQdl3diiyV3GGihHearY5Ugwt/W4+vNgVaT+7XZ9GcMlNTQ+rYhr5UCQRq65wCI4rkhdB0vEipM7tZxoRsrNSduM86jsUfYVGDoJB5hCDcKUZsPAS6aXutJahBTgzYMOsTNJBEuAiVxYHYmNp9XC2Yt2/vx9rCfm6UkS6zLG1dqx0Y8YjmyMuxWQM6HsZ9ddplfYvYV3zsvYaRgU1MdTyMKnF4XjvURUUESrwsr8gwvlppJhQZGf9jLiqkUUmkdpdFvNREn89XfozuFuxbrpQu3FILAsXsI4ZZAZJ+UBdafPinBwtS6QFPLPsepNpOHeBkff9a91HBzO01W5J81k5vOW7tJJt8VQHoJdY3ubnqFIxG67wGR/ZrHDbKqjsYeEyOVx1ZjJvBZYOyzcSuBkyaDa3bF83+CZEGxSvuXdQksFx8i0LKM0kP7Zjjc6OmxeSvZnA/DpxQxI2aBEL0f93tQNmwQRk59uFsVtsEdG7g12iP8JZJQkRa7OaC5qzdl37jdINgpqv4vfiJkNdr9neBDYW6n3O7oKc88Lloafk3k/PWltGKy1q/JwlTKbqXFHPoXaSk4N7hwiefP4V+3/JeW1MNG+pTXB3dAoua3S5zyUrmB4UJsnfjJwi061QUDc5XCYuYZxY8fX5QZ3OYpC3QFRQminE+JmL6ZrbCOXgoZCG1cIO8iNSa3BtCeGM+TVkg26/VW9wkODdCelRLPRzSf5L8/r7aGbrtTQoCibKcbM3B8IftC7DOEj2TyMC7xthFsp1JcDDfgnOD3KkNYoYrgH5q03IMibwBuuCMzn6UPB2EiY1jwfb2uPXaRNsLxR93JY/SPDNWItGjvzgUeaDYkrIuq7h4t2O/nHxp7g275GHyViR31DIjyrpTPN7HQ3PYJM9KeAv75zY0kjE0vOZ57pAyjDa3GRnuuf5643ekOjAtWMIUcecVZSbrc3EeSPfyNzGaqmhhb67y7oT/zCaAMOhVeRwzc+Qe1MFmasu8j+fgsPj0feswSPYh7WU+gcyv51+ZgWEz0wuuY0ltNTU5hoSrtEMl8t7o89rb1uoZ0ap78/MGAYIANL1iN6P88tTSMj16ynYnUoBZfdVloT4w0JRvsD0pMzJnNBCeiJn0AWDSANZLc74tyJR2pwNP9AeajLM6cu4Hz8dT0FIoaMCoKf5o0fB7f8UfpeTFk6zdrB0rM/176ZB+JzTdEkY57HoTbAH+u572RzEwh8F8eEyud/Nqjg68/JxSV8+vYMxrdv6n4zUYBimu/hzZJZkwE2+dZzJJ5xQjHBmOG2clme5+54j8JjnrOuattpZ6qNPHwhU/UdveMiK5SlcpYMjtqdGwy8YhK152AIBIrG5E/yVIIstAhKbdnaSvd94bBvUg/qb4lsHQbY1QFtZroC3kzPk9cdRbVOk/LDdyHfl76sx0ZADVJ2saGGagtkSDnwL8GgKbtYy+3OGCXcc3Adqk1NyCg4tNesIx1L/KVEVbC94DFL01IxyXB+185/JnLyVQXlcecmSvXQIZ7/Rcc3Dl/g9rV4M9FKO/OStGad9KLdo48EpI24mFZwY6kvUI3FnekEsqg84PdptbEmOQ6rgreAOnc1b/aEdzy5rZ0vTKWXQtt75IS3Udd9msUQRXoTNKDp7rt04SAnsDxPTXqiEg2y3I4aQu6KN2tkfAEa2y6PejwjXWYyBXUhxb06QIGKvfGzGOA4Ai3iSVM8UdoewWkLrQWiNVS+7WOe2zsvHPQ7fdncv0wIFFYojzJS/HZRGVW7AO6hXOmCXd1mrRNV7QKibZl3ivdhQrOy5CpWEdKng+ho1TwFoOVOH8rgcu+HS19LYEeYcJyFCbPT8L79UYZ53hQY/qSyKCOC7cuHPOxY/ZO2B+4mYLol4PSfcU/U+4xB8fJlyFJ1d8xKwJFmQQkPTTOBQDf5RMOSUttGZhauMNiOvTkAKKKPH39ttiGmu6kjdspTqjv0OIgIubmLvZGbyokSpYHZxwz2SvP/7EXCghgOXaTnAhwg8y/P1UCcmyOTGheUPEhZmwejxGxN8uOEhYLJorLzkB7le36QTRUYPzskHzHiSDS1i9jgY+6fGYU7SnLYYwfpWinrzrXs8d0cgrnbepxo+SIw2zzme5I5uCXuUyD5HPLlHN8IlcCn6Tn4TTRKeEK1VWAQ76a4uh0mIRWZJDxGJ+Kl6WV2QwOhALIbuEgIxjm4N3eB6+S5Hrl3hHPVtNmpZB0Sv/8aC28GWBy8xcHku6wh36rkHPhz4snk7swN/xZHuxL5AHhcoBx5QKCfKmT676UMxe5XcOMRPKlVkSfEWCkE4Jq9e0MzfEsfNt8bLrWmJ3EkArkYaHjxlcCKCOqGL2UpvLG3OJGRbbHsazV2D/Q5hxIzOv4VhYWahHLlwK5izL2HYlTjybGIKdPDdqc3PNHNk5ndDYtV6kaCWl6vA1IYSvbni2gHCkzDTA+7Vi5aHePfwYJ5D5HylcfKxgVDOFRBLpLGFeLRHbfy8rB53yP+WFmX9k6pz6unLttMNxJxyYnQcM2ieLE9bI/PMT8mhoYpV18JqCPyq5CIuYxfPcVYquGJtaC1gHZhoIAbiwIJ/0Aich3yQ4y6HDT+xDow53jRIgNxghQ3V5O+rtCK1SFrgKCH4YCT9PH/jDU4PLffkvdyEyXs77EDKjHf4J0YalGdtJpkQxLUNWmltwiNYEFF0qneF9S/8azcH050zDQ4vL9IBKcMVBL2l+Dg4Q+54wa8RCIQvkMWlq/V5m1xV4ZgDAXpK3LfrVe8HBO32hpbEG67sn+VrmLQ9apmPSpm8Nl+oL0nSszE5dEq9ChabZIhnE+jx32kCkBG5cdgJk1SVlulsH9wBqwyN+eYjtMnbYiThINANQf9g2+PPMEok73dSVT4PNdFM+RywCvqk/69kc4UdUpZg3jdZE5F2MmYT7c5dvsVCt2+TzHpRFqMi65wkB+AEcACqVH3t0zSaCQsOt5yECuoRNn+ZPc7USRBqn+9F9KszkDlgGjWBwfmoBiFSuAuLM9MHutH660JEv9Y+GWmhujHxtWgXw6m9dBgNIjJy2k89jhEDyFAg+gKbntGa61RB/6mRzQ+mETHcu6UgI8ZCsBUh6kkXXiKW+fS5ZBC01K1bhXYMySac+G2tR/9faZwWM0UvXJq+pDo+wi7JkSJvILpfDCVp5Sb3jeOG6vMK/BqRLFLSf7SiQkDhM7TA298MbrmsVRIDrGBwJiiKagynuWC+0W6C9xglEbjA6IYDogysJAyClQKwfa8gX3wlf1MmJu87gXMPHYhUfac= </div>]]></content>
-      <tags>
-        <tag>life</tag>
       </tags>
   </entry>
   <entry>
@@ -717,6 +679,60 @@
       <tags>
         <tag>hexo</tag>
         <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>life trivia</title>
+    <url>/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index.html</url>
+    <content><![CDATA[<h1 id="唇釉和口红的区别"><a href="#唇釉和口红的区别" class="headerlink" title="唇釉和口红的区别"></a>唇釉和口红的区别</h1><p>给直男（指我自己）讲一下有什么区别</p>
+<a id="more"></a>
+
+<p>什么？居然有直男觉得唇釉和口红是一个东西？</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235559464.png" alt="image-20220204235559464"></p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235619899.png" alt="image-20220204235619899"></p>
+<p>首先，唇釉相当于是液体的口红。</p>
+<p>其次，效果当然是不一样的。</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235753733.png" alt="image-20220204235753733"></p>
+<p>看这张图他哪里一样了？</p>
+<p>唇釉可以晕染，口红，你说怎么晕染？</p>
+<p>晕染了会变血红大口的。</p>
+<p>但是口红需要经常补，唇釉不用，因为唇釉是直接成膜然后覆在嘴唇上面。</p>
+<p>看看知乎的分析：</p>
+<p>作者：骆先森<br>链接：<a href="https://zhuanlan.zhihu.com/p/388778829">https://zhuanlan.zhihu.com/p/388778829</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<p><strong>唇釉与口红有什么区别</strong></p>
+<p>　　<strong>1.质地</strong></p>
+<p>　　口红属于固体膏状，采用圆管的包装，看起来就像一只粗短的蜡笔；</p>
+<p>　　唇釉属于液体状，它的液体并不清澈，显得有点粘稠。采用灌装包装，自带唇刷。</p>
+<p>　　<strong>2.滋润度</strong></p>
+<p>　　口红的滋润度各有不同，有偏干、也有较为滋润的，但是唇釉的滋润度是一定高于口红的。</p>
+<p>　　即便是滋润型口红的滋润度也不及唇釉。</p>
+<p>　　<strong>3.显色度</strong></p>
+<p>　　专业性的口红显色度比较好，滋润型口红显色度差；</p>
+<p>　　唇釉的显色度则普遍不错，尤其是欧美的唇釉。</p>
+<p>　　<strong>4.上妆/补妆</strong></p>
+<p>　　口红在上妆时比较麻烦，但后续补妆非常方便，用纸巾擦拭掉之前的口红再重新上一层即可；</p>
+<p>　　唇釉在上妆时十分方便，但脱落后就很难擦拭掉再涂一层，涂太厚也容易起皮。</p>
+<p>　　<strong>5.使用方法</strong></p>
+<p>　　口红使用时先用润唇膏进行打底，再将口红膏体旋转出来，根据自己想要的效果进行涂抹；</p>
+<p>　　唇釉主要靠唇刷涂抹，借助唇刷这个载体将液体涂抹在唇部上。</p>
+<p>　　<strong>6.使用感受</strong></p>
+<p>　　口红质地较为干硬，使用时不容易涂抹开，涂抹后唇部皮肤也容易干燥，更容易脱妆；</p>
+<p>　　唇釉属于液体口红，使用时比较容易涂抹，质地也会水润许多。</p>
+<p> 　<strong>建议买口红还是买唇釉</strong></p>
+<p>　　买口红还是买唇釉主要根据个人喜好、妆感等来决定。</p>
+<p>　　如果想要上嘴舒服、补妆方便、质地滋润，那可以选择口红；如果想要持久度高、颜色鲜艳饱满，那就选择唇釉。</p>
+<p>　　新手如果要购买的话建议买口红，口红是固态的质地，方便涂抹且上色均匀，而唇釉为液体状，不容易掌握取用的度， 容易导致涂抹过多。</p>
+<p>镜面唇釉，个人不太喜欢，像抹了油似的</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220205000723575.png" alt="image-20220205000723575"></p>
+<p>丝绒唇釉就真的是yyds了！很戳我审美点！</p>
+<p>就是说，一般是建议口红，涂抹方便易于携带，可以随时补妆；但如果你喜欢唇釉的雾感，那就再买一支唇釉吧。</p>
+<p>直女建议一支口红一支唇釉就够了，买太多是浪费钱。</p>
+<h1 id="直男行为图鉴"><a href="#直男行为图鉴" class="headerlink" title="直男行为图鉴"></a>直男行为图鉴</h1><p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220206123730775.png" alt="image-20220206123730775"></p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220206124714144.png" alt="image-20220206124714144"></p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+        <tag>girls</tag>
       </tags>
   </entry>
   <entry>
@@ -897,14 +913,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一篇先来个碎碎念</title>
-    <url>/2022/02/02/hello/index.html</url>
-    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
-      <tags>
-        <tag>碎碎念</tag>
       </tags>
   </entry>
 </search>
