@@ -1,6 +1,457 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第一篇先来个碎碎念</title>
+    <url>/2022/02/02/hello/index.html</url>
+    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+      <tags>
+        <tag>碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Some life tips</title>
+    <url>/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index.html</url>
+    <content><![CDATA[<h1 id="matepad连接双屏"><a href="#matepad连接双屏" class="headerlink" title="matepad连接双屏"></a>matepad连接双屏</h1><a id="more"></a>
+
+
+
+<p><img src="/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index/image-20220204200831866.png" alt="image-20220204200831866"></p>
+<p>双击打开最后一个</p>
+<p><img src="/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index/image-20220204200947542.png" alt="image-20220204200947542"></p>
+<p>建议把spacedesk 和Videowall全部打开</p>
+<p>然后win+P设为扩展</p>
+<p>然后把要在副屏看的界面拖到主屏幕的右边就可以了</p>
+<p>理论上这样也可以实现对电脑的远程控制，但是实在是太慢了！！！！</p>
+]]></content>
+      <categories>
+        <category>生活的技巧</category>
+      </categories>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>人文社科读书笔记</title>
+    <url>/2022/02/05/%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.html</url>
+    <content><![CDATA[<p>虽然我是工科生，可又怎么能割舍掉内心对人文的热爱呢？</p>
+<a id="more"></a>
+
+<h1 id="《乡土中国》"><a href="#《乡土中国》" class="headerlink" title="《乡土中国》"></a>《乡土中国》</h1><p>我们的民族是和泥土分不开的。“乡下人离不了泥土，因为在乡下住，种地是最普通的谋生方法。”就算是到了适宜游牧生活的美国大草原，中原人也依然会一家划一方地，种植起来；真像是往土里一钻，看不到其他利用这块地的方法了。写到这里，费孝通先生很有一些恨铁不成钢地写道“现在很有些飞不上天地样子”。</p>
+<p>但更多的时候，他是在客观地分析为何中国人（尤其是乡下人）土气：农业和游牧或工业不同，它是直接取资于土地的。游牧的人可以逐水草而居，飘忽无定；做工业的人可以择地而居，迁移无碍；而种地的人却搬不动地，长在土里的庄稼行动不得，侍候庄稼的老农也像是半截身子插入了泥土里，土气是因为不流动而发生的。</p>
+<p>因为土地，所以显得扎根于泥土中；因为土地，更解释了为什么中国人选择带着地球一起去流浪，而不是像一些美国史诗一样，只顾自己的逃亡。</p>
+<p>但是，更加有趣的是，人口必然会增加，一块地上只要几代人的繁殖，人口就到了饱和点，过剩的人口要养活，就必须拿起锄头去开辟新地。然后他们又形成一个小小的家族殖民地，找不到土地的就在各式各样的命运中被淘汰了，或是“发迹了”，去到城镇，然后开启一种新的生活。</p>
+<p>乡土社会在地方性的限制下成了生于斯、死于斯的社会。就像我们所说的落叶归根。这是一个熟悉的社会，没有陌生人的社会。</p>
+<p>在社会学里，我们常分出两种不同性质的社会，一种并没有具体目的，只是因为在一起生长而发生的社会，一种是为了要完成一件任务而结合的社会、用涂尔干的话说，前者是“有机的团结”，后者是“机械的团结”，前者是礼俗社会，后者是法理社会。乡民们平素所接触的是生而与俱的人物，正像我们的父母兄弟一般，并不是由于我们选择得来的关系，而是先我们而在的一个环境。</p>
+<p>乡土社会从熟悉里得到了信任。“我们大家是熟人，打个招呼就是了，还用得着多说吗？”现代社会是陌生人的社会，各人不知道各人的底细，所以要说得明明白白，还怕赖账，所以签个字，画个押，这样就发生了法律了。熟人社会是不需要法律得，大家都互相信任，欺骗了，他得名声就臭了，以后再也不能在这篇土地上立足，只能蝇营狗苟地生活下去，代价其实是很大的。</p>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>碎碎念</tag>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>write before</title>
+    <url>/2022/02/03/write%20before/index.html</url>
+    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客运用hexo-next主题的设置及美化</title>
+    <url>/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index.html</url>
+    <content><![CDATA[<p>上篇文章已经在Windows上将个人博客个搭建好了，使用的是默认主题landscape，不过有点不太符合我们的审美，这里使用最为常见的hexo-next主题为例。</p>
+<a id="more"></a>
+
+<h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><h3 id="设置主题"><a href="#设置主题" class="headerlink" title="设置主题"></a>设置主题</h3><p>在blog根目录下进入命令行，输入下面的命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next --save</span><br></pre></td></tr></table></figure>
+
+<p>这样就安装完了，不过不要以为这样就可以了哦，我们还需要启用Next主题，所以需要到<strong>站点配置文件</strong>里去设置一把，找到 theme 字段，并将其值更改为 next。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+<h2 id="Hexo-主题配置文件"><a href="#Hexo-主题配置文件" class="headerlink" title="Hexo 主题配置文件"></a>Hexo 主题配置文件</h2><p>其实这个文件的配置才是重点，因为你们想要的吊炸天的效果差不多都与这个文件有关。<br>打开<strong>Hexo目录/themes/next/_config.yml</strong>文件,</p>
+<h3 id="开启侧边栏社交链接"><a href="#开启侧边栏社交链接" class="headerlink" title="开启侧边栏社交链接"></a>开启侧边栏社交链接</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copy# Social links</span><br><span class="line">social:</span><br><span class="line">  GitHub: https://github.com/hydcoder</span><br><span class="line">  Weibo: https://weibo.com/3180967953/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo</span><br><span class="line">  # 等等</span><br><span class="line"></span><br><span class="line">social_icons:</span><br><span class="line">  enable: true</span><br><span class="line">  # Icon Mappings.</span><br><span class="line">  GitHub: github</span><br><span class="line">  Weibo: weibo</span><br></pre></td></tr></table></figure>
+
+<h3 id="选择-Scheme"><a href="#选择-Scheme" class="headerlink" title="选择 Scheme"></a>选择 Scheme</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copy# Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
+
+<h3 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h3><p> 打开站点配置文件，搜索 <code>language</code>，找到如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyCopyauthor:</span><br><span class="line">language:</span><br><span class="line">timezone:</span><br></pre></td></tr></table></figure>
+
+<p>在 <code>language</code> 后面输入 <code>zh-CN</code>。</p>
+<p>注意：冒号后面必须有一个空格。</p>
+<h3 id="设置侧边栏设置圆形可旋转头像"><a href="#设置侧边栏设置圆形可旋转头像" class="headerlink" title="设置侧边栏设置圆形可旋转头像"></a>设置侧边栏设置圆形可旋转头像</h3><p>D:\hexo\blog\node_modules\hexo-theme-next\source\css_common\outline\sidebar</p>
+<p>在D:\hexo\blog\node_modules\hexo-theme-next\source\css_common\components目录下新建一个<strong>sidebar-author.styl</strong>文件，在里面输入以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.site-author-image &#123;</span><br><span class="line">  margin: 0 auto;</span><br><span class="line">  padding: $site-author-image-padding;</span><br><span class="line">  max-width: $site-author-image-width;</span><br><span class="line">  height: $site-author-image-height;</span><br><span class="line">  border: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line"></span><br><span class="line">  border-radius: 50%;</span><br><span class="line">  -webkit-border-radius: 50%;</span><br><span class="line">  -moz-border-radius: 50%;</span><br><span class="line">  transition: 1.4s all;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.site-author-image:hover &#123;</span><br><span class="line">    -webkit-transform: rotate(360deg);</span><br><span class="line">    -moz-transform: rotate(360deg);</span><br><span class="line">    -ms-transform: rotate(360deg);</span><br><span class="line">    -transform: rotate(360deg);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.site-author-name &#123;</span><br><span class="line">  margin: $site-author-name-margin;</span><br><span class="line">  text-align: $site-author-name-align;</span><br><span class="line">  color: $site-author-name-color;</span><br><span class="line">  font-weight: $site-author-name-weight;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.site-description &#123;</span><br><span class="line">  margin-top: $site-description-margin-top;</span><br><span class="line">  text-align: $site-description-align;</span><br><span class="line">  font-size: $site-description-font-size;</span><br><span class="line">  color: $site-description-color;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加动态背景"><a href="#添加动态背景" class="headerlink" title="添加动态背景"></a>添加动态背景</h2><p>先上张图</p>
+<p><a href="https://s2.ax1x.com/2020/01/02/lt3FO0.gif"><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/lt3FO0.gif" alt="img"></a></p>
+<p>网站动态背景(非常占Cpu不是特别推荐，这个背景直接导致了学长在访问我的博客的时候手机死机了hhh)</p>
+<p>打开D:\hexo\blog\node_modules\hexo-theme-next\layout里面的layout .njk文件然后在<body>里面输入如下代码：</body></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">  &lt;script type=&quot;text/javascript&quot;</span><br><span class="line">  color=&quot;0,0,255&quot; opacity=&#x27;0.7&#x27; zIndex=&quot;-2&quot; count=&quot;200&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>配置项说明<br>color ：线条颜色, 默认: ‘0,0,0’；三个数字分别为(R,G,B)<br>opacity: 线条透明度（0~1）, 默认: 0.5<br>count: 线条的总数量, 默认: 150<br>zIndex: 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1</p>
+<h3 id="标签列表初始化"><a href="#标签列表初始化" class="headerlink" title="标签列表初始化"></a>标签列表初始化</h3><p> 首先打开主题下的配置文件_config.yml，然后搜索menu找到如下配置项，将about、tags、categories前的#号去掉，就开启了关于、标签和分类标签，当然还有其他菜单项也可以开启</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copymenu:(注意空格即/之后的空格，标准如about其他像这样改)</span><br><span class="line">  home: / || home</span><br><span class="line">  about: /about/|| user</span><br><span class="line">  tags: /tags/ || tags</span><br><span class="line">  categories: /categories/ || th</span><br><span class="line">  archives: /archives/ || archive</span><br><span class="line">  #schedule: /schedule/ || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: /404/ || heartbeat</span><br></pre></td></tr></table></figure>
+
+<p>重新生成部署后，可以看到新增的菜单项，但是单击后会报如下错误</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyCannot GET /about/</span><br><span class="line">Cannot GET /tags/</span><br><span class="line">Cannot GET /categories/</span><br></pre></td></tr></table></figure>
+
+<p>这是因为你还需运行如下命令新建相关页面</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyhexo new page &quot;about&quot;</span><br><span class="line">hexo new page &quot;tags&quot;</span><br><span class="line">hexo new page &quot;categories&quot;</span><br></pre></td></tr></table></figure>
+
+<p>运行结果如下，会再source文件下创建about、tags、categories文件夹，每个文件夹下还会创建一个index.md文件表示关于、标签页分类页面，编辑这三个MarkDown文件可以自定义这三个页面的内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyD:\hexo\blog&gt;hexo new page &quot;about&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\about\index.md`</span><br><span class="line"></span><br><span class="line">`D:\hexo\blog&gt;hexo new page &quot;tags&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\tags\index.md`</span><br><span class="line"></span><br><span class="line">`D:\hexo\blog&gt;hexo new page &quot;categories&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\categories\index.md`</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加看板娘"><a href="#添加看板娘" class="headerlink" title="添加看板娘"></a>添加看板娘</h2><p>把这段代码添加到layout.njk文件中</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    var jsonModel = [</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    ];</span><br><span class="line">    L2Dwidget.init(&#123; </span><br><span class="line">        &quot;model&quot;: &#123; </span><br><span class="line">            &quot;jsonPath&quot;: jsonModel[Math.floor(Math.random()*(jsonModel.length-1))],</span><br><span class="line">            &quot;scale&quot;: 1 </span><br><span class="line">        &#125;, </span><br><span class="line">        &quot;display&quot;: &#123; </span><br><span class="line">            &quot;position&quot;: &quot;right&quot;, // 位置left、right</span><br><span class="line">            &quot;width&quot;: 180, // 宽度</span><br><span class="line">            &quot;height&quot;: 240, // 高度</span><br><span class="line">            &quot;hOffset&quot;: 0, // 横向边距</span><br><span class="line">            &quot;vOffset&quot;: 0 // 众向边距</span><br><span class="line">        &#125;, </span><br><span class="line">        &quot;mobile&quot;: &#123; </span><br><span class="line">            &quot;show&quot;: true // 手机是否显示</span><br><span class="line">        &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205141336428.png" alt="image-20220205141336428"></p>
+<h3 id="部分文章需要密码才能查看"><a href="#部分文章需要密码才能查看" class="headerlink" title="部分文章需要密码才能查看"></a>部分文章需要密码才能查看</h3><p>效果如下：</p>
+<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205191804966.png" alt="image-20220205191804966"></p>
+<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205191650821.png" alt="image-20220205191650821"></p>
+<p>安装插件Hexo-Blog-Encrypt</p>
+<p>在 hexo 根目录的 package.json 中添加 <code>&quot;hexo-blog-encrypt&quot;: &quot;1.1.*&quot;</code> 依赖。<br>然后执行<code>npm install</code> 命令。<br>该插件会自动安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+
+<p>在站点配置文件中添加：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Security</span></span><br><span class="line"><span class="comment">##</span></span><br><span class="line">encrypt:</span><br><span class="line">    <span class="built_in">enable</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>在需要加密的文章头部添加对应字段</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: hello world</span><br><span class="line">date: 2016-03-30 21:18:02</span><br><span class="line">tags:</span><br><span class="line">    - fdsafsdaf</span><br><span class="line">password: Mike</span><br><span class="line">abstract: Welcome to my blog, enter password to read.</span><br><span class="line">message: Welcome to my blog, enter password to read.</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>如下面这篇：</p>
+<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205143635827.png" alt="image-20220205143635827"></p>
+<h3 id="结尾添加“本文结束”标记"><a href="#结尾添加“本文结束”标记" class="headerlink" title="结尾添加“本文结束”标记"></a>结尾添加“本文结束”标记</h3><p> 设置方法：<br>在路径<code>themes/next/layout/_macro</code>中新建<code>passage-end-tag.swig</code>文件,并添加以下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copy&lt;div&gt;    </span><br><span class="line">    &#123;% if not is_index %&#125;        </span><br><span class="line">        &lt;div style=&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;            </span><br><span class="line">        -------------本文结束           </span><br><span class="line">        &lt;i class=&quot;fa fa-paw&quot;&gt;&lt;/i&gt;           </span><br><span class="line">        感谢您的阅读-------------        </span><br><span class="line">        &lt;/div&gt;   </span><br><span class="line">        &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>接着打开<code>themes/next/layout/_macro/post.njk</code>文件，在<code>post-body</code>之后，<code>post-footer</code>之前添加如下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;  </span><br><span class="line">    &#123;% if not is_index %&#125;    </span><br><span class="line">        &#123;% include &#x27;passage-end-tag.swig&#x27; %&#125;  </span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>然后打开主题配置文件<code>_config.yml</code>,在末尾添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:  </span><br><span class="line">    enabled: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="显示丝带："><a href="#显示丝带：" class="headerlink" title="显示丝带："></a>显示丝带：</h3><p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205181914733.png" alt="image-20220205181914733"></p>
+<p>在主题配置文件中把相关的信息修改成这个样子</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">canvas_ribbon:</span><br><span class="line"></span><br><span class="line"> enable: true </span><br></pre></td></tr></table></figure>
+
+<p>并且是可变的丝带哦</p>
+<h3 id="加上结尾的标签"><a href="#加上结尾的标签" class="headerlink" title="加上结尾的标签"></a>加上结尾的标签</h3><p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205182536396.png" alt="image-20220205182536396"></p>
+<p>修改D:\hexo\blog\node_modules\hexo-theme-next\layout_macro的post.njk文件，找到这一行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;&#123;&#123; url_for(tag.path) &#125;&#125;&quot; rel=&quot;tag&quot;&gt;&#123;&#123; tag_indicate &#125;&#125; &#123;&#123; tag.name &#125;&#125;&lt;/i&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>改为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;&#123;&#123; url_for(tag.path) &#125;&#125;&quot; rel=&quot;tag&quot;&gt;&#123;&#123; tag_indicate &#125;&#125; &#123;&#123; tag.name &#125;&#125;&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>就可以了。</p>
+]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>life trivia</title>
+    <url>/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index.html</url>
+    <content><![CDATA[<h1 id="唇釉和口红的区别"><a href="#唇釉和口红的区别" class="headerlink" title="唇釉和口红的区别"></a>唇釉和口红的区别</h1><p>给直男（指我自己）讲一下有什么区别</p>
+<a id="more"></a>
+
+<p>什么？居然有直男觉得唇釉和口红是一个东西？</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235559464.png" alt="image-20220204235559464"></p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235619899.png" alt="image-20220204235619899"></p>
+<p>首先，唇釉相当于是液体的口红。</p>
+<p>其次，效果当然是不一样的。</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235753733.png" alt="image-20220204235753733"></p>
+<p>看这张图他哪里一样了？</p>
+<p>唇釉可以晕染，口红，你说怎么晕染？</p>
+<p>晕染了会变血红大口的。</p>
+<p>但是口红需要经常补，唇釉不用，因为唇釉是直接成膜然后覆在嘴唇上面。</p>
+<p>看看知乎的分析：</p>
+<p>作者：骆先森<br>链接：<a href="https://zhuanlan.zhihu.com/p/388778829">https://zhuanlan.zhihu.com/p/388778829</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<p><strong>唇釉与口红有什么区别</strong></p>
+<p>　　<strong>1.质地</strong></p>
+<p>　　口红属于固体膏状，采用圆管的包装，看起来就像一只粗短的蜡笔；</p>
+<p>　　唇釉属于液体状，它的液体并不清澈，显得有点粘稠。采用灌装包装，自带唇刷。</p>
+<p>　　<strong>2.滋润度</strong></p>
+<p>　　口红的滋润度各有不同，有偏干、也有较为滋润的，但是唇釉的滋润度是一定高于口红的。</p>
+<p>　　即便是滋润型口红的滋润度也不及唇釉。</p>
+<p>　　<strong>3.显色度</strong></p>
+<p>　　专业性的口红显色度比较好，滋润型口红显色度差；</p>
+<p>　　唇釉的显色度则普遍不错，尤其是欧美的唇釉。</p>
+<p>　　<strong>4.上妆/补妆</strong></p>
+<p>　　口红在上妆时比较麻烦，但后续补妆非常方便，用纸巾擦拭掉之前的口红再重新上一层即可；</p>
+<p>　　唇釉在上妆时十分方便，但脱落后就很难擦拭掉再涂一层，涂太厚也容易起皮。</p>
+<p>　　<strong>5.使用方法</strong></p>
+<p>　　口红使用时先用润唇膏进行打底，再将口红膏体旋转出来，根据自己想要的效果进行涂抹；</p>
+<p>　　唇釉主要靠唇刷涂抹，借助唇刷这个载体将液体涂抹在唇部上。</p>
+<p>　　<strong>6.使用感受</strong></p>
+<p>　　口红质地较为干硬，使用时不容易涂抹开，涂抹后唇部皮肤也容易干燥，更容易脱妆；</p>
+<p>　　唇釉属于液体口红，使用时比较容易涂抹，质地也会水润许多。</p>
+<p> 　<strong>建议买口红还是买唇釉</strong></p>
+<p>　　买口红还是买唇釉主要根据个人喜好、妆感等来决定。</p>
+<p>　　如果想要上嘴舒服、补妆方便、质地滋润，那可以选择口红；如果想要持久度高、颜色鲜艳饱满，那就选择唇釉。</p>
+<p>　　新手如果要购买的话建议买口红，口红是固态的质地，方便涂抹且上色均匀，而唇釉为液体状，不容易掌握取用的度， 容易导致涂抹过多。</p>
+<p>镜面唇釉，个人不太喜欢，像抹了油似的</p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220205000723575.png" alt="image-20220205000723575"></p>
+<p>丝绒唇釉就真的是yyds了！很戳我审美点！</p>
+<p>就是说，一般是建议口红，涂抹方便易于携带，可以随时补妆；但如果你喜欢唇釉的雾感，那就再买一支唇釉吧。</p>
+<p>直女建议一支口红一支唇釉就够了，买太多是浪费钱。</p>
+<h1 id="直男行为图鉴"><a href="#直男行为图鉴" class="headerlink" title="直男行为图鉴"></a>直男行为图鉴</h1><p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220206123730775.png" alt="image-20220206123730775"></p>
+<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220206124714144.png" alt="image-20220206124714144"></p>
+]]></content>
+      <tags>
+        <tag>life</tag>
+        <tag>girls</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用hexo+github搭建博客</title>
+    <url>/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.html</url>
+    <content><![CDATA[<p>用hexo+github搭个人博客看这篇就够啦</p>
+<a id="more"></a>
+
+<p>近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。</p>
+<p>虽然搭建时比较麻烦，有点折腾，但是配置完成后，基本不需要操心维护的事，甚至放了几年都忘记了，打开来看文章依然还在。</p>
+<p>本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。</p>
+<p>为了照顾小白用户（第一次使用 GitHub 和 Hexo），尽可能详细，包括常见的坑和问题都有提示说明。下面目录中<strong>第 3~5 步为最重要的步骤</strong>，其他内容如果已经会的可以选择性跳过。</p>
+<p>看起来有点繁杂，捋顺了倒也简单，认真跟教程走，完整操作一遍大概需要 30 分钟。（事实上本人搭这个博客至少花了一天时间，花的时间多少主要看个人还有您看的教程是否对应最新版本，否则可能出现版本不兼容问题，然后这些问题因为我没有及时记录，所以就没有啦！解决了就行呜呜呜。）</p>
+<p>o(￣▽￣)ｄ</p>
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h3 id="GitHub-Pages-是什么？"><a href="#GitHub-Pages-是什么？" class="headerlink" title="GitHub Pages 是什么？"></a><strong>GitHub Pages 是什么？</strong></h3><ul>
+<li><a href="https://link.zhihu.com/?target=https://help.github.com/en/articles/what-is-github-pages">What is GitHub Pages? - GitHub Help</a></li>
+</ul>
+<p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p>
+<h3 id="Hexo-是什么？"><a href="#Hexo-是什么？" class="headerlink" title="Hexo 是什么？"></a><strong>Hexo 是什么？</strong></h3><ul>
+<li>官网：<a href="https://link.zhihu.com/?target=https://hexo.io/zh-cn/">hexo.io</a></li>
+</ul>
+<p>Hexo 是一个快速、简洁且高效的静态博客框架，它基于 Node.js 运行，可以将我们撰写的 Markdown 文档解析渲染成静态的 HTML 网页。</p>
+<h3 id="Hexo-GitHub-文章发布原理"><a href="#Hexo-GitHub-文章发布原理" class="headerlink" title="Hexo + GitHub 文章发布原理"></a><strong>Hexo + GitHub 文章发布原理</strong></h3><p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</p>
+<p>差不多就是下面这张图这样：（hexo g&amp;&amp;hexo d两个命令可以简化成一个命令hexo g -d，但是我建议每次部署之前都要先清理一下缓存，不然可能会出现奇奇怪怪的问题）</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203093820562.png" alt="image-20220203093820562"></p>
+<h3 id="优点和不足"><a href="#优点和不足" class="headerlink" title="优点和不足"></a><strong>优点和不足</strong></h3><p><strong>优点：</strong>完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……</p>
+<p><strong>不足：</strong>发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点慢。</p>
+<p>（通俗的说，就是敲hexo g -d敲到手软，每次因为github pages有延迟而只能hexo s 先预览文章）</p>
+<p>并且延迟很久，明明把代码删了却好像没删一样，所以本地出现什么效果就是什么效果了。</p>
+<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a><strong>注意事项</strong></h3><ul>
+<li>输入代码时，核对准确，最好切换成英文输入法；</li>
+<li>将文中的 “用户名” 和 “邮箱” 替换为自己的 GitHub 账户名和绑定的邮箱；</li>
+<li>统一使用 Git Bash 进行操作（支持 Win、Mac）；</li>
+<li>小白请严格按步骤进行，不要跳！</li>
+</ul>
+<h3 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a><strong>环境搭建</strong></h3><p>Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和 git，因此先搭建本地操作环境，安装 Node.js 和 Git。</p>
+<ul>
+<li>Node.js：<a href="https://link.zhihu.com/?target=https://nodejs.org/zh-cn">https://nodejs.org/zh-cn</a></li>
+<li>Git：<a href="https://link.zhihu.com/?target=https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
+</ul>
+<p>下载 Node.js 和 Git 程序并安装，一路点 “下一步” 按默认配置完成安装。</p>
+<p>安装完成后，Win+R 输入 cmd 并打开，依次输入 <code>node -v</code>、<code>npm -v</code> 和 <code>git --version</code> 并回车，如下图出现程序版本号即可。</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203094412675.png"></p>
+<h2 id="连接-Github"><a href="#连接-Github" class="headerlink" title="连接 Github"></a>连接 Github</h2><p>使用邮箱注册 <a href="https://link.zhihu.com/?target=https://github.com/">GitHub</a> 账户，选择免费账户（Free），并完成邮件验证。</p>
+<p>建一个空的文件夹（建议命名为hexo放在D盘目录下，以后每次都要先进入这个目录然后在地址栏敲cmd把本地文件push到github上去）</p>
+<p>右键-&gt;Git bash here,设置用户名和邮箱</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;GitHub 用户名&quot;</span><br><span class="line">git config --global user.email &quot;GitHub 邮箱&quot;</span><br></pre></td></tr></table></figure>
+
+<p><strong>创建 SSH 密钥</strong>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;GitHub 邮箱&quot;</span><br></pre></td></tr></table></figure>
+
+<p><strong>添加密匙：</strong></p>
+<p>进入 [C:\Users\用户名.ssh] 目录（要勾选显示“隐藏的项目”），用记事本打开公钥 id_rsa.pub 文件并复制里面的内容。</p>
+<p>登陆 GitHub ，进入 Settings 页面，选择左边栏的 SSH and GPG keys，点击 New SSH key。</p>
+<p>Title 随便取个名字，粘贴复制的 id_rsa.pub 内容到 Key 中，点击 Add SSH key 完成添加。</p>
+<p><strong>验证连接：</strong></p>
+<p>打开 Git Bash，输入 <code>ssh -T git@github.com</code> 出现 “Are you sure……”，输入 yes 回车确认。</p>
+<p>显示 “Hi xxx! You’ve successfully……” 即连接成功。</p>
+<h2 id="创建-Github-Pages-仓库"><a href="#创建-Github-Pages-仓库" class="headerlink" title="创建 Github Pages 仓库"></a>创建 Github Pages 仓库</h2><p>GitHub 主页右上角加号 -&gt; New repository：</p>
+<ul>
+<li>Repository name 中输入 <code>用户名.github.io</code></li>
+<li>勾选 “Initialize this repository with a README”</li>
+<li>Description 选填</li>
+</ul>
+<p>填好后点击 Create repository 创建。</p>
+<p>创建后默认自动启用 HTTPS，博客地址为：<code>https://用户名.github.io</code></p>
+<h2 id="本地安装-Hexo-博客程序"><a href="#本地安装-Hexo-博客程序" class="headerlink" title="本地安装 Hexo 博客程序"></a>本地安装 Hexo 博客程序</h2><p>新建一个文件夹用来存放 Hexo 的程序文件，如 Hexo-Blog。</p>
+<p>在这个文件夹地址栏敲cmd回车，进入这个目录下的命令行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli        # npm 安装 hexo</span><br></pre></td></tr></table></figure>
+
+<p><strong>blog</strong> 是 hexo 初始化的文件夹，是<strong>博客根目录</strong>，可以更换成自己喜欢的文件夹名</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd /d D:\hexo\blog</span><br></pre></td></tr></table></figure>
+
+<h2 id="hexo-生成静态网页文件"><a href="#hexo-生成静态网页文件" class="headerlink" title="hexo 生成静态网页文件"></a>hexo 生成静态网页文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g    </span><br></pre></td></tr></table></figure>
+
+<h2 id="hexo-服务"><a href="#hexo-服务" class="headerlink" title="hexo 服务"></a>hexo 服务</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>开启hexo服务后，即可通过本地访问 blog 页面（默认为**<code>localhost:4000</code>**）预览博客页面。</p>
+<p>(因为用网址访问的有延迟，所以localhost有变化那就是更改成功了)</p>
+<p>有时遇到端口被占用的情况我们需要更改端口</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s -p &quot;端口号&quot;    </span><br></pre></td></tr></table></figure>
+
+<p>比如端口号改为4001</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203100030826.png"></p>
+<h2 id="部署-Hexo-到-GitHub-Pages"><a href="#部署-Hexo-到-GitHub-Pages" class="headerlink" title="部署 Hexo 到 GitHub Pages"></a>部署 Hexo 到 GitHub Pages</h2><p>本地博客测试成功后，就是上传到 GitHub 进行部署，使其能够在网络上访问。</p>
+<p>首先<strong>安装 hexo-deployer-git</strong>：（默认进入blog根目录进行操作）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>然后修改blog根目录下的 <strong>_config.yml</strong> 文件末尾的 Deployment 部分，修改成如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line"></span><br><span class="line"> type: git</span><br><span class="line"></span><br><span class="line"> repo: #这一行把ssh密钥的链接复制到这里</span><br></pre></td></tr></table></figure>
+
+<p>完成后运行 <code>hexo d</code> 将网站上传部署到 GitHub Pages。</p>
+<p>访问我们的 GitHub 域名 <code>https://用户名.github.io</code> 就可以看到 Hexo 网站了。</p>
+<h1 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h1><h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a><strong>发布文章</strong></h3><p>进入博客所在目录，右键打开 Git Bash Here，创建博文：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;hello&quot; #hello可以自由更改对应生成的文件名</span><br></pre></td></tr></table></figure>
+
+<p>然后在 D:\hexo\blog\source_posts 目录下会出现一个hello.md文件</p>
+<p>其他指令：(~/表示博客根目录)</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n hello                # 简化指令</span><br><span class="line">hexo n post hello            # 新编博文并立即发布。默认 ~/source/_posts/hello.md</span><br><span class="line">hexo n draft hello            # 新编博文但暂不发布。默认 ~/source/_drafts/hello.md</span><br><span class="line">hexo n page hello            # 新建页面（标签页，分类页等）。默认 ~/source/hello</span><br></pre></td></tr></table></figure>
+
+<p>然后进入 D:\hexo\blog\source_posts 找到 <code>hello.md</code> ，打开文件，内容如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: hello</span><br><span class="line">date: 1970-1-1 8:00:00</span><br><span class="line">tags: [hello, demo]</span><br></pre></td></tr></table></figure>
+
+<p>这些是格式头 Front-matter 每次写博客都要写这个的</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World # 标题</span><br><span class="line">date: 2019/3/26 hh:mm:ss # 时间</span><br><span class="line">categories: # 分类</span><br><span class="line">- Diary</span><br><span class="line">tags: # 标签</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br></pre></td></tr></table></figure>
+
+<p>写完hexo g -d部署到github pages上就可以了</p>
+<h3 id="hexo-博文插入图片"><a href="#hexo-博文插入图片" class="headerlink" title="hexo 博文插入图片"></a>hexo 博文插入图片</h3><p>更改hexo配置文件 (D:\hexo\blog\node_modules\hexo-theme-next/_config.yml`) 中的Writing配置项</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
+
+<p>在<strong>博客根目录</strong>下安装**<code>hexo-asset-image</code>**插件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+
+<p>如果用Typora写博文的话，可以把偏好设置改一下，具体做法为文件-&gt;偏好设置-&gt;图像:</p>
+<p>改成完全和下图一样的就可以了</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203140416121.png" alt="image-20220203140416121"></p>
+<p>这样你在复制粘贴图片时会typora会自动帮你放到_post目录下的同名文件夹</p>
+<h3 id="hexo-添加标签页"><a href="#hexo-添加标签页" class="headerlink" title="hexo 添加标签页"></a>hexo 添加标签页</h3><p>在博客根目录下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+
+<p>在 Front-matter 中添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">type: tags</span><br></pre></td></tr></table></figure>
+
+<p>完成后 hexo 便会自动生成标签页</p>
+<blockquote>
+<p>记得添加进入方式</p>
+</blockquote>
+<h3 id="hexo-添加关于页"><a href="#hexo-添加关于页" class="headerlink" title="hexo 添加关于页"></a>hexo 添加关于页</h3><p>在博客根目录下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
+
+<p>在 Front-matter 中添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">type: about</span><br></pre></td></tr></table></figure>
+
+<p>在正文中输入关于页内容即可</p>
+<p>记得添加进入方式</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 诗酒趁年华</span><br><span class="line">subtitle: &quot;尚未佩妥剑，转眼即江湖。 &quot;</span><br><span class="line">description: &quot;&quot;</span><br><span class="line">keywords: 生活 技术 life technology</span><br><span class="line">author: jiaxin</span><br><span class="line">language: zh-CN  #选择中文作为语言</span><br><span class="line">timezone: &quot;&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Hexo-设置显示文章摘要，首页不显示全文"><a href="#Hexo-设置显示文章摘要，首页不显示全文" class="headerlink" title="Hexo 设置显示文章摘要，首页不显示全文"></a><strong>Hexo 设置显示文章摘要，首页不显示全文</strong></h3><p>Hexo 主页文章列表默认会显示文章全文，浏览时很不方便，可以在文章中插入 <code>&lt;!--more--&gt;</code> 进行分段。</p>
+<p>该代码前面的内容会作为摘要显示，而后面的内容会替换为 “阅读全文” 隐藏起来。</p>
+<p>如下图：</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203140815732.png" alt="image-20220203140815732"></p>
+<h3 id="统计访问数量"><a href="#统计访问数量" class="headerlink" title="统计访问数量"></a>统计访问数量</h3><p>效果如下：</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203145053979.png" alt="image-20220203145053979"></p>
+<p>（不过这个访问量好像有点问题，等我想想啊）</p>
+<p>（后面补充：访问量在localhost形式下是有问题的没办法，在yourname\github.io\网址访问下是没有问题的。）</p>
+<p>1、先在hexo-theme-next目录下的_config.yml文件的末尾加上下面的代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">busuanzi:</span><br><span class="line"> enable: true</span><br></pre></td></tr></table></figure>
+
+<p>2、打开D:\hexo\blog\node_modules\hexo-theme-next\layout\partials的footer.njk文件（这个文件相当于html文件）在最后另起一行加入如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;footer&gt;</span><br><span class="line">        &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;</span><br><span class="line">                本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_site_uv&quot; style=&#x27;display:none&#x27;&gt;</span><br><span class="line">                本站访客数&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/footer&gt;</span><br></pre></td></tr></table></figure>
+
+<p>3、打开D:\hexo\blog\node_modules\hexo-theme-next\layout\partials\post的post-footer.njk文件在最后另起一行加入如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;% if (theme.busuanzi &amp;&amp; theme.busuanzi.enable &amp;&amp; !index)&#123; %&gt;</span><br><span class="line">        &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_page_pv&quot; style=&#x27;display:none&#x27; class=&quot;&lt;%= class_name %&gt;&quot;&gt;</span><br><span class="line">              &lt;i class=&quot;icon-smile icon&quot;&gt;&lt;/i&gt; 阅读数：&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="对一些细节"><a href="#对一些细节" class="headerlink" title="对一些细节"></a>对一些细节</h3><p>1、每次对细节修改之后都要在blog根目录下hexo g -d</p>
+<p>然后hexo s本地预览一下</p>
+<p>2、layout.njk文件相当于是博客的前端html文件</p>
+<p>3、对新手小白的建议：</p>
+<p>备份！备份！备份！！！！非常重要！</p>
+<p>当时就是因为没备份然后再csdn上看了很多乱七八糟的东西，然后就错误地删掉了很多</p>
+<p>然后我不得不建了一个hexo副本文件夹再下载了一次这些文件代码然后再复制上去。</p>
+<p>乱改没关系，只要记得备份，不然一切都重来。</p>
+<p>4、看报错信息！</p>
+<p>当出现如图所示的报错信息时说明</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220205145142254.png" alt="image-20220205145142254"></p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220205145235139.png" alt="image-20220205145235139"></p>
+<p>说明是在这个文件的更改导致的错误</p>
+<p>5、看注释，看官方文档，别一不会就百度！</p>
+<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220205145835846.png" alt="image-20220205145835846"></p>
+<p>这个侧边栏头像以及指针的旋转我百度了好久，原来在新版的站点配置文件里面就有！！！啊啊啊啊啊啊！</p>
+<p>参考文献：</p>
+<p><a href="https://jomeswang.github.io/posts/fd1e545c/#more">https://jomeswang.github.io/posts/fd1e545c/#more</a></p>
+<p><a href="https://hasegawaazusa.github.io/hexo-note.html">https://hasegawaazusa.github.io/hexo-note.html</a></p>
+]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>next数学方程的解析</title>
+    <url>/2022/02/05/next%E6%95%B0%E5%AD%A6%E6%96%B9%E7%A8%8B%E7%9A%84%E8%A7%A3%E6%9E%90/index.html</url>
+    <content><![CDATA[<h1 id="Math-Equations-数学方程"><a href="#Math-Equations-数学方程" class="headerlink" title="Math Equations(数学方程)"></a>Math Equations(数学方程)</h1><p>Math Formulas Render Support.</p>
+<p>可以使数学公式变得好看点。</p>
+<a id="more"></a>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Math Formulas Render Support</span><br><span class="line">math:</span><br><span class="line">  # Default (false) will load mathjax / katex script on demand.</span><br><span class="line">  # That is it only render those page which has `mathjax: true` in front-matter.</span><br><span class="line">  # If you set it to true, it will load mathjax / katex script EVERY PAGE.</span><br><span class="line">  every_page: false</span><br><span class="line"></span><br><span class="line">  mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    # Available values: none | ams | all</span><br><span class="line">    tags: none</span><br><span class="line"></span><br><span class="line">  katex:</span><br><span class="line">    enable: false</span><br><span class="line">    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span><br><span class="line">    copy_tex: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>默认 (false) 将按需加载 mathjax / katex 脚本。</p>
+<p>那就是它只渲染那些在 front-matter 中有 <code>mathjax: true</code> 的页面。</p>
+<p>如果你将它设置为 true，它将在每一页加载 mathjax / katex 脚本。</p>
+<h4 id="简单方程"><a href="#简单方程" class="headerlink" title="简单方程"></a>简单方程</h4><p>对于简单的方程，使用以下形式给出一个标签，</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq1&#125; </span><br><span class="line">e=mc^2 </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
+
+<p>e =mc^2</p>
+<p>然后，您可以使用以下内容轻松地在文本中引用此等式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">爱因斯坦提出的著名物质能量方程$\eqref&#123;eq1&#125;$...</span><br></pre></td></tr></table></figure>
+
+<p>著名的物质能量方程(1)爱因斯坦提出…</p>
+<h4 id="多线方程"><a href="#多线方程" class="headerlink" title="多线方程"></a>多线方程</h4><p>对于多行方程，在<code>equation</code>环境内部，您可以使用<code>aligned</code>环境将其拆分为多行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq2&#125; </span><br><span class="line">\begin&#123;aligned&#125; </span><br><span class="line">a &amp;= b + c \\ </span><br><span class="line">  &amp;= d + e + f + g \\ </span><br><span class="line">  &amp;= h + i </span><br><span class="line">\end&#123;aligned&#125; </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">方程 $\eqref&#123;eq2&#125;$ 是一个多线方程。</span><br></pre></td></tr></table></figure>
+
+<h4 id="多个对齐方程"><a href="#多个对齐方程" class="headerlink" title="多个对齐方程"></a>多个对齐方程</h4><p>我们可以使用<code>align</code>环境来对齐多个方程。这些方程中的每一个都会得到自己的数字。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">a &amp;= b + c \label&#123;eq3&#125; \\ </span><br><span class="line">x &amp;= yz \label&#123;eq4&#125; \\ </span><br><span class="line">l &amp;= m - n \label&#123;eq5&#125; </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有三个对齐的方程：方程$\eqref&#123;eq3&#125;$、方程$\eqref&#123;eq4&#125;$和方程$\eqref&#123;eq5&#125;$。</span><br></pre></td></tr></table></figure>
+
+
+
+<p>因为<code>align</code>它本身就是一个完整的方程环境（阅读<a href="https://tex.stackexchange.com/questions/95402/what-is-the-difference-between-aligned-in-displayed-mode-and-starred-align">这里</a><code>aligned</code>关于 LaTeX和LaTeX之间的区别<code>align</code>）。你不需要用<code>equation</code>环境包装它。</p>
+<h4 id="从编号中排除方程式"><a href="#从编号中排除方程式" class="headerlink" title="从编号中排除方程式"></a>从编号中排除方程式</h4><p>在<code>align</code>环境中，如果您不想对一个或一些方程式进行编号，只需<code>\nonumber</code>在这些方程式后面使用即可。如下所示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">-4 + 5x &amp;= 2 + y \nonumber \\ </span><br><span class="line">w + 2 &amp;= -1 + w \\ </span><br><span class="line">ab &amp;= cb </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="用于-tag标记方程"><a href="#用于-tag标记方程" class="headerlink" title="用于\tag标记方程"></a>用于<code>\tag</code>标记方程</h4><p>有时，您想使用更“异国情调”的风格来引用您的方程式。您可以使用<code>\tag&#123;&#125;</code>来实现这一点。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$x+1\over\sqrt&#123;1-x^2&#125; \tag&#123;i&#125;\label&#123;eq_tag&#125;$$</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">方程 $\eqref&#123;eq_tag&#125;$ 使用 `\tag&#123;&#125;` 代替自动编号。</span><br></pre></td></tr></table></figure>
+
+<p>）使用<code>\tag&#123;&#125;</code>而不是自动编号。</p>
+<p>参考文献：</p>
+<p><a href="https://theme-next.js.org/docs/third-party-services/math-equations.html">https://theme-next.js.org/docs/third-party-services/math-equations.html</a></p>
+]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>maths</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《白帽子讲web安全》reading note</title>
     <url>/2022/02/06/%E3%80%8A%E7%99%BD%E5%B8%BD%E5%AD%90%E8%AE%B2web%E5%AE%89%E5%85%A8%E3%80%8Breading-note/index.html</url>
     <content><![CDATA[<p>闲来无事扰看看书</p>
@@ -447,454 +898,13 @@
       </tags>
   </entry>
   <entry>
-    <title>next数学方程的解析</title>
-    <url>/2022/02/05/next%E6%95%B0%E5%AD%A6%E6%96%B9%E7%A8%8B%E7%9A%84%E8%A7%A3%E6%9E%90/index.html</url>
-    <content><![CDATA[<h1 id="Math-Equations-数学方程"><a href="#Math-Equations-数学方程" class="headerlink" title="Math Equations(数学方程)"></a>Math Equations(数学方程)</h1><p>Math Formulas Render Support.</p>
-<p>可以使数学公式变得好看点。</p>
-<a id="more"></a>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Math Formulas Render Support</span><br><span class="line">math:</span><br><span class="line">  # Default (false) will load mathjax / katex script on demand.</span><br><span class="line">  # That is it only render those page which has `mathjax: true` in front-matter.</span><br><span class="line">  # If you set it to true, it will load mathjax / katex script EVERY PAGE.</span><br><span class="line">  every_page: false</span><br><span class="line"></span><br><span class="line">  mathjax:</span><br><span class="line">    enable: true</span><br><span class="line">    # Available values: none | ams | all</span><br><span class="line">    tags: none</span><br><span class="line"></span><br><span class="line">  katex:</span><br><span class="line">    enable: false</span><br><span class="line">    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span><br><span class="line">    copy_tex: false</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>默认 (false) 将按需加载 mathjax / katex 脚本。</p>
-<p>那就是它只渲染那些在 front-matter 中有 <code>mathjax: true</code> 的页面。</p>
-<p>如果你将它设置为 true，它将在每一页加载 mathjax / katex 脚本。</p>
-<h4 id="简单方程"><a href="#简单方程" class="headerlink" title="简单方程"></a>简单方程</h4><p>对于简单的方程，使用以下形式给出一个标签，</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq1&#125; </span><br><span class="line">e=mc^2 </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
-
-<p>e =mc^2</p>
-<p>然后，您可以使用以下内容轻松地在文本中引用此等式：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">爱因斯坦提出的著名物质能量方程$\eqref&#123;eq1&#125;$...</span><br></pre></td></tr></table></figure>
-
-<p>著名的物质能量方程(1)爱因斯坦提出…</p>
-<h4 id="多线方程"><a href="#多线方程" class="headerlink" title="多线方程"></a>多线方程</h4><p>对于多行方程，在<code>equation</code>环境内部，您可以使用<code>aligned</code>环境将其拆分为多行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;方程&#125; \label&#123;eq2&#125; </span><br><span class="line">\begin&#123;aligned&#125; </span><br><span class="line">a &amp;= b + c \\ </span><br><span class="line">  &amp;= d + e + f + g \\ </span><br><span class="line">  &amp;= h + i </span><br><span class="line">\end&#123;aligned&#125; </span><br><span class="line">\end&#123;方程&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">方程 $\eqref&#123;eq2&#125;$ 是一个多线方程。</span><br></pre></td></tr></table></figure>
-
-<h4 id="多个对齐方程"><a href="#多个对齐方程" class="headerlink" title="多个对齐方程"></a>多个对齐方程</h4><p>我们可以使用<code>align</code>环境来对齐多个方程。这些方程中的每一个都会得到自己的数字。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">a &amp;= b + c \label&#123;eq3&#125; \\ </span><br><span class="line">x &amp;= yz \label&#123;eq4&#125; \\ </span><br><span class="line">l &amp;= m - n \label&#123;eq5&#125; </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有三个对齐的方程：方程$\eqref&#123;eq3&#125;$、方程$\eqref&#123;eq4&#125;$和方程$\eqref&#123;eq5&#125;$。</span><br></pre></td></tr></table></figure>
-
-
-
-<p>因为<code>align</code>它本身就是一个完整的方程环境（阅读<a href="https://tex.stackexchange.com/questions/95402/what-is-the-difference-between-aligned-in-displayed-mode-and-starred-align">这里</a><code>aligned</code>关于 LaTeX和LaTeX之间的区别<code>align</code>）。你不需要用<code>equation</code>环境包装它。</p>
-<h4 id="从编号中排除方程式"><a href="#从编号中排除方程式" class="headerlink" title="从编号中排除方程式"></a>从编号中排除方程式</h4><p>在<code>align</code>环境中，如果您不想对一个或一些方程式进行编号，只需<code>\nonumber</code>在这些方程式后面使用即可。如下所示：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$\begin&#123;align&#125; </span><br><span class="line">-4 + 5x &amp;= 2 + y \nonumber \\ </span><br><span class="line">w + 2 &amp;= -1 + w \\ </span><br><span class="line">ab &amp;= cb </span><br><span class="line">\end&#123;align&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="用于-tag标记方程"><a href="#用于-tag标记方程" class="headerlink" title="用于\tag标记方程"></a>用于<code>\tag</code>标记方程</h4><p>有时，您想使用更“异国情调”的风格来引用您的方程式。您可以使用<code>\tag&#123;&#125;</code>来实现这一点。例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$x+1\over\sqrt&#123;1-x^2&#125; \tag&#123;i&#125;\label&#123;eq_tag&#125;$$</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">方程 $\eqref&#123;eq_tag&#125;$ 使用 `\tag&#123;&#125;` 代替自动编号。</span><br></pre></td></tr></table></figure>
-
-<p>）使用<code>\tag&#123;&#125;</code>而不是自动编号。</p>
-<p>参考文献：</p>
-<p><a href="https://theme-next.js.org/docs/third-party-services/math-equations.html">https://theme-next.js.org/docs/third-party-services/math-equations.html</a></p>
-]]></content>
-      <categories>
-        <category>建站</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>maths</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>人文社科读书笔记</title>
-    <url>/2022/02/05/%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.html</url>
-    <content><![CDATA[<p>虽然我是工科生，可又怎么能割舍掉内心对人文的热爱呢？</p>
-<a id="more"></a>
-
-<h1 id="《乡土中国》"><a href="#《乡土中国》" class="headerlink" title="《乡土中国》"></a>《乡土中国》</h1><p>我们的民族是和泥土分不开的。“乡下人离不了泥土，因为在乡下住，种地是最普通的谋生方法。”就算是到了适宜游牧生活的美国大草原，中原人也依然会一家划一方地，种植起来；真像是往土里一钻，看不到其他利用这块地的方法了。写到这里，费孝通先生很有一些恨铁不成钢地写道“现在很有些飞不上天地样子”。</p>
-<p>但更多的时候，他是在客观地分析为何中国人（尤其是乡下人）土气：农业和游牧或工业不同，它是直接取资于土地的。游牧的人可以逐水草而居，飘忽无定；做工业的人可以择地而居，迁移无碍；而种地的人却搬不动地，长在土里的庄稼行动不得，侍候庄稼的老农也像是半截身子插入了泥土里，土气是因为不流动而发生的。</p>
-<p>因为土地，所以显得扎根于泥土中；因为土地，更解释了为什么中国人选择带着地球一起去流浪，而不是像一些美国史诗一样，只顾自己的逃亡。</p>
-<p>但是，更加有趣的是，人口必然会增加，一块地上只要几代人的繁殖，人口就到了饱和点，过剩的人口要养活，就必须拿起锄头去开辟新地。然后他们又形成一个小小的家族殖民地，找不到土地的就在各式各样的命运中被淘汰了，或是“发迹了”，去到城镇，然后开启一种新的生活。</p>
-<p>乡土社会在地方性的限制下成了生于斯、死于斯的社会。就像我们所说的落叶归根。这是一个熟悉的社会，没有陌生人的社会。</p>
-<p>在社会学里，我们常分出两种不同性质的社会，一种并没有具体目的，只是因为在一起生长而发生的社会，一种是为了要完成一件任务而结合的社会、用涂尔干的话说，前者是“有机的团结”，后者是“机械的团结”，前者是礼俗社会，后者是法理社会。乡民们平素所接触的是生而与俱的人物，正像我们的父母兄弟一般，并不是由于我们选择得来的关系，而是先我们而在的一个环境。</p>
-<p>乡土社会从熟悉里得到了信任。“我们大家是熟人，打个招呼就是了，还用得着多说吗？”现代社会是陌生人的社会，各人不知道各人的底细，所以要说得明明白白，还怕赖账，所以签个字，画个押，这样就发生了法律了。熟人社会是不需要法律得，大家都互相信任，欺骗了，他得名声就臭了，以后再也不能在这篇土地上立足，只能蝇营狗苟地生活下去，代价其实是很大的。</p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>碎碎念</tag>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>life trivia</title>
-    <url>/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index.html</url>
-    <content><![CDATA[<h1 id="唇釉和口红的区别"><a href="#唇釉和口红的区别" class="headerlink" title="唇釉和口红的区别"></a>唇釉和口红的区别</h1><p>给直男（指我自己）讲一下有什么区别</p>
-<a id="more"></a>
-
-<p>什么？居然有直男觉得唇釉和口红是一个东西？</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235559464.png" alt="image-20220204235559464"></p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235619899.png" alt="image-20220204235619899"></p>
-<p>首先，唇釉相当于是液体的口红。</p>
-<p>其次，效果当然是不一样的。</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220204235753733.png" alt="image-20220204235753733"></p>
-<p>看这张图他哪里一样了？</p>
-<p>唇釉可以晕染，口红，你说怎么晕染？</p>
-<p>晕染了会变血红大口的。</p>
-<p>但是口红需要经常补，唇釉不用，因为唇釉是直接成膜然后覆在嘴唇上面。</p>
-<p>看看知乎的分析：</p>
-<p>作者：骆先森<br>链接：<a href="https://zhuanlan.zhihu.com/p/388778829">https://zhuanlan.zhihu.com/p/388778829</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-<p><strong>唇釉与口红有什么区别</strong></p>
-<p>　　<strong>1.质地</strong></p>
-<p>　　口红属于固体膏状，采用圆管的包装，看起来就像一只粗短的蜡笔；</p>
-<p>　　唇釉属于液体状，它的液体并不清澈，显得有点粘稠。采用灌装包装，自带唇刷。</p>
-<p>　　<strong>2.滋润度</strong></p>
-<p>　　口红的滋润度各有不同，有偏干、也有较为滋润的，但是唇釉的滋润度是一定高于口红的。</p>
-<p>　　即便是滋润型口红的滋润度也不及唇釉。</p>
-<p>　　<strong>3.显色度</strong></p>
-<p>　　专业性的口红显色度比较好，滋润型口红显色度差；</p>
-<p>　　唇釉的显色度则普遍不错，尤其是欧美的唇釉。</p>
-<p>　　<strong>4.上妆/补妆</strong></p>
-<p>　　口红在上妆时比较麻烦，但后续补妆非常方便，用纸巾擦拭掉之前的口红再重新上一层即可；</p>
-<p>　　唇釉在上妆时十分方便，但脱落后就很难擦拭掉再涂一层，涂太厚也容易起皮。</p>
-<p>　　<strong>5.使用方法</strong></p>
-<p>　　口红使用时先用润唇膏进行打底，再将口红膏体旋转出来，根据自己想要的效果进行涂抹；</p>
-<p>　　唇釉主要靠唇刷涂抹，借助唇刷这个载体将液体涂抹在唇部上。</p>
-<p>　　<strong>6.使用感受</strong></p>
-<p>　　口红质地较为干硬，使用时不容易涂抹开，涂抹后唇部皮肤也容易干燥，更容易脱妆；</p>
-<p>　　唇釉属于液体口红，使用时比较容易涂抹，质地也会水润许多。</p>
-<p> 　<strong>建议买口红还是买唇釉</strong></p>
-<p>　　买口红还是买唇釉主要根据个人喜好、妆感等来决定。</p>
-<p>　　如果想要上嘴舒服、补妆方便、质地滋润，那可以选择口红；如果想要持久度高、颜色鲜艳饱满，那就选择唇釉。</p>
-<p>　　新手如果要购买的话建议买口红，口红是固态的质地，方便涂抹且上色均匀，而唇釉为液体状，不容易掌握取用的度， 容易导致涂抹过多。</p>
-<p>镜面唇釉，个人不太喜欢，像抹了油似的</p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220205000723575.png" alt="image-20220205000723575"></p>
-<p>丝绒唇釉就真的是yyds了！很戳我审美点！</p>
-<p>就是说，一般是建议口红，涂抹方便易于携带，可以随时补妆；但如果你喜欢唇釉的雾感，那就再买一支唇釉吧。</p>
-<p>直女建议一支口红一支唇釉就够了，买太多是浪费钱。</p>
-<h1 id="直男行为图鉴"><a href="#直男行为图鉴" class="headerlink" title="直男行为图鉴"></a>直男行为图鉴</h1><p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220206123730775.png" alt="image-20220206123730775"></p>
-<p><img src="/2022/02/05/%E5%94%87%E9%87%89%E5%92%8C%E5%8F%A3%E7%BA%A2%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220206124714144.png" alt="image-20220206124714144"></p>
+    <title>《北京折叠》读后感想</title>
+    <url>/2022/02/08/%E3%80%8A%E5%8C%97%E4%BA%AC%E6%8A%98%E5%8F%A0%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F%E6%83%B3/index.html</url>
+    <content><![CDATA[<div class="pdf-container" data-target="pdf/2016雨果奖《北京折叠》.pdf" data-height="500px"></div>
 ]]></content>
       <tags>
         <tag>life</tag>
-        <tag>girls</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Some life tips</title>
-    <url>/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index.html</url>
-    <content><![CDATA[<h1 id="matepad连接双屏"><a href="#matepad连接双屏" class="headerlink" title="matepad连接双屏"></a>matepad连接双屏</h1><a id="more"></a>
-
-
-
-<p><img src="/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index/image-20220204200831866.png" alt="image-20220204200831866"></p>
-<p>双击打开最后一个</p>
-<p><img src="/2022/02/04/matepad%E8%BF%9E%E6%8E%A5%E5%8F%8C%E5%B1%8F/index/image-20220204200947542.png" alt="image-20220204200947542"></p>
-<p>建议把spacedesk 和Videowall全部打开</p>
-<p>然后win+P设为扩展</p>
-<p>然后把要在副屏看的界面拖到主屏幕的右边就可以了</p>
-<p>理论上这样也可以实现对电脑的远程控制，但是实在是太慢了！！！！</p>
-]]></content>
-      <categories>
-        <category>生活的技巧</category>
-      </categories>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>write before</title>
-    <url>/2022/02/03/write%20before/index.html</url>
-    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客运用hexo-next主题的设置及美化</title>
-    <url>/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index.html</url>
-    <content><![CDATA[<p>上篇文章已经在Windows上将个人博客个搭建好了，使用的是默认主题landscape，不过有点不太符合我们的审美，这里使用最为常见的hexo-next主题为例。</p>
-<a id="more"></a>
-
-<h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><h3 id="设置主题"><a href="#设置主题" class="headerlink" title="设置主题"></a>设置主题</h3><p>在blog根目录下进入命令行，输入下面的命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next --save</span><br></pre></td></tr></table></figure>
-
-<p>这样就安装完了，不过不要以为这样就可以了哦，我们还需要启用Next主题，所以需要到<strong>站点配置文件</strong>里去设置一把，找到 theme 字段，并将其值更改为 next。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
-
-<h2 id="Hexo-主题配置文件"><a href="#Hexo-主题配置文件" class="headerlink" title="Hexo 主题配置文件"></a>Hexo 主题配置文件</h2><p>其实这个文件的配置才是重点，因为你们想要的吊炸天的效果差不多都与这个文件有关。<br>打开<strong>Hexo目录/themes/next/_config.yml</strong>文件,</p>
-<h3 id="开启侧边栏社交链接"><a href="#开启侧边栏社交链接" class="headerlink" title="开启侧边栏社交链接"></a>开启侧边栏社交链接</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copy# Social links</span><br><span class="line">social:</span><br><span class="line">  GitHub: https://github.com/hydcoder</span><br><span class="line">  Weibo: https://weibo.com/3180967953/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo</span><br><span class="line">  # 等等</span><br><span class="line"></span><br><span class="line">social_icons:</span><br><span class="line">  enable: true</span><br><span class="line">  # Icon Mappings.</span><br><span class="line">  GitHub: github</span><br><span class="line">  Weibo: weibo</span><br></pre></td></tr></table></figure>
-
-<h3 id="选择-Scheme"><a href="#选择-Scheme" class="headerlink" title="选择 Scheme"></a>选择 Scheme</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copy# Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
-
-<h3 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h3><p> 打开站点配置文件，搜索 <code>language</code>，找到如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyCopyauthor:</span><br><span class="line">language:</span><br><span class="line">timezone:</span><br></pre></td></tr></table></figure>
-
-<p>在 <code>language</code> 后面输入 <code>zh-CN</code>。</p>
-<p>注意：冒号后面必须有一个空格。</p>
-<h3 id="设置侧边栏设置圆形可旋转头像"><a href="#设置侧边栏设置圆形可旋转头像" class="headerlink" title="设置侧边栏设置圆形可旋转头像"></a>设置侧边栏设置圆形可旋转头像</h3><p>D:\hexo\blog\node_modules\hexo-theme-next\source\css_common\outline\sidebar</p>
-<p>在D:\hexo\blog\node_modules\hexo-theme-next\source\css_common\components目录下新建一个<strong>sidebar-author.styl</strong>文件，在里面输入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.site-author-image &#123;</span><br><span class="line">  margin: 0 auto;</span><br><span class="line">  padding: $site-author-image-padding;</span><br><span class="line">  max-width: $site-author-image-width;</span><br><span class="line">  height: $site-author-image-height;</span><br><span class="line">  border: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line"></span><br><span class="line">  border-radius: 50%;</span><br><span class="line">  -webkit-border-radius: 50%;</span><br><span class="line">  -moz-border-radius: 50%;</span><br><span class="line">  transition: 1.4s all;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.site-author-image:hover &#123;</span><br><span class="line">    -webkit-transform: rotate(360deg);</span><br><span class="line">    -moz-transform: rotate(360deg);</span><br><span class="line">    -ms-transform: rotate(360deg);</span><br><span class="line">    -transform: rotate(360deg);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.site-author-name &#123;</span><br><span class="line">  margin: $site-author-name-margin;</span><br><span class="line">  text-align: $site-author-name-align;</span><br><span class="line">  color: $site-author-name-color;</span><br><span class="line">  font-weight: $site-author-name-weight;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.site-description &#123;</span><br><span class="line">  margin-top: $site-description-margin-top;</span><br><span class="line">  text-align: $site-description-align;</span><br><span class="line">  font-size: $site-description-font-size;</span><br><span class="line">  color: $site-description-color;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="添加动态背景"><a href="#添加动态背景" class="headerlink" title="添加动态背景"></a>添加动态背景</h2><p>先上张图</p>
-<p><a href="https://s2.ax1x.com/2020/01/02/lt3FO0.gif"><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/lt3FO0.gif" alt="img"></a></p>
-<p>网站动态背景(非常占Cpu不是特别推荐，这个背景直接导致了学长在访问我的博客的时候手机死机了hhh)</p>
-<p>打开D:\hexo\blog\node_modules\hexo-theme-next\layout里面的layout .njk文件然后在<body>里面输入如下代码：</body></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">  &lt;script type=&quot;text/javascript&quot;</span><br><span class="line">  color=&quot;0,0,255&quot; opacity=&#x27;0.7&#x27; zIndex=&quot;-2&quot; count=&quot;200&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>配置项说明<br>color ：线条颜色, 默认: ‘0,0,0’；三个数字分别为(R,G,B)<br>opacity: 线条透明度（0~1）, 默认: 0.5<br>count: 线条的总数量, 默认: 150<br>zIndex: 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1</p>
-<h3 id="标签列表初始化"><a href="#标签列表初始化" class="headerlink" title="标签列表初始化"></a>标签列表初始化</h3><p> 首先打开主题下的配置文件_config.yml，然后搜索menu找到如下配置项，将about、tags、categories前的#号去掉，就开启了关于、标签和分类标签，当然还有其他菜单项也可以开启</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copymenu:(注意空格即/之后的空格，标准如about其他像这样改)</span><br><span class="line">  home: / || home</span><br><span class="line">  about: /about/|| user</span><br><span class="line">  tags: /tags/ || tags</span><br><span class="line">  categories: /categories/ || th</span><br><span class="line">  archives: /archives/ || archive</span><br><span class="line">  #schedule: /schedule/ || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: /404/ || heartbeat</span><br></pre></td></tr></table></figure>
-
-<p>重新生成部署后，可以看到新增的菜单项，但是单击后会报如下错误</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyCannot GET /about/</span><br><span class="line">Cannot GET /tags/</span><br><span class="line">Cannot GET /categories/</span><br></pre></td></tr></table></figure>
-
-<p>这是因为你还需运行如下命令新建相关页面</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyhexo new page &quot;about&quot;</span><br><span class="line">hexo new page &quot;tags&quot;</span><br><span class="line">hexo new page &quot;categories&quot;</span><br></pre></td></tr></table></figure>
-
-<p>运行结果如下，会再source文件下创建about、tags、categories文件夹，每个文件夹下还会创建一个index.md文件表示关于、标签页分类页面，编辑这三个MarkDown文件可以自定义这三个页面的内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copyD:\hexo\blog&gt;hexo new page &quot;about&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\about\index.md`</span><br><span class="line"></span><br><span class="line">`D:\hexo\blog&gt;hexo new page &quot;tags&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\tags\index.md`</span><br><span class="line"></span><br><span class="line">`D:\hexo\blog&gt;hexo new page &quot;categories&quot;`</span><br><span class="line">`INFO  Created: D:\hexo\blog\source\categories\index.md`</span><br></pre></td></tr></table></figure>
-
-<h2 id="添加看板娘"><a href="#添加看板娘" class="headerlink" title="添加看板娘"></a>添加看板娘</h2><p>把这段代码添加到layout.njk文件中</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    var jsonModel = [</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    &quot;https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json&quot;,</span><br><span class="line">    ];</span><br><span class="line">    L2Dwidget.init(&#123; </span><br><span class="line">        &quot;model&quot;: &#123; </span><br><span class="line">            &quot;jsonPath&quot;: jsonModel[Math.floor(Math.random()*(jsonModel.length-1))],</span><br><span class="line">            &quot;scale&quot;: 1 </span><br><span class="line">        &#125;, </span><br><span class="line">        &quot;display&quot;: &#123; </span><br><span class="line">            &quot;position&quot;: &quot;right&quot;, // 位置left、right</span><br><span class="line">            &quot;width&quot;: 180, // 宽度</span><br><span class="line">            &quot;height&quot;: 240, // 高度</span><br><span class="line">            &quot;hOffset&quot;: 0, // 横向边距</span><br><span class="line">            &quot;vOffset&quot;: 0 // 众向边距</span><br><span class="line">        &#125;, </span><br><span class="line">        &quot;mobile&quot;: &#123; </span><br><span class="line">            &quot;show&quot;: true // 手机是否显示</span><br><span class="line">        &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<p>效果如下：</p>
-<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205141336428.png" alt="image-20220205141336428"></p>
-<h3 id="部分文章需要密码才能查看"><a href="#部分文章需要密码才能查看" class="headerlink" title="部分文章需要密码才能查看"></a>部分文章需要密码才能查看</h3><p>效果如下：</p>
-<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205191804966.png" alt="image-20220205191804966"></p>
-<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205191650821.png" alt="image-20220205191650821"></p>
-<p>安装插件Hexo-Blog-Encrypt</p>
-<p>在 hexo 根目录的 package.json 中添加 <code>&quot;hexo-blog-encrypt&quot;: &quot;1.1.*&quot;</code> 依赖。<br>然后执行<code>npm install</code> 命令。<br>该插件会自动安装</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
-
-<p>在站点配置文件中添加：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Security</span></span><br><span class="line"><span class="comment">##</span></span><br><span class="line">encrypt:</span><br><span class="line">    <span class="built_in">enable</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p>在需要加密的文章头部添加对应字段</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: hello world</span><br><span class="line">date: 2016-03-30 21:18:02</span><br><span class="line">tags:</span><br><span class="line">    - fdsafsdaf</span><br><span class="line">password: Mike</span><br><span class="line">abstract: Welcome to my blog, enter password to read.</span><br><span class="line">message: Welcome to my blog, enter password to read.</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p>如下面这篇：</p>
-<p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205143635827.png" alt="image-20220205143635827"></p>
-<h3 id="结尾添加“本文结束”标记"><a href="#结尾添加“本文结束”标记" class="headerlink" title="结尾添加“本文结束”标记"></a>结尾添加“本文结束”标记</h3><p> 设置方法：<br>在路径<code>themes/next/layout/_macro</code>中新建<code>passage-end-tag.swig</code>文件,并添加以下内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">copy&lt;div&gt;    </span><br><span class="line">    &#123;% if not is_index %&#125;        </span><br><span class="line">        &lt;div style=&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;            </span><br><span class="line">        -------------本文结束           </span><br><span class="line">        &lt;i class=&quot;fa fa-paw&quot;&gt;&lt;/i&gt;           </span><br><span class="line">        感谢您的阅读-------------        </span><br><span class="line">        &lt;/div&gt;   </span><br><span class="line">        &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-
-<p>接着打开<code>themes/next/layout/_macro/post.njk</code>文件，在<code>post-body</code>之后，<code>post-footer</code>之前添加如下代码</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;  </span><br><span class="line">    &#123;% if not is_index %&#125;    </span><br><span class="line">        &#123;% include &#x27;passage-end-tag.swig&#x27; %&#125;  </span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-
-<p>然后打开主题配置文件<code>_config.yml</code>,在末尾添加：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:  </span><br><span class="line">    enabled: true</span><br></pre></td></tr></table></figure>
-
-<h3 id="显示丝带："><a href="#显示丝带：" class="headerlink" title="显示丝带："></a>显示丝带：</h3><p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205181914733.png" alt="image-20220205181914733"></p>
-<p>在主题配置文件中把相关的信息修改成这个样子</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">canvas_ribbon:</span><br><span class="line"></span><br><span class="line"> enable: true </span><br></pre></td></tr></table></figure>
-
-<p>并且是可变的丝带哦</p>
-<h3 id="加上结尾的标签"><a href="#加上结尾的标签" class="headerlink" title="加上结尾的标签"></a>加上结尾的标签</h3><p><img src="/2022/02/03/%E5%8D%9A%E5%AE%A2%E8%BF%90%E7%94%A8hexo-next%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BE%E7%BD%AE%E5%8F%8A%E7%BE%8E%E5%8C%96/index/image-20220205182536396.png" alt="image-20220205182536396"></p>
-<p>修改D:\hexo\blog\node_modules\hexo-theme-next\layout_macro的post.njk文件，找到这一行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;&#123;&#123; url_for(tag.path) &#125;&#125;&quot; rel=&quot;tag&quot;&gt;&#123;&#123; tag_indicate &#125;&#125; &#123;&#123; tag.name &#125;&#125;&lt;/i&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-
-<p>改为：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;&#123;&#123; url_for(tag.path) &#125;&#125;&quot; rel=&quot;tag&quot;&gt;&#123;&#123; tag_indicate &#125;&#125; &#123;&#123; tag.name &#125;&#125;&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-
-<p>就可以了。</p>
-]]></content>
-      <categories>
-        <category>建站</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用hexo+github搭建博客</title>
-    <url>/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.html</url>
-    <content><![CDATA[<p>用hexo+github搭个人博客看这篇就够啦</p>
-<a id="more"></a>
-
-<p>近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。</p>
-<p>虽然搭建时比较麻烦，有点折腾，但是配置完成后，基本不需要操心维护的事，甚至放了几年都忘记了，打开来看文章依然还在。</p>
-<p>本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。</p>
-<p>为了照顾小白用户（第一次使用 GitHub 和 Hexo），尽可能详细，包括常见的坑和问题都有提示说明。下面目录中<strong>第 3~5 步为最重要的步骤</strong>，其他内容如果已经会的可以选择性跳过。</p>
-<p>看起来有点繁杂，捋顺了倒也简单，认真跟教程走，完整操作一遍大概需要 30 分钟。（事实上本人搭这个博客至少花了一天时间，花的时间多少主要看个人还有您看的教程是否对应最新版本，否则可能出现版本不兼容问题，然后这些问题因为我没有及时记录，所以就没有啦！解决了就行呜呜呜。）</p>
-<p>o(￣▽￣)ｄ</p>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h3 id="GitHub-Pages-是什么？"><a href="#GitHub-Pages-是什么？" class="headerlink" title="GitHub Pages 是什么？"></a><strong>GitHub Pages 是什么？</strong></h3><ul>
-<li><a href="https://link.zhihu.com/?target=https://help.github.com/en/articles/what-is-github-pages">What is GitHub Pages? - GitHub Help</a></li>
-</ul>
-<p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p>
-<h3 id="Hexo-是什么？"><a href="#Hexo-是什么？" class="headerlink" title="Hexo 是什么？"></a><strong>Hexo 是什么？</strong></h3><ul>
-<li>官网：<a href="https://link.zhihu.com/?target=https://hexo.io/zh-cn/">hexo.io</a></li>
-</ul>
-<p>Hexo 是一个快速、简洁且高效的静态博客框架，它基于 Node.js 运行，可以将我们撰写的 Markdown 文档解析渲染成静态的 HTML 网页。</p>
-<h3 id="Hexo-GitHub-文章发布原理"><a href="#Hexo-GitHub-文章发布原理" class="headerlink" title="Hexo + GitHub 文章发布原理"></a><strong>Hexo + GitHub 文章发布原理</strong></h3><p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</p>
-<p>差不多就是下面这张图这样：（hexo g&amp;&amp;hexo d两个命令可以简化成一个命令hexo g -d，但是我建议每次部署之前都要先清理一下缓存，不然可能会出现奇奇怪怪的问题）</p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203093820562.png" alt="image-20220203093820562"></p>
-<h3 id="优点和不足"><a href="#优点和不足" class="headerlink" title="优点和不足"></a><strong>优点和不足</strong></h3><p><strong>优点：</strong>完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……</p>
-<p><strong>不足：</strong>发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点慢。</p>
-<p>（通俗的说，就是敲hexo g -d敲到手软，每次因为github pages有延迟而只能hexo s 先预览文章）</p>
-<p>并且延迟很久，明明把代码删了却好像没删一样，所以本地出现什么效果就是什么效果了。</p>
-<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a><strong>注意事项</strong></h3><ul>
-<li>输入代码时，核对准确，最好切换成英文输入法；</li>
-<li>将文中的 “用户名” 和 “邮箱” 替换为自己的 GitHub 账户名和绑定的邮箱；</li>
-<li>统一使用 Git Bash 进行操作（支持 Win、Mac）；</li>
-<li>小白请严格按步骤进行，不要跳！</li>
-</ul>
-<h3 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a><strong>环境搭建</strong></h3><p>Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和 git，因此先搭建本地操作环境，安装 Node.js 和 Git。</p>
-<ul>
-<li>Node.js：<a href="https://link.zhihu.com/?target=https://nodejs.org/zh-cn">https://nodejs.org/zh-cn</a></li>
-<li>Git：<a href="https://link.zhihu.com/?target=https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
-</ul>
-<p>下载 Node.js 和 Git 程序并安装，一路点 “下一步” 按默认配置完成安装。</p>
-<p>安装完成后，Win+R 输入 cmd 并打开，依次输入 <code>node -v</code>、<code>npm -v</code> 和 <code>git --version</code> 并回车，如下图出现程序版本号即可。</p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203094412675.png"></p>
-<h2 id="连接-Github"><a href="#连接-Github" class="headerlink" title="连接 Github"></a>连接 Github</h2><p>使用邮箱注册 <a href="https://link.zhihu.com/?target=https://github.com/">GitHub</a> 账户，选择免费账户（Free），并完成邮件验证。</p>
-<p>建一个空的文件夹（建议命名为hexo放在D盘目录下，以后每次都要先进入这个目录然后在地址栏敲cmd把本地文件push到github上去）</p>
-<p>右键-&gt;Git bash here,设置用户名和邮箱</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;GitHub 用户名&quot;</span><br><span class="line">git config --global user.email &quot;GitHub 邮箱&quot;</span><br></pre></td></tr></table></figure>
-
-<p><strong>创建 SSH 密钥</strong>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;GitHub 邮箱&quot;</span><br></pre></td></tr></table></figure>
-
-<p><strong>添加密匙：</strong></p>
-<p>进入 [C:\Users\用户名.ssh] 目录（要勾选显示“隐藏的项目”），用记事本打开公钥 id_rsa.pub 文件并复制里面的内容。</p>
-<p>登陆 GitHub ，进入 Settings 页面，选择左边栏的 SSH and GPG keys，点击 New SSH key。</p>
-<p>Title 随便取个名字，粘贴复制的 id_rsa.pub 内容到 Key 中，点击 Add SSH key 完成添加。</p>
-<p><strong>验证连接：</strong></p>
-<p>打开 Git Bash，输入 <code>ssh -T git@github.com</code> 出现 “Are you sure……”，输入 yes 回车确认。</p>
-<p>显示 “Hi xxx! You’ve successfully……” 即连接成功。</p>
-<h2 id="创建-Github-Pages-仓库"><a href="#创建-Github-Pages-仓库" class="headerlink" title="创建 Github Pages 仓库"></a>创建 Github Pages 仓库</h2><p>GitHub 主页右上角加号 -&gt; New repository：</p>
-<ul>
-<li>Repository name 中输入 <code>用户名.github.io</code></li>
-<li>勾选 “Initialize this repository with a README”</li>
-<li>Description 选填</li>
-</ul>
-<p>填好后点击 Create repository 创建。</p>
-<p>创建后默认自动启用 HTTPS，博客地址为：<code>https://用户名.github.io</code></p>
-<h2 id="本地安装-Hexo-博客程序"><a href="#本地安装-Hexo-博客程序" class="headerlink" title="本地安装 Hexo 博客程序"></a>本地安装 Hexo 博客程序</h2><p>新建一个文件夹用来存放 Hexo 的程序文件，如 Hexo-Blog。</p>
-<p>在这个文件夹地址栏敲cmd回车，进入这个目录下的命令行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli        # npm 安装 hexo</span><br></pre></td></tr></table></figure>
-
-<p><strong>blog</strong> 是 hexo 初始化的文件夹，是<strong>博客根目录</strong>，可以更换成自己喜欢的文件夹名</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd /d D:\hexo\blog</span><br></pre></td></tr></table></figure>
-
-<h2 id="hexo-生成静态网页文件"><a href="#hexo-生成静态网页文件" class="headerlink" title="hexo 生成静态网页文件"></a>hexo 生成静态网页文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g    </span><br></pre></td></tr></table></figure>
-
-<h2 id="hexo-服务"><a href="#hexo-服务" class="headerlink" title="hexo 服务"></a>hexo 服务</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<p>开启hexo服务后，即可通过本地访问 blog 页面（默认为**<code>localhost:4000</code>**）预览博客页面。</p>
-<p>(因为用网址访问的有延迟，所以localhost有变化那就是更改成功了)</p>
-<p>有时遇到端口被占用的情况我们需要更改端口</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s -p &quot;端口号&quot;    </span><br></pre></td></tr></table></figure>
-
-<p>比如端口号改为4001</p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203100030826.png"></p>
-<h2 id="部署-Hexo-到-GitHub-Pages"><a href="#部署-Hexo-到-GitHub-Pages" class="headerlink" title="部署 Hexo 到 GitHub Pages"></a>部署 Hexo 到 GitHub Pages</h2><p>本地博客测试成功后，就是上传到 GitHub 进行部署，使其能够在网络上访问。</p>
-<p>首先<strong>安装 hexo-deployer-git</strong>：（默认进入blog根目录进行操作）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<p>然后修改blog根目录下的 <strong>_config.yml</strong> 文件末尾的 Deployment 部分，修改成如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line"></span><br><span class="line"> type: git</span><br><span class="line"></span><br><span class="line"> repo: #这一行把ssh密钥的链接复制到这里</span><br></pre></td></tr></table></figure>
-
-<p>完成后运行 <code>hexo d</code> 将网站上传部署到 GitHub Pages。</p>
-<p>访问我们的 GitHub 域名 <code>https://用户名.github.io</code> 就可以看到 Hexo 网站了。</p>
-<h1 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h1><h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a><strong>发布文章</strong></h3><p>进入博客所在目录，右键打开 Git Bash Here，创建博文：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;hello&quot; #hello可以自由更改对应生成的文件名</span><br></pre></td></tr></table></figure>
-
-<p>然后在 D:\hexo\blog\source_posts 目录下会出现一个hello.md文件</p>
-<p>其他指令：(~/表示博客根目录)</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n hello                # 简化指令</span><br><span class="line">hexo n post hello            # 新编博文并立即发布。默认 ~/source/_posts/hello.md</span><br><span class="line">hexo n draft hello            # 新编博文但暂不发布。默认 ~/source/_drafts/hello.md</span><br><span class="line">hexo n page hello            # 新建页面（标签页，分类页等）。默认 ~/source/hello</span><br></pre></td></tr></table></figure>
-
-<p>然后进入 D:\hexo\blog\source_posts 找到 <code>hello.md</code> ，打开文件，内容如下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: hello</span><br><span class="line">date: 1970-1-1 8:00:00</span><br><span class="line">tags: [hello, demo]</span><br></pre></td></tr></table></figure>
-
-<p>这些是格式头 Front-matter 每次写博客都要写这个的</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World # 标题</span><br><span class="line">date: 2019/3/26 hh:mm:ss # 时间</span><br><span class="line">categories: # 分类</span><br><span class="line">- Diary</span><br><span class="line">tags: # 标签</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br></pre></td></tr></table></figure>
-
-<p>写完hexo g -d部署到github pages上就可以了</p>
-<h3 id="hexo-博文插入图片"><a href="#hexo-博文插入图片" class="headerlink" title="hexo 博文插入图片"></a>hexo 博文插入图片</h3><p>更改hexo配置文件 (D:\hexo\blog\node_modules\hexo-theme-next/_config.yml`) 中的Writing配置项</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
-
-<p>在<strong>博客根目录</strong>下安装**<code>hexo-asset-image</code>**插件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
-
-<p>如果用Typora写博文的话，可以把偏好设置改一下，具体做法为文件-&gt;偏好设置-&gt;图像:</p>
-<p>改成完全和下图一样的就可以了</p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203140416121.png" alt="image-20220203140416121"></p>
-<p>这样你在复制粘贴图片时会typora会自动帮你放到_post目录下的同名文件夹</p>
-<h3 id="hexo-添加标签页"><a href="#hexo-添加标签页" class="headerlink" title="hexo 添加标签页"></a>hexo 添加标签页</h3><p>在博客根目录下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
-
-<p>在 Front-matter 中添加：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">type: tags</span><br></pre></td></tr></table></figure>
-
-<p>完成后 hexo 便会自动生成标签页</p>
-<blockquote>
-<p>记得添加进入方式</p>
-</blockquote>
-<h3 id="hexo-添加关于页"><a href="#hexo-添加关于页" class="headerlink" title="hexo 添加关于页"></a>hexo 添加关于页</h3><p>在博客根目录下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
-
-<p>在 Front-matter 中添加：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">type: about</span><br></pre></td></tr></table></figure>
-
-<p>在正文中输入关于页内容即可</p>
-<p>记得添加进入方式</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 诗酒趁年华</span><br><span class="line">subtitle: &quot;尚未佩妥剑，转眼即江湖。 &quot;</span><br><span class="line">description: &quot;&quot;</span><br><span class="line">keywords: 生活 技术 life technology</span><br><span class="line">author: jiaxin</span><br><span class="line">language: zh-CN  #选择中文作为语言</span><br><span class="line">timezone: &quot;&quot;</span><br></pre></td></tr></table></figure>
-
-<h3 id="Hexo-设置显示文章摘要，首页不显示全文"><a href="#Hexo-设置显示文章摘要，首页不显示全文" class="headerlink" title="Hexo 设置显示文章摘要，首页不显示全文"></a><strong>Hexo 设置显示文章摘要，首页不显示全文</strong></h3><p>Hexo 主页文章列表默认会显示文章全文，浏览时很不方便，可以在文章中插入 <code>&lt;!--more--&gt;</code> 进行分段。</p>
-<p>该代码前面的内容会作为摘要显示，而后面的内容会替换为 “阅读全文” 隐藏起来。</p>
-<p>如下图：</p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203140815732.png" alt="image-20220203140815732"></p>
-<h3 id="统计访问数量"><a href="#统计访问数量" class="headerlink" title="统计访问数量"></a>统计访问数量</h3><p>效果如下：</p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220203145053979.png" alt="image-20220203145053979"></p>
-<p>（不过这个访问量好像有点问题，等我想想啊）</p>
-<p>（后面补充：访问量在localhost形式下是有问题的没办法，在yourname\github.io\网址访问下是没有问题的。）</p>
-<p>1、先在hexo-theme-next目录下的_config.yml文件的末尾加上下面的代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">busuanzi:</span><br><span class="line"> enable: true</span><br></pre></td></tr></table></figure>
-
-<p>2、打开D:\hexo\blog\node_modules\hexo-theme-next\layout\partials的footer.njk文件（这个文件相当于html文件）在最后另起一行加入如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;footer&gt;</span><br><span class="line">        &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;</span><br><span class="line">                本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_site_uv&quot; style=&#x27;display:none&#x27;&gt;</span><br><span class="line">                本站访客数&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">        &lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/footer&gt;</span><br></pre></td></tr></table></figure>
-
-<p>3、打开D:\hexo\blog\node_modules\hexo-theme-next\layout\partials\post的post-footer.njk文件在最后另起一行加入如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;% if (theme.busuanzi &amp;&amp; theme.busuanzi.enable &amp;&amp; !index)&#123; %&gt;</span><br><span class="line">        &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">        &lt;span id=&quot;busuanzi_container_page_pv&quot; style=&#x27;display:none&#x27; class=&quot;&lt;%= class_name %&gt;&quot;&gt;</span><br><span class="line">              &lt;i class=&quot;icon-smile icon&quot;&gt;&lt;/i&gt; 阅读数：&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">        &lt;/span&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-
-<h3 id="对一些细节"><a href="#对一些细节" class="headerlink" title="对一些细节"></a>对一些细节</h3><p>1、每次对细节修改之后都要在blog根目录下hexo g -d</p>
-<p>然后hexo s本地预览一下</p>
-<p>2、layout.njk文件相当于是博客的前端html文件</p>
-<p>3、对新手小白的建议：</p>
-<p>备份！备份！备份！！！！非常重要！</p>
-<p>当时就是因为没备份然后再csdn上看了很多乱七八糟的东西，然后就错误地删掉了很多</p>
-<p>然后我不得不建了一个hexo副本文件夹再下载了一次这些文件代码然后再复制上去。</p>
-<p>乱改没关系，只要记得备份，不然一切都重来。</p>
-<p>4、看报错信息！</p>
-<p>当出现如图所示的报错信息时说明</p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220205145142254.png" alt="image-20220205145142254"></p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220205145235139.png" alt="image-20220205145235139"></p>
-<p>说明是在这个文件的更改导致的错误</p>
-<p>5、看注释，看官方文档，别一不会就百度！</p>
-<p><img src="/2022/02/03/%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index/image-20220205145835846.png" alt="image-20220205145835846"></p>
-<p>这个侧边栏头像以及指针的旋转我百度了好久，原来在新版的站点配置文件里面就有！！！啊啊啊啊啊啊！</p>
-<p>参考文献：</p>
-<p><a href="https://jomeswang.github.io/posts/fd1e545c/#more">https://jomeswang.github.io/posts/fd1e545c/#more</a></p>
-<p><a href="https://hasegawaazusa.github.io/hexo-note.html">https://hasegawaazusa.github.io/hexo-note.html</a></p>
-]]></content>
-      <categories>
-        <category>建站</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一篇先来个碎碎念</title>
-    <url>/2022/02/02/hello/index.html</url>
-    <content><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
-      <tags>
-        <tag>碎碎念</tag>
+        <tag>rending-note</tag>
       </tags>
   </entry>
 </search>
