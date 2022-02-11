@@ -10,7 +10,7 @@
 <p>指定一个permalink，然后将pdf资源放进asset文件夹（hexo的asset文件夹跟文件名同名）</p>
 <p>就是在文件头中添加</p>
 <p>permalink: /2022/02/08/beijingzhedie/index.html</p>
-<p>然后把pdf丢进平时放图片那个地方</p>
+<p>然后把pdf丢进平时放图片那个地方（就是asset文件夹也就是同名文件夹）</p>
 <p>第二种方案（不指定permalink的方法），你这个路径你可以只写你想要的文件名（其实你乱起一个名字也行）</p>
 <p>我们这个时候是找不到的，但是你注意，它的报错</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Cannot GET /2022/02/08/beijingzhedie/beijingzhedie.pdf</span><br></pre></td></tr></table></figure>
