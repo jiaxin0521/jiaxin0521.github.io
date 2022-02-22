@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.0.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-corner-indicator.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"jiaxin0521.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+
+    
+    <meta name="description" content="宝塔面板里有PHP在线编辑器，可以来学习PHP！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="php-I learn it">
+<meta property="og:url" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index.html">
+<meta property="og:site_name" content="诗酒趁年华">
+<meta property="og:description" content="宝塔面板里有PHP在线编辑器，可以来学习PHP！">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218143956846.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218144243870.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218144305898.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218144548068.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218144926182.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218145303242.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218150231214.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218150253826.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218150453168.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218150933234.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218151421568.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218151549668.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218154906684.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218155915612.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218161233090.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218161252761.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218161601416.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218161536271.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218162905352.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218163148073.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218164601728.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218164851736.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218165005066.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218165413416.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220219140153938.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220219140205533.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220219140537184.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220219140335773.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220219140622824.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220219141635739.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221094531629.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221094545286.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221094707859.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221094805584.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221094824106.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221094957122.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221095831833.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221095849463.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221095922566.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221113240831.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221100029956.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221100315029.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221103923503.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221104421551.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221113719250.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221105653700.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221105836607.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221110725992.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221110846281.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221112012675.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221112218908.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221112458960.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221114520558.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221114601784.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221122621115.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221132311158.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221142754765.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221142841911.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221142935777.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221144001744.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221153247753.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221155505245.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221155628300.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221183011605.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220221185827818.png">
+<meta property="og:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/php-I-learn-it/image-20220221195818649.png">
+<meta property="article:published_time" content="2022-02-18T06:34:31.000Z">
+<meta property="article:modified_time" content="2022-02-22T01:10:12.268Z">
+<meta property="article:author" content="jiaxin">
+<meta property="article:tag" content="php">
+<meta property="article:tag" content="宝塔面板">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index/image-20220218143956846.png">
+
+
+<link rel="canonical" href="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index.html","path":"2022/02/18/php-I-learn-it/index.html","title":"php-I learn it"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>php-I learn it | 诗酒趁年华</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">诗酒趁年华</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">尚未佩妥剑，转眼即江湖。 </p>
+      <img class="custom-logo-image" src="/images/favicon-16x16-next.png" alt="诗酒趁年华">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">20</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">4</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">17</span></a></li>
+        <li class="menu-item menu-item-书籍"><a href="/books/" rel="section"><i class="fa fa-book fa-fw"></i>书籍</a></li>
+        <li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#LINE"><span class="nav-number">1.</span> <span class="nav-text">LINE</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FILE"><span class="nav-number">2.</span> <span class="nav-text">FILE</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DIR"><span class="nav-number">3.</span> <span class="nav-text">DIR</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FUNCTION"><span class="nav-number">4.</span> <span class="nav-text">FUNCTION</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CLASS"><span class="nav-number">5.</span> <span class="nav-text">CLASS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TRAIT"><span class="nav-number">6.</span> <span class="nav-text">TRAIT</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#METHOD"><span class="nav-number">7.</span> <span class="nav-text">METHOD</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NAMESPACE"><span class="nav-number">8.</span> <span class="nav-text">NAMESPACE</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A1%A8%E5%8D%95"><span class="nav-number">9.</span> <span class="nav-text">表单</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP%E8%A1%A8%E5%8D%95%E4%B8%AD%E9%9C%80%E5%BC%95%E8%B5%B7%E6%B3%A8%E9%87%8D%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%9F"><span class="nav-number">10.</span> <span class="nav-text">PHP表单中需引起注重的地方？</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="jiaxin"
+      src="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
+  <p class="site-author-name" itemprop="name">jiaxin</p>
+  <div class="site-description" itemprop="description">打死我这废物吧</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">20</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/jiaxin0521" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;jiaxin0521" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/en" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <a href="https://github.com/jiaxin0521" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
+      <meta itemprop="name" content="jiaxin">
+      <meta itemprop="description" content="打死我这废物吧">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="诗酒趁年华">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          php-I learn it
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-02-18 14:34:31" itemprop="dateCreated datePublished" datetime="2022-02-18T14:34:31+08:00">2022-02-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-02-22 09:10:12" itemprop="dateModified" datetime="2022-02-22T09:10:12+08:00">2022-02-22</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>14k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>12 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>宝塔面板里有PHP在线编辑器，可以来学习PHP！</p>
+<a id="more"></a>
+
+<p>先找到桌面的宝塔图标，双击打开</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218143956846.png" alt="image-20220218143956846"></p>
+<p>打开面板；</p>
+<p>网站-&gt;</p>
+<p>点开设置查看端口号</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218144243870.png" alt="image-20220218144243870"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218144305898.png" alt="image-20220218144305898"></p>
+<p>在网址栏输入：</p>
+<p>127.0.0.1：8001/a.php</p>
+<p>然后就进去看到a.php的内容啦</p>
+<p>文件-&gt;</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218144548068.png" alt="image-20220218144548068"></p>
+<p>双击可以编辑。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218144926182.png" alt="image-20220218144926182"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218145303242.png" alt="image-20220218145303242"></p>
+<p>PHP 是一门弱类型语言</p>
+<p>在上面的实例中，我们注意到，不必向 PHP 声明该变量的数据类型。</p>
+<p>PHP 换行符 PHP_EOL</p>
+<p><em>分类</em> <a target="_blank" rel="noopener" href="https://www.runoob.com/w3cnote_genre/phpsnippets">PHP 常用实例</a></p>
+<p>PHP 中换行可以用 PHP_EOL 来替代，以提高代码的源代码级可移植性：</p>
+<ul>
+<li>unix系列用 \n</li>
+<li>windows系列用 \r\n</li>
+<li>mac用 \r</li>
+</ul>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">echo</span> PHP_EOL;</span><br><span class="line"><span class="comment">//windows平台相当于    echo &quot;\r\n&quot;;</span></span><br><span class="line"><span class="comment">//unix\linux平台相当于    echo &quot;\n&quot;;</span></span><br><span class="line"><span class="comment">//mac平台相当于    echo &quot;\r&quot;;</span></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>PHP 会根据变量的值，自动把变量转换为正确的数据类型。</strong></p>
+<p>在强类型的编程语言中，我们必须在使用变量前先声明（定义）变量的类型和名称。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218150231214.png" alt="image-20220218150231214"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218150253826.png" alt="image-20220218150253826"></p>
+<p>当我们调用myTest()函数并输出两个变量的值, 函数将会输出局部变量 $y 的值，但是不能输出 $x 的值，因为 $x 变量在函数外定义，无法在函数内使用，如果要在一个函数中访问一个全局变量，需要使用 global 关键字。</p>
+<p>然后我们在myTest()函数外输出两个变量的值，函数将会输出全局变量 $x 的值，但是不能输出 $y 的值，因为 $y 变量在函数中定义，属于局部变量。</p>
+<p>在函数内调用函数外定义的全局变量，我们需要在函数中的变量前加上 global 关键字：</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218150453168.png" alt="image-20220218150453168"></p>
+<p>PHP 将所有全局变量存储在一个名为 $GLOBALS[<em>index</em>] 的数组中。 <em>index</em> 保存变量的名称。这个数组可以在函数内部访问，也可以直接用来更新全局变量。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218150933234.png" alt="image-20220218150933234"></p>
+<p>当一个函数完成时，它的所有变量通常都会被删除。然而，有时候您希望某个局部变量不要被删除。</p>
+<p>要做到这一点，请在您第一次声明变量时使用 <strong>static</strong> 关键字：</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218151421568.png" alt="image-20220218151421568"></p>
+<p>然后，每次调用该函数时，该变量将会保留着函数前一次被调用时的值。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218151549668.png" alt="image-20220218151549668"></p>
+<p><strong>Fatal error</strong>: Uncaught ArgumentCountError: Too few arguments（参数） to function mytest(), 0 passed in D:\wwwroot\127.0.0.1\a.php on line 11 and exactly 1 expected in D:\wwwroot\127.0.0.1\a.php:3 Stack trace: #0 D:\wwwroot\127.0.0.1\a.php(11): mytest() #1 {main} thrown in <strong>D:\wwwroot\127.0.0.1\a.php</strong> on line <strong>3</strong></p>
+<p>需要mytest(5);(缺少了一个参数)</p>
+<p>echo 和 print 区别:</p>
+<ul>
+<li>echo - 可以输出一个或多个字符串</li>
+<li>print - 只允许输出一个字符串，返回值总为 1</li>
+</ul>
+<p><strong>提示：</strong>echo 输出的速度比 print 快， echo 没有返回值，print有返回值1。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218154906684.png" alt="image-20220218154906684"></p>
+<p>笑死我刚开始不以为这个是空格。</p>
+<p>然后把这个空格删掉就不会报错了。</p>
+<ul>
+<li>必须后接分号，否则编译通不过。</li>
+<li>\2. <strong>EOF</strong> 可以用任意其它字符代替，只需保证结束标识与开始标识一致。</li>
+<li><strong>3. 结束标识必须顶格独自占一行(即必须从行首开始，前后不能衔接任何空白和字符)。</strong></li>
+<li>\4. 开始标识可以不带引号或带单双引号，不带引号与带双引号效果一致，解释内嵌的变量和转义符号，带单引号则不解释内嵌的变量和转义符号。</li>
+<li>\5. 当内容需要内嵌引号（单引号或双引号）时，不需要加转义符，本身对单双引号转义，此处相当与q和qq的用法。</li>
+</ul>
+<p>注意：</p>
+<p>1.以 <strong>&lt;&lt;&lt;EOF</strong> 开始标记开始，以 <strong>EOF</strong> 结束标记结束，结束标记必须顶头写，不能有缩进和空格，且在结束标记末尾要有分号 。</p>
+<p>2.开始标记和结束标记相同，比如常用大写的 <strong>EOT、EOD、EOF</strong> 来表示，但是不只限于那几个(也可以用：JSON、HTML等)，只要保证开始标记和结束标记不在正文中出现即可。</p>
+<p>3.位于开始标记和结束标记之间的变量可以被正常解析，但是函数则不可以。在 heredoc 中，变量不需要用连接符 <strong>.</strong> 或 <strong>,</strong> 来拼接。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218155915612.png" alt="image-20220218155915612"></p>
+<p>换行的意思。</p>
+<p>PHP <a target="_blank" rel="noopener" href="https://www.runoob.com/php/php-var_dump-function.html">var_dump() </a>函数返回变量的数据类型和值：</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218161233090.png" alt="image-20220218161233090"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218161252761.png" alt="image-20220218161252761"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218161601416.png" alt="image-20220218161601416"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218161536271.png" alt="image-20220218161536271"></p>
+<p>还返回了有几个字母；</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218162905352.png" alt="image-20220218162905352"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218163148073.png" alt="image-20220218163148073"></p>
+<p>虽然 PHP 是弱类型语言，但也需要明白变量类型及它们的意义，因为我们经常需要对 PHP 变量进行比较，包含松散和严格比较。</p>
+<ul>
+<li>松散比较：使用两个等号 <strong>==</strong> 比较，只比较值，不比较类型。</li>
+<li>严格比较：用三个等号 <strong>===</strong> 比较，除了比较值，也比较类型。</li>
+</ul>
+<p>例如，”42” 是一个字符串而 42 是一个整数。<strong>FALSE</strong> 是一个布尔值而 <strong>“FALSE”</strong> 是一个字符串。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218164601728.png" alt="image-20220218164601728"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218164851736.png" alt="image-20220218164851736"></p>
+<p>strlen() 函数返回字符串的长度（字节数）。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218165005066.png" alt="image-20220218165005066"></p>
+<p>strpos() 函数用于在字符串内查找一个字符或一段指定的文本。</p>
+<p>如果在字符串中找到匹配，该函数会返回第一个匹配的字符位置。如果未找到匹配，则返回 FALSE。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220218165413416.png" alt="image-20220218165413416"></p>
+<p>PHP7+ 版本新增整除运算符 **intdiv()**，该函数返回值为第一个参数除于第二个参数的值并取整（向下取整），使用实例：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">var_dump(intdiv(10, 3));</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure>
+
+<p>用.连接两个字符串。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220219140153938.png" alt="image-20220219140153938"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220219140205533.png" alt="image-20220219140205533"></p>
+<p>因为没有定义$b;</p>
+<p>但是这样可以：</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220219140537184.png" alt="image-20220219140537184"></p>
+<p>应该是因为这样就算初始化吧。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220219140335773.png" alt="image-20220219140335773"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220219140622824.png" alt="image-20220219140622824"></p>
+<p>x&lt;&gt;y ”不等于“</p>
+<p>x！==y ”绝对不等于“类型不相同或</p>
+<p>sort()对数组进行升序排列；</p>
+<p>rsort（）对数组进行降序排列；</p>
+<p>ksort()对数组进行降序排列；</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220219141635739.png" alt="image-20220219141635739"></p>
+<p>一、=&gt;,-&gt;的意思：</p>
+<p>-&gt;是对象执行方法或取得属性用的。</p>
+<p>=&gt;是数组里键和值对应用的。</p>
+<p>二、用法</p>
+<p>1、=&gt; 的用法数组中用于数组的 key 和 value之间的关系例如：</p>
+<p>$a = array(‘0’ =&gt; ‘1’,’2’ =&gt; ‘4’,);echo $a[‘0’];echo $a[‘2’];</p>
+<p>2、-&gt; 的用法类中用于引用类实例的方法和属性例如：</p>
+<p>class Test{function add(){return $this-&gt;var++;}var $var = 0;}$a = new Test; </p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> phpinfo(); <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>查看运行环境，然后返回一堆奇奇怪怪的（</p>
+<p>PHP 魔术常量</p>
+<p>（这个看起来比较有趣）</p>
+<h2 id="LINE"><a href="#LINE" class="headerlink" title="LINE"></a><strong>LINE</strong></h2><p>文件中的当前行号。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">echo</span> <span class="string">&#x27;这是第 &quot; &#x27;</span>  . <span class="keyword">__LINE__</span> . <span class="string">&#x27; &quot; 行&#x27;</span>;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="FILE"><a href="#FILE" class="headerlink" title="FILE"></a><strong>FILE</strong></h2><p>文件的完整路径和文件名。如果用在被包含文件中，则返回被包含的文件名。</p>
+<p>自 PHP 4.0.2 起，<strong>FILE</strong> 总是包含一个绝对路径（如果是符号连接，则是解析后的绝对路径），而在此之前的版本有时会包含一个相对路径。</p>
+<h2 id="DIR"><a href="#DIR" class="headerlink" title="DIR"></a><strong>DIR</strong></h2><p>文件所在的目录。如果用在被包括文件中，则返回被包括的文件所在的目录。</p>
+<p>它等价于 dirname(<strong>FILE</strong>)。除非是根目录，否则目录中名不包括末尾的斜杠。（PHP 5.3.0中新增）</p>
+<h2 id="FUNCTION"><a href="#FUNCTION" class="headerlink" title="FUNCTION"></a><strong>FUNCTION</strong></h2><p>函数名称（PHP 4.3.0 新加）。自 PHP 5 起本常量返回该函数被定义时的名字（区分大小写）。在 PHP 4 中该值总是小写字母的。</p>
+<h2 id="CLASS"><a href="#CLASS" class="headerlink" title="CLASS"></a><strong>CLASS</strong></h2><p>类的名称（PHP 4.3.0 新加）。自 PHP 5 起本常量返回该类被定义时的名字（区分大小写）。</p>
+<p>在 PHP 4 中该值总是小写字母的。类名包括其被声明的作用区域（例如 Foo\Bar）。注意自 PHP 5.4 起 <strong>CLASS</strong> 对 trait 也起作用。当用在 trait 方法中时，<strong>CLASS</strong> 是调用 trait 方法的类的名字。</p>
+<h2 id="TRAIT"><a href="#TRAIT" class="headerlink" title="TRAIT"></a><strong>TRAIT</strong></h2><p>Trait 的名字（PHP 5.4.0 新加）。自 PHP 5.4.0 起，PHP 实现了代码复用的一个方法，称为 traits。</p>
+<p>Trait 名包括其被声明的作用区域（例如 Foo\Bar）。</p>
+<p>从基类继承的成员被插入的 SayWorld Trait 中的 MyHelloWorld 方法所覆盖。其行为 MyHelloWorld 类中定义的方法一致。优先顺序是当前类中的方法会覆盖 trait 方法，而 trait 方法又覆盖了基类中的方法。</p>
+<h2 id="METHOD"><a href="#METHOD" class="headerlink" title="METHOD"></a><strong>METHOD</strong></h2><p>类的方法名（PHP 5.0.0 新加）。返回该方法被定义时的名字（区分大小写）。</p>
+<h2 id="NAMESPACE"><a href="#NAMESPACE" class="headerlink" title="NAMESPACE"></a><strong>NAMESPACE</strong></h2><p>当前命名空间的名称（区分大小写）。此常量是在编译时定义的（PHP 5.3.0 新增）。</p>
+<p>命名空间：</p>
+<p>什么是命名空间？从广义上来说，命名空间是一种封装事物的方法。在很多地方都可以见到这种抽象概念。例如，在操作系统中目录用来将相关文件分组，对于目录中的文件来说，它就扮演了命名空间的角色。具体举个例子，文件 <code>foo.txt</code> 可以同时在目录 <code>/home/greg</code> 和 <code>/home/other</code> 中存在，但在同一个目录中不能存在两个 <code>foo.txt</code> 文件。另外，在目录 <code>/home/greg</code> 外访问 <code>foo.txt</code> 文件时，我们必须将目录名以及目录分隔符放在文件名之前得到 <code>/home/greg/foo.txt</code>。这个原理应用到程序设计领域就是命名空间的概念。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">namespace</span> <span class="title">my</span>\<span class="title">name</span>; <span class="comment">// 参考 &quot;定义命名空间&quot; 小节</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyClass</span> </span>&#123;&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">myfunction</span>(<span class="params"></span>) </span>&#123;&#125;</span><br><span class="line"><span class="keyword">const</span> MYCONST = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line"><span class="variable">$a</span> = <span class="keyword">new</span> MyClass;</span><br><span class="line"><span class="variable">$c</span> = <span class="keyword">new</span> \my\name\MyClass; <span class="comment">// 参考 &quot;全局空间&quot; 小节</span></span><br><span class="line"></span><br><span class="line"><span class="variable">$a</span> = strlen(<span class="string">&#x27;hi&#x27;</span>); <span class="comment">// 参考 &quot;使用命名空间：后备全局函数/常量&quot; 小节</span></span><br><span class="line"></span><br><span class="line"><span class="variable">$d</span> = <span class="keyword">namespace</span>\<span class="title">MYCONST</span>; <span class="comment">// 参考 &quot;namespace操作符和__NAMESPACE__常量” 小节</span></span><br><span class="line"></span><br><span class="line"><span class="variable">$d</span> = <span class="keyword">__NAMESPACE__</span> . <span class="string">&#x27;\MYCONST&#x27;</span>;</span><br><span class="line"><span class="keyword">echo</span> constant(<span class="variable">$d</span>); <span class="comment">// 参考 &quot;命名空间和动态语言特征&quot; 小节</span></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>类：</p>
+<ul>
+<li>类使用 <strong>class</strong> 关键字后加上类名定义。</li>
+<li>类名后的一对大括号({})内可以定义变量和方法。</li>
+<li>类的变量使用 <strong>var</strong> 来声明, 变量也可以初始化值。</li>
+<li>函数定义类似 PHP 函数的定义，但函数只能通过该类及其实例化的对象访问。</li>
+</ul>
+<p>一些个错题：</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221094531629.png" alt="image-20220221094531629"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221094545286.png" alt="image-20220221094545286"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221094707859.png" alt="image-20220221094707859"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221094805584.png" alt="image-20220221094805584"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221094824106.png" alt="image-20220221094824106"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221094957122.png" alt="image-20220221094957122"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221095831833.png" alt="image-20220221095831833"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221095849463.png" alt="image-20220221095849463"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221095922566.png" alt="image-20220221095922566"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221113240831.png" alt="image-20220221113240831"></p>
+<p>编译器从左到右解析，然后所以会解析成这个样子。</p>
+<p>然后到1，然后到2.</p>
+<p>一般来说赋值运算符是最高优先级的</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221100029956.png" alt="image-20220221100029956"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221100315029.png" alt="image-20220221100315029"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221103923503.png" alt="image-20220221103923503"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221104421551.png" alt="image-20220221104421551"></p>
+<p>注：strpos（）函数查找字符串在另一字符串中第一次出现的位置，对大小写敏感。</p>
+<p>注：headers_list()函数返回已发送的（或待发送的）响应头部的一个列表，如需确定是否已发送报头，使用headers_sent()函数。</p>
+<p>trim() 移除字符串两侧的字符；</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221113719250.png" alt="image-20220221113719250"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221105653700.png" alt="image-20220221105653700"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221105836607.png" alt="image-20220221105836607"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221110725992.png" alt="image-20220221110725992"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221110846281.png" alt="image-20220221110846281"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221112012675.png" alt="image-20220221112012675"></p>
+<p> Joomla！是一个开源 CMS 软件，可以轻松地从 Internet 浏览器创建和管理主页，即使没有 HTML，CSS，FTP 等专业知识基础，也可以使用 CMS 轻松使用浏览器创建主页。例如，如果您使用过 Word，Excel，就可以使用 CMS 相对轻松地创建内容。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221112218908.png" alt="image-20220221112218908"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221112458960.png" alt="image-20220221112458960"></p>
+<p><strong>Cookie 存储于用户本地磁盘上，里面保存着浏览器访问过的网页的一些信息（比如访问时间、地址等）。</strong></p>
+<ul>
+<li>php 配置文件 php.ini 是影响 php 功能的最终也是最直接的方法</li>
+<li> 每次初始化 php 时都会读取 php.ini 文件</li>
+</ul>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221114520558.png" alt="image-20220221114520558"></p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221114601784.png" alt="image-20220221114601784"></p>
+<p>array_slice() 函数在数组中根据条件取出一段值，并返回。</p>
+<p>isset() 函数检查是否已经设置了会话变量。</p>
+<p>$_FILES[‘file’][‘name’] 提供上传文件的实际名称。</p>
+<p>NULL 是一种特殊类型，它只有一个值 NULL。</p>
+<p>特殊的常量 NULL 按惯例大写，但实际上它不区分大小写。</p>
+<p>a＝b！＝c</p>
+<p>那么就是：</p>
+<p>a=（b！=c）因为运算符的优先级最高。（多加括号就没错）</p>
+<p>array_reverse() 以相反的顺序返回数组。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221122621115.png" alt="image-20220221122621115"></p>
+<p>异常处理类方法 getMessage() 返回异常的消息。</p>
+<p>关于变量命名规则：</p>
+<ul>
+<li> 变量名可以以字母或下划线开头</li>
+<li> 变量名可以由数字、字母和下划线组成</li>
+<li> 不能使用+、-、%、(、)等字符作为变量名</li>
+<li></li>
+</ul>
+<p>数值数组－带有数字索引的数组，值以线性方式存储和访问。</p>
+<p>哪个方法可以使用 PHP 解析 XML 文档？</p>
+<ul>
+<li> simplexml_load_string()</li>
+<li> loadxml()</li>
+</ul>
+<p>通过 $this 引用类本身中的属性或方法。</p>
+<p><strong>is_a</strong> 如果对象属于该类或该类是此对象的父类则返回 TRUE。</p>
+<p>if($x NEQ 8) { }</p>
+<p>not equal就是不等于的意思</p>
+<p>之前的PHP版本有这个东西，后面的版本可能没有这个东西了</p>
+<p>PHP 对空格不敏感，这意味着一行中有多少空格字符并没啥关系，一个空白与许多空白符都是一样的。</p>
+<p>如果在加载文件时出现任何问题，那么 include() 函数将生成一个警告，但是脚本将继续执行</p>
+<p>PHP 提供了一个名为 __construct() 的特殊函数来定义构造函数，可以向构造函数传递任意多个参数。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221132311158.png" alt="image-20220221132311158"></p>
+<p>curl_init 初始化一个 CURL 会话。</p>
+<p>PHP 从第五个版本开始支持 <strong>MySQLi</strong> 扩展</p>
+<p>连接 MySql 数据库的正确语法是？</p>
+<p><strong>mysql_connect(“localhost”,$username,$password)</strong></p>
+<p>异常（Exception）用于在指定的错误发生时改变脚本的正常流程，结合 try, throw 和 catch 使用。</p>
+<p>如果一个类被声明为 final，则不能被继承。</p>
+<p>PHP 5.3版本开始引入 try/catch 异常的</p>
+<p>rsort() 函数对数值数组进行降序排序。</p>
+<p>array_push() 函数向第一个参数的数组尾部添加一个或多个元素（入栈），然后返回新数组的长度。</p>
+<p>prev() 函数将内部指针指向数组中的上一个元素，并输出。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221142754765.png" alt="image-20220221142754765"></p>
+<p>这道题的{}相当于没有。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221142841911.png" alt="image-20220221142841911"></p>
+<p>php脚本危动态语言，不能生成dll（静态文件）</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221142935777.png" alt="image-20220221142935777"></p>
+<p>当前会话指的是，不同人访问这个变量是不一样的，这个变量是跟随着访问他的那个人而变化的。</p>
+<p>这个$_SEESION独立于每一个访问的，是每个人身份的象征。</p>
+<p>header() 函数向客户端发送原始的 HTTP 报头，用于重定向页面。</p>
+<p>eregi() 函数在一个字符串搜索指定的模式的字符串，搜索不区分大小写，eregi() 可以特别有用的检查有效性字符串,如密码。</p>
+<p>func_get_args 返回一个包含函数参数列表的数组。</p>
+<p>glob() 函数返回匹配指定模式的文件名或目录。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221144001744.png" alt="image-20220221144001744"></p>
+<p>uniqid() 函数基于以微秒计的当前时间，生成一个唯一的 ID。</p>
+<p>memory_get_usage 返回分配给 PHP 的内存量。</p>
+<p>PHP提供了 gzcompress() 和 gzuncompress() 函数压缩字符串。</p>
+<p>类实现封装是为了不让外面的类随意的修改一个类的成员变量，所以在定义一个类的成员的时候，我们使用 private 关键字设置这个成员的访问权限，只能被这个类的其他成员方法调用，而不能被其他类中的方法调用，即通过本类中提供的方法来访问本类中的私有属性。</p>
+<p>属性声明是由关键字 public，protected 或者 private 开头，然后跟一个普通的变量声明来组成。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221153247753.png" alt="image-20220221153247753"></p>
+<p>调用类常量的正确方法：</p>
+<p>通过 <strong>类名 :: 常量名</strong> 调用。</p>
+<p>class_exists 检查类是否已定义。</p>
+<p>_call 是魔术方法中的一个，当程序调用到当前类中未声明或没权限调用的方法时，就会调用 __call 方法。</p>
+<p>**filter_has_var()**过滤器检查指定类型的变量是否存在 ？</p>
+<p>implode() 函数返回一个由数组元素组合成的带分隔符的字符串</p>
+<p>strrpos() 函数查找字符串在另一字符串中最后一次出现的位置（区分大小写）。</p>
+<p>strtoupper() 函数把字符串转换为大写</p>
+<p>如果您调用了一个方法，但它并不存在，则会导致问题，要检查方法是否存在将使用哪个函数？</p>
+<p>is_callable() 函数用于检测函数在当前环境中是否可调用；</p>
+<p>scandir() 函数返回指定目录中的文件和目录的数组。</p>
+<p>getlastmod 获取页面最后修改的时间。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221155505245.png" alt="image-20220221155505245"></p>
+<p>strtotime(“+45 days”)</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221155628300.png" alt="image-20220221155628300"></p>
+<p>strip_tags() 函数删除字符串中的 HTML、XML 以及 PHP 的标签</p>
+<p>max_input_time 指令的默认值是60秒，此变量可以以秒为单位对通过 POST、GET 以及 PUT 方式接收数据时间进行限制，默认 60 秒。</p>
+<p>default不履行、违约。</p>
+<p>is_uploaded_file() 函数判断指定的文件是否是通过 HTTP POST 上传的</p>
+<p>session_unset() 释放当前在内存中已经创建的所有 $_SESSION 变量，但不删除 session 文件以及不释放对应的 session id。</p>
+<p>session 数据被认为有效的默认时间(以秒为单位)是1440 秒。</p>
+<p>preg_match() 函数用于进行正则表达式匹配，成功返回 1 ，否则返回 0。</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221183011605.png" alt="image-20220221183011605"></p>
+<p>好，什么是正则表达式？</p>
+<p>正则表达式(regular expression)描述了一种字符串匹配的模式（pattern），可以用来检查一个串是否含有某种子串、将匹配的子串替换或者从某个串中取出符合某个条件的子串等。</p>
+<p>例如：</p>
+<ul>
+<li><p><strong>runoo+b</strong>，可以匹配 runoob、runooob、runoooooob 等，+ 号代表前面的字符必须至少出现一次（<strong>1次或多次</strong>）。</p>
+</li>
+<li><p><strong>runoo*b</strong>，可以匹配 runob、runoob、runoooooob 等，* 号代表前面的字符可以不出现，也可以出现一次或者多次（0次、或1次、或多次）。</p>
+</li>
+<li><p><strong>colou?r</strong> 可以匹配 color 或者 colour，? 问号代表前面的字符最多只可以出现一次（<strong>0次</strong>、或1次）。</p>
+<p>flag{.*}    这代表了规则，：我要找一个flag{开头，}结尾，而且{}中间夹杂0个以上（*代表匹配前一个规则0次以上）任意字符（.是通配符）的字符串。</p>
+</li>
+</ul>
+<p>preg_replace 函数执行一个正则表达式的搜索和替换。</p>
+<p> 需要在 php.ini 文件中取消注释或添加 extension=php_mysqli.dll</p>
+<p>self 可以访问本类中的静态属性和静态方法，可以访问父类中的静态属性和静态方法。用 self 时，可以不用实例化。</p>
+<p>直接设置私有属性值的时候自动调用 __set() 方法</p>
+<p>当要调用的方法不存在或权限不足时，会自动调用 __call 方法</p>
+<p><img src="/2022/02/18/php-I-learn-it/index/image-20220221185827818.png" alt="image-20220221185827818"></p>
+<p>说得好对</p>
+<h2 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$q</span> = <span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;q&#x27;</span>])? htmlspecialchars(<span class="variable">$_GET</span>[<span class="string">&#x27;q&#x27;</span>]) : <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$q</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable">$q</span> ==<span class="string">&#x27;RUNOOB&#x27;</span>) &#123;</span><br><span class="line">                <span class="keyword">echo</span> <span class="string">&#x27;菜鸟教程&lt;br&gt;http://www.runoob.com&#x27;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span>(<span class="variable">$q</span> ==<span class="string">&#x27;GOOGLE&#x27;</span>) &#123;</span><br><span class="line">                <span class="keyword">echo</span> <span class="string">&#x27;Google 搜索&lt;br&gt;http://www.google.com&#x27;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span>(<span class="variable">$q</span> ==<span class="string">&#x27;TAOBAO&#x27;</span>) &#123;</span><br><span class="line">                <span class="keyword">echo</span> <span class="string">&#x27;淘宝&lt;br&gt;http://www.taobao.com&#x27;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"><span class="meta">?&gt;</span></span><br><span class="line">&lt;form action=<span class="string">&quot;&quot;</span> method=<span class="string">&quot;get&quot;</span>&gt; </span><br><span class="line">    &lt;select name=<span class="string">&quot;q&quot;</span>&gt;</span><br><span class="line">    &lt;option value=<span class="string">&quot;&quot;</span>&gt;选择一个站点:&lt;/option&gt;</span><br><span class="line">    &lt;option value=<span class="string">&quot;RUNOOB&quot;</span>&gt;Runoob&lt;/option&gt;</span><br><span class="line">    &lt;option value=<span class="string">&quot;GOOGLE&quot;</span>&gt;Google&lt;/option&gt;</span><br><span class="line">    &lt;option value=<span class="string">&quot;TAOBAO&quot;</span>&gt;Taobao&lt;/option&gt;</span><br><span class="line">    &lt;/select&gt;</span><br><span class="line">    &lt;input type=<span class="string">&quot;submit&quot;</span> value=<span class="string">&quot;提交&quot;</span>&gt;</span><br><span class="line">    &lt;/form&gt;</span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span>    </span><br></pre></td></tr></table></figure>
+
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$q</span> = <span class="keyword">isset</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;q&#x27;</span>])? <span class="variable">$_POST</span>[<span class="string">&#x27;q&#x27;</span>] : <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(is_array(<span class="variable">$q</span>)) &#123;</span><br><span class="line">    <span class="variable">$sites</span> = <span class="keyword">array</span>(</span><br><span class="line">            <span class="string">&#x27;RUNOOB&#x27;</span> =&gt; <span class="string">&#x27;菜鸟教程: http://www.runoob.com&#x27;</span>,</span><br><span class="line">            <span class="string">&#x27;GOOGLE&#x27;</span> =&gt; <span class="string">&#x27;Google 搜索: http://www.google.com&#x27;</span>,</span><br><span class="line">            <span class="string">&#x27;TAOBAO&#x27;</span> =&gt; <span class="string">&#x27;淘宝: http://www.taobao.com&#x27;</span>,</span><br><span class="line">    );</span><br><span class="line">    <span class="keyword">foreach</span>(<span class="variable">$q</span> <span class="keyword">as</span> <span class="variable">$val</span>) &#123;</span><br><span class="line">        <span class="comment">// PHP_EOL 为常量，用于换行</span></span><br><span class="line">        <span class="keyword">echo</span> <span class="variable">$sites</span>[<span class="variable">$val</span>] . PHP_EOL;</span><br><span class="line">    &#125;</span><br><span class="line">      </span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"><span class="meta">?&gt;</span></span><br><span class="line">&lt;form action=<span class="string">&quot;&quot;</span> method=<span class="string">&quot;post&quot;</span>&gt; </span><br><span class="line">    &lt;select multiple=<span class="string">&quot;multiple&quot;</span> name=<span class="string">&quot;q[]&quot;</span>&gt;</span><br><span class="line">    &lt;option value=<span class="string">&quot;&quot;</span>&gt;选择一个站点:&lt;/option&gt;</span><br><span class="line">    &lt;option value=<span class="string">&quot;RUNOOB&quot;</span>&gt;Runoob&lt;/option&gt;</span><br><span class="line">    &lt;option value=<span class="string">&quot;GOOGLE&quot;</span>&gt;Google&lt;/option&gt;</span><br><span class="line">    &lt;option value=<span class="string">&quot;TAOBAO&quot;</span>&gt;Taobao&lt;/option&gt;</span><br><span class="line">    &lt;/select&gt;</span><br><span class="line">    &lt;input type=<span class="string">&quot;submit&quot;</span> value=<span class="string">&quot;提交&quot;</span>&gt;</span><br><span class="line">    &lt;/form&gt;</span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>如果下拉菜单是多选的（ multiple=”multiple”），我们可以通过将设置 select <strong>name=”q[]”</strong> 以数组的方式获取，以下使用 POST 方式提交</p>
+<p>PHP 单选按钮表单中 name 属性的值是一致的，value 值是不同的，代码如下所示：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$q</span> = <span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;q&#x27;</span>])? htmlspecialchars(<span class="variable">$_GET</span>[<span class="string">&#x27;q&#x27;</span>]) : <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$q</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable">$q</span> ==<span class="string">&#x27;RUNOOB&#x27;</span>) &#123;</span><br><span class="line">                <span class="keyword">echo</span> <span class="string">&#x27;菜鸟教程&lt;br&gt;http://www.runoob.com&#x27;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span>(<span class="variable">$q</span> ==<span class="string">&#x27;GOOGLE&#x27;</span>) &#123;</span><br><span class="line">                <span class="keyword">echo</span> <span class="string">&#x27;Google 搜索&lt;br&gt;http://www.google.com&#x27;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span>(<span class="variable">$q</span> ==<span class="string">&#x27;TAOBAO&#x27;</span>) &#123;</span><br><span class="line">                <span class="keyword">echo</span> <span class="string">&#x27;淘宝&lt;br&gt;http://www.taobao.com&#x27;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"><span class="meta">?&gt;</span>&lt;form action=<span class="string">&quot;&quot;</span> method=<span class="string">&quot;get&quot;</span>&gt; </span><br><span class="line">    &lt;input type=<span class="string">&quot;radio&quot;</span> name=<span class="string">&quot;q&quot;</span> value=<span class="string">&quot;RUNOOB&quot;</span> /&gt;Runoob</span><br><span class="line">    &lt;input type=<span class="string">&quot;radio&quot;</span> name=<span class="string">&quot;q&quot;</span> value=<span class="string">&quot;GOOGLE&quot;</span> /&gt;Google</span><br><span class="line">    &lt;input type=<span class="string">&quot;radio&quot;</span> name=<span class="string">&quot;q&quot;</span> value=<span class="string">&quot;TAOBAO&quot;</span> /&gt;Taobao</span><br><span class="line">    &lt;input type=<span class="string">&quot;submit&quot;</span> value=<span class="string">&quot;提交&quot;</span>&gt;</span><br><span class="line">&lt;/form&gt;</span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="PHP表单中需引起注重的地方？"><a href="#PHP表单中需引起注重的地方？" class="headerlink" title="PHP表单中需引起注重的地方？"></a>PHP表单中需引起注重的地方？</h2><p>$_SERVER[“PHP_SELF”] 变量有可能会被黑客使用！</p>
+<p>当黑客使用跨网站脚本的HTTP链接来攻击时，$_SERVER[“PHP_SELF”]服务器变量也会被植入脚本。原因就是跨网站脚本是附在执行文件的路径后面的，因此$_SERVER[“PHP_SELF”]的字符串就会包含HTTP链接后面的JavaScript程序代码。</p>
+<p><strong>XSS又叫 CSS (Cross-Site Script) ,跨站脚本攻击。恶意攻击者往Web页面里插入恶意html代码，当用户浏览该页之时，嵌入其中Web里面的html代码会被执行，从而达到恶意用户的特殊目的。</strong></p>
+<p>指定以下表单文件名为 “test_form.php”:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;form method=&quot;post&quot; action=&quot;&lt;?php echo $_SERVER[&quot;PHP_SELF&quot;];?&gt;&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>现在，我们使用URL来指定提交地址 “test_form.php”,以上代码修改为如下所示:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;form method=&quot;post&quot; action=&quot;test_form.php&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这样做就很好了。</p>
+<p>但是，考虑到用户会在浏览器地址栏中输入以下地址:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://www.runoob.com/test_form.php/%22%3E%3Cscript%3Ealert(&#x27;hacked&#x27;)%3C/script%3E</span><br></pre></td></tr></table></figure>
+
+<p>以上的 URL 中，将被解析为如下代码并执行：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;form method=&quot;post&quot; action=&quot;test_form.php/&quot;&gt;&lt;script&gt;alert(&#x27;hacked&#x27;)&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>代码中添加了 script 标签，并添加了alert命令。 当页面载入时会执行该Javascript代码（用户会看到弹出框）。 这仅仅只是一个简单的实例来说明PHP_SELF变量会被黑客利用。</p>
+<p>请注意， <strong>任何JavaScript代码可以添加在<script>标签中！</strong> 黑客可以利用这点重定向页面到另外一台服务器的页面上，页面 代码文件中可以保护恶意代码，代码可以修改全局变量或者获取用户的表单数据。</p>
+<hr>
+<h2 id="如何避免-SERVER-“PHP-SELF”-被利用"><a href="#如何避免-SERVER-“PHP-SELF”-被利用" class="headerlink" title="如何避免 $_SERVER[“PHP_SELF”] 被利用?"></a>如何避免 $_SERVER[“PHP_SELF”] 被利用?</h2><p>$_SERVER[“PHP_SELF”] 可以通过 htmlspecialchars() 函数来避免被利用。</p>
+<p>form 代码如下所示：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;form method=&quot;post&quot; action=&quot;&lt;?php echo htmlspecialchars($_SERVER[&quot;PHP_SELF&quot;]);?&gt;&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>htmlspecialchars() 把一些预定义的字符转换为 HTML 实体。现在如果用户想利用 PHP_SELF 变量, 结果将输出如下所示：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;form method=&quot;post&quot; action=&quot;test_form.php/&amp;quot;&amp;gt;&amp;lt;script&amp;gt;alert(&#x27;hacked&#x27;)&amp;lt;/script&amp;gt;&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>尝试该漏洞失败！</p>
+<hr>
+<h2 id="使用-PHP-验证表单数据"><a href="#使用-PHP-验证表单数据" class="headerlink" title="使用 PHP 验证表单数据"></a>使用 PHP 验证表单数据</h2><p>首先我们对用户所有提交的数据都通过 PHP 的 htmlspecialchars() 函数处理。</p>
+<p>当我们使用 htmlspecialchars() 函数时，在用户尝试提交以下文本域:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;location.href(&#x27;http://www.runoob.com&#x27;)&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>该代码将不会被执行，因为它会被保存为HTML转义代码，如下所示：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;script&amp;gt;location.href(&#x27;http://www.runoob.com&#x27;)&amp;lt;/script&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>以上代码是安全的，可以正常在页面显示或者插入邮件中。</p>
+<p>当用户提交表单时，我们将做以下两件事情：</p>
+<ol>
+<li>使用 PHP trim() 函数去除用户输入数据中不必要的字符 (如：空格，tab，换行)。</li>
+<li>使用PHP stripslashes()函数去除用户输入数据中的反斜杠 ()</li>
+</ol>
+<p>接下来让我们将这些过滤的函数写在一个我们自己定义的函数中，这样可以大大提高代码的复用性。</p>
+<p>将函数命名为 test_input()。</p>
+<p>现在，我们可以通过test_input()函数来检测 $_POST 中的所有变量, 脚本代码如下所示：</p>
+<h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// 定义变量并默认设置为空值</span></span><br><span class="line"><span class="variable">$name</span> = <span class="variable">$email</span> = <span class="variable">$gender</span> = <span class="variable">$comment</span> = <span class="variable">$website</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$_SERVER</span>[<span class="string">&quot;REQUEST_METHOD&quot;</span>] == <span class="string">&quot;POST&quot;</span>)</span><br><span class="line">&#123;</span><br><span class="line">  <span class="variable">$name</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;name&quot;</span>]);</span><br><span class="line">  <span class="variable">$email</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;email&quot;</span>]);</span><br><span class="line">  <span class="variable">$website</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;website&quot;</span>]);</span><br><span class="line">  <span class="variable">$comment</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;comment&quot;</span>]);</span><br><span class="line">  <span class="variable">$gender</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;gender&quot;</span>]);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test_input</span>(<span class="params"><span class="variable">$data</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="variable">$data</span> = trim(<span class="variable">$data</span>);</span><br><span class="line">  <span class="variable">$data</span> = stripslashes(<span class="variable">$data</span>);</span><br><span class="line">  <span class="variable">$data</span> = htmlspecialchars(<span class="variable">$data</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="variable">$data</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>我求我自己url记得写。。。</p>
+<p>然后出现的报错是因为这些值没有post进去。</p>
+<p>如果在前面的章节中，所有输入字段都是可选的。</p>
+<p>在以下代码中我们加入了一些新的变量: $nameErr, $emailErr, $genderErr, 和 $websiteErr.。这些错误变量将显示在必需字段上。 我们还为每个$_POST变量增加了一个if else语句。 这些语句将检查 $_POST 变量是 否为空（使用php的 empty() 函数）。如果为空，将显示对应的错误信息。 如果不为空，数据将传递给test_input() 函数：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// 定义变量并默认设为空值</span></span><br><span class="line"><span class="variable">$nameErr</span> = <span class="variable">$emailErr</span> = <span class="variable">$genderErr</span> = <span class="variable">$websiteErr</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line"><span class="variable">$name</span> = <span class="variable">$email</span> = <span class="variable">$gender</span> = <span class="variable">$comment</span> = <span class="variable">$website</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$_SERVER</span>[<span class="string">&quot;REQUEST_METHOD&quot;</span>] == <span class="string">&quot;POST&quot;</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (<span class="keyword">empty</span>(<span class="variable">$_POST</span>[<span class="string">&quot;name&quot;</span>])) &#123;</span><br><span class="line">    <span class="variable">$nameErr</span> = <span class="string">&quot;名字是必需的。&quot;</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable">$name</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;name&quot;</span>]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (<span class="keyword">empty</span>(<span class="variable">$_POST</span>[<span class="string">&quot;email&quot;</span>])) &#123;</span><br><span class="line">    <span class="variable">$emailErr</span> = <span class="string">&quot;邮箱是必需的。&quot;</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable">$email</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;email&quot;</span>]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (<span class="keyword">empty</span>(<span class="variable">$_POST</span>[<span class="string">&quot;website&quot;</span>])) &#123;</span><br><span class="line">    <span class="variable">$website</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable">$website</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;website&quot;</span>]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (<span class="keyword">empty</span>(<span class="variable">$_POST</span>[<span class="string">&quot;comment&quot;</span>])) &#123;</span><br><span class="line">    <span class="variable">$comment</span> = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable">$comment</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;comment&quot;</span>]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (<span class="keyword">empty</span>(<span class="variable">$_POST</span>[<span class="string">&quot;gender&quot;</span>])) &#123;</span><br><span class="line">    <span class="variable">$genderErr</span> = <span class="string">&quot;性别是必需的。&quot;</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable">$gender</span> = test_input(<span class="variable">$_POST</span>[<span class="string">&quot;gender&quot;</span>]);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="php-I-learn-it/image-20220221195818649.png" alt="image-20220221195818649"></p>
+</script></strong></p>
+    </div>
+
+    
+    
+    
+      
+
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>jiaxin
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index.html" title="php-I learn it">http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/php/" rel="tag"># php<i class="fa fa-tag"></i></a>
+              <a href="/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/" rel="tag"># 宝塔面板<i class="fa fa-tag"></i></a>
+          </div>
+        <div>  
+              
+    	    <div>    
+	        
+        <div style="text-align:center;color: #ccc;font-size:14px;">            
+        -------------本文结束           
+        <i class="fa fa-paw"></i>           
+        感谢您的阅读-------------        
+        </div>   
+        
+</div>  
+          
+        </div>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/02/14/ctf.show%E8%90%8C%E6%96%B0%E5%8C%BA%E9%A2%98%E8%A7%A3/index.html" rel="prev" title="萌新区题解">
+                  <i class="fa fa-chevron-left"></i> 萌新区题解
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/02/21/MD5%EF%BC%9F%E2%80%9C/index.html" rel="next" title="MD5？">
+                  MD5？ <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+
+  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+
+<script>
+    var jsonModel = [
+    "https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json",
+    "https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json",
+    "https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json",
+    "https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json",
+    "https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json",
+    ];
+    L2Dwidget.init({ 
+        "model": { 
+            "jsonPath": jsonModel[Math.floor(Math.random()*(jsonModel.length-1))],
+            "scale": 1 
+        }, 
+        "display": { 
+            "position": "right", // 位置left、right
+            "width": 180, // 宽度
+            "height": 240, // 高度
+            "hOffset": 0, // 横向边距
+            "vOffset": 0 // 众向边距
+        }, 
+        "mobile": { 
+            "show": true // 手机是否显示
+        },
+    });
+</script>
+<!--浏览器搞笑标题-->
+<script type="text/javascript" src="/js/FunnyTitle.js"></script>
+
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/love.js"></script>
+
+  <!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jiaxin</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">92k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">1:24</span>
+  </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+<footer>
+        <!-- 不蒜子统计 -->
+        <span id="busuanzi_container_site_pv">
+                本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        </span>
+        <span class="post-meta-divider">|</span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+                本站访客数<span id="busuanzi_value_site_uv"></span>人
+        </span>
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</footer>
+    </div>
+  </footer>
+  
+  <script type="text/javascript"
+  color="0,0,255" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+  
+  
+  
+  <script size="300" alpha="0.5" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.7/pdfobject.min.js","integrity":"sha256-ph3Dk89VmuTVXG6x/RDzk53SU9LPdAh1tpv0UvnDZ2I="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+
+</body>
+</html>
