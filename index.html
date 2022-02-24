@@ -96,7 +96,7 @@
         <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
         <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">25</span></a></li>
         <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">4</span></a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">22</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">26</span></a></li>
         <li class="menu-item menu-item-书籍"><a href="/books/" rel="section"><i class="fa fa-book fa-fw"></i>书籍</a></li>
         <li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
       <li class="menu-item menu-item-search">
@@ -169,7 +169,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">26</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -221,6 +221,370 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/24/printf%E5%92%8Csprintf%E5%92%8Cfprintf%E7%9A%84%E5%8C%BA%E5%88%AB/index.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
+      <meta itemprop="name" content="jiaxin">
+      <meta itemprop="description" content="加薪不应该是废物捏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="诗酒趁年华">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/02/24/printf%E5%92%8Csprintf%E5%92%8Cfprintf%E7%9A%84%E5%8C%BA%E5%88%AB/index.html" class="post-title-link" itemprop="url">printf和sprintf和fprintf的区别</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-02-24 11:24:03 / 修改时间：15:30:50" itemprop="dateCreated datePublished" datetime="2022-02-24T11:24:03+08:00">2022-02-24</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.4k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="printf"><a href="#printf" class="headerlink" title="printf"></a>printf</h2><p>用于输出在标准输出设备（stdout控制台）上输出文本（字符串/字符流）或值。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">printf</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span> * format,...)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>说明：</p>
+<p>format提供了文本字符串的格式，该格式将在输出设备上使用%s,%d,%f等格式说明符进行输出。</p>
+<p>…提供需要输出的参数列表。</p>
+<p>返回类型int返回屏幕上输出的字符总数。</p>
+<p>示例：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>,a);</span><br></pre></td></tr></table></figure>
+
+<h2 id="sprintf"><a href="#sprintf" class="headerlink" title="sprintf"></a>sprintf</h2><p>sprintf用于将格式化文本（字符串/字符流）发送（复制）到字符串缓冲区上。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">sprintf</span><span class="params">(<span class="keyword">char</span> * str,<span class="keyword">const</span> <span class="keyword">char</span> * format,...)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>char *str :将在其中发送（复制）格式化文本的字符数组。</p>
+<p>format在格式说明符的帮助下提供格式化文本。</p>
+<p>…提供需要输出的参数列表。</p>
+<p>返回类型int将复制（发送）<strong>字符的总数</strong>返回到char * str中。</p>
+<p><img src="/2022/02/24/printf%E5%92%8Csprintf%E5%92%8Cfprintf%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220224115704123.png" alt="image-20220224115704123"></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">100</span>];</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line"></span><br><span class="line">    n = <span class="built_in">sprintf</span>((<span class="keyword">char</span> *)str, <span class="string">&quot;我的名字是%s,I am %d years old.&quot;</span>, <span class="string">&quot;Mike&quot;</span>, <span class="number">23</span>);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Text is : %s\n&quot;</span>, str);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Total number of copied characters are :%d\n&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="fprintf"><a href="#fprintf" class="headerlink" title="fprintf"></a>fprintf</h2><p>fprintf用于在文件中输出字符串内容，但不在stdout控制台上输出。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fprintf</span><span class="params">(FILE * fptr,<span class="keyword">const</span> <span class="keyword">char</span> *str,...)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>fptr: 这是指向对象的指针，该FILE对象标识了流。</p>
+<p>str：这是C字符串，包含了要被写入到流stream中的文本。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i, n = <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">50</span>];</span><br><span class="line"></span><br><span class="line">    <span class="comment">// open file sample.txt in write mode</span></span><br><span class="line">    FILE *fptr = fopen(<span class="string">&quot;sample.txt&quot;</span>, <span class="string">&quot;w&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (fptr == <span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;无法打开文件&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">puts</span>(<span class="string">&quot;输入名称&quot;</span>);</span><br><span class="line">        gets(str);</span><br><span class="line">        <span class="built_in">fprintf</span>(fptr, <span class="string">&quot;%d.%s\n&quot;</span>, i, str);</span><br><span class="line">    &#125;</span><br><span class="line">    fclose(fptr);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>有一个问题，就是如果用中文读入的话，会以gbk的编码写入，然后以utf-8的编码来读取。</p>
+<p>然后就会出现一堆乱码</p>
+<p>（这个问题还没找到解决的方法）</p>
+<p><img src="/2022/02/24/printf%E5%92%8Csprintf%E5%92%8Cfprintf%E7%9A%84%E5%8C%BA%E5%88%AB/index/image-20220224145157231.png" alt="image-20220224145157231"></p>
+<p>T_T</p>
+<p>还有一点，如果打开的文件夹中没有sample.txt这个文件，会自动生成一个文件然后写入那些字符。</p>
+<p>总结：</p>
+<p>printf，sprintf和fprintf的区别是：它们的输出目标不一样。printf在stdout控制台上输出数据字符流；sprintf将数据字符流发送指定的char缓冲区上；fprintf用于在文件中输出字符串内容。</p>
+<p>参考文献：</p>
+<p><a target="_blank" rel="noopener" href="https://www.php.cn/csharp-article-414735.html">https://www.php.cn/csharp-article-414735.html</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      
+
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/24/C%E8%AF%AD%E8%A8%80%E7%9A%84%E6%96%87%E4%BB%B6%E6%B5%81/index.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
+      <meta itemprop="name" content="jiaxin">
+      <meta itemprop="description" content="加薪不应该是废物捏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="诗酒趁年华">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/02/24/C%E8%AF%AD%E8%A8%80%E7%9A%84%E6%96%87%E4%BB%B6%E6%B5%81/index.html" class="post-title-link" itemprop="url">C语言的文件流</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-02-24 11:10:25 / 修改时间：11:17:10" itemprop="dateCreated datePublished" datetime="2022-02-24T11:10:25+08:00">2022-02-24</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>0</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          
+      
+    </div>
+
+    
+    
+    
+      
+
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/24/base64/index.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
+      <meta itemprop="name" content="jiaxin">
+      <meta itemprop="description" content="加薪不应该是废物捏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="诗酒趁年华">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/02/24/base64/index.html" class="post-title-link" itemprop="url">base64</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-02-24 10:44:39" itemprop="dateCreated datePublished" datetime="2022-02-24T10:44:39+08:00">2022-02-24</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>0</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          
+      
+    </div>
+
+    
+    
+    
+      
+
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/24/C%E7%9A%84typedef%E5%85%B3%E9%94%AE%E5%AD%97/index.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
+      <meta itemprop="name" content="jiaxin">
+      <meta itemprop="description" content="加薪不应该是废物捏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="诗酒趁年华">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/02/24/C%E7%9A%84typedef%E5%85%B3%E9%94%AE%E5%AD%97/index.html" class="post-title-link" itemprop="url">C的typedef关键字</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-02-24 10:15:35 / 修改时间：10:25:22" itemprop="dateCreated datePublished" datetime="2022-02-24T10:15:35+08:00">2022-02-24</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>865</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>学了就忘，T_T</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/02/24/C%E7%9A%84typedef%E5%85%B3%E9%94%AE%E5%AD%97/index.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      
+
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -341,9 +705,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2022-02-23 23:04:14 / 修改时间：23:11:58" itemprop="dateCreated datePublished" datetime="2022-02-23T23:04:14+08:00">2022-02-23</time>
+      <time title="创建时间：2022-02-23 23:04:14" itemprop="dateCreated datePublished" datetime="2022-02-23T23:04:14+08:00">2022-02-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-02-24 11:07:55" itemprop="dateModified" datetime="2022-02-24T11:07:55+08:00">2022-02-24</time>
     </span>
 
   
@@ -352,7 +722,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>418</span>
+      <span>447</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -429,9 +799,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2022-02-23 22:55:36 / 修改时间：23:48:07" itemprop="dateCreated datePublished" datetime="2022-02-23T22:55:36+08:00">2022-02-23</time>
+      <time title="创建时间：2022-02-23 22:55:36" itemprop="dateCreated datePublished" datetime="2022-02-23T22:55:36+08:00">2022-02-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-02-24 15:29:35" itemprop="dateModified" datetime="2022-02-24T15:29:35+08:00">2022-02-24</time>
     </span>
 
   
@@ -440,7 +816,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>827</span>
+      <span>1.6k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -605,9 +981,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2022-02-23 14:04:15 / 修改时间：14:48:02" itemprop="dateCreated datePublished" datetime="2022-02-23T14:04:15+08:00">2022-02-23</time>
+      <time title="创建时间：2022-02-23 14:04:15" itemprop="dateCreated datePublished" datetime="2022-02-23T14:04:15+08:00">2022-02-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-02-24 09:31:28" itemprop="dateModified" datetime="2022-02-24T09:31:28+08:00">2022-02-24</time>
     </span>
 
   
@@ -616,7 +998,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>236</span>
+      <span>577</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -757,383 +1139,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/18/php-I-learn-it/index.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
-      <meta itemprop="name" content="jiaxin">
-      <meta itemprop="description" content="加薪不应该是废物捏">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="诗酒趁年华">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/02/18/php-I-learn-it/index.html" class="post-title-link" itemprop="url">php</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-02-18 14:34:31" itemprop="dateCreated datePublished" datetime="2022-02-18T14:34:31+08:00">2022-02-18</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-02-23 23:48:02" itemprop="dateModified" datetime="2022-02-23T23:48:02+08:00">2022-02-23</time>
-    </span>
-
-  
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>22k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>20 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>是学习PHP时的流水账罢了</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/02/18/php-I-learn-it/index.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      
-
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/14/ctf.show%E8%90%8C%E6%96%B0%E5%8C%BA%E9%A2%98%E8%A7%A3/index.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
-      <meta itemprop="name" content="jiaxin">
-      <meta itemprop="description" content="加薪不应该是废物捏">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="诗酒趁年华">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/02/14/ctf.show%E8%90%8C%E6%96%B0%E5%8C%BA%E9%A2%98%E8%A7%A3/index.html" class="post-title-link" itemprop="url">萌新区题解</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-02-14 17:43:32" itemprop="dateCreated datePublished" datetime="2022-02-14T17:43:32+08:00">2022-02-14</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-02-18 14:30:59" itemprop="dateModified" datetime="2022-02-18T14:30:59+08:00">2022-02-18</time>
-    </span>
-
-  
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.2k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><img src="/2022/02/14/ctf.show%E8%90%8C%E6%96%B0%E5%8C%BA%E9%A2%98%E8%A7%A3/index/image-20220211180723469.png" alt="image-20220211180723469"></p>
-<p>这就是萌新吧┗|｀O′|┛ 嗷~~</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/02/14/ctf.show%E8%90%8C%E6%96%B0%E5%8C%BA%E9%A2%98%E8%A7%A3/index.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      
-
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/13/Win10-WSL%E6%8D%A2%E6%BA%90/index.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
-      <meta itemprop="name" content="jiaxin">
-      <meta itemprop="description" content="加薪不应该是废物捏">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="诗酒趁年华">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/02/13/Win10-WSL%E6%8D%A2%E6%BA%90/index.html" class="post-title-link" itemprop="url">Win10 WSL换源</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-02-13 20:31:14" itemprop="dateCreated datePublished" datetime="2022-02-13T20:31:14+08:00">2022-02-13</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-02-22 16:50:09" itemprop="dateModified" datetime="2022-02-22T16:50:09+08:00">2022-02-22</time>
-    </span>
-
-  
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.1k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>不记录一下真的会忘记qwq</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/02/13/Win10-WSL%E6%8D%A2%E6%BA%90/index.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      
-
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://jiaxin0521.github.io/2022/02/12/%E7%9B%B2%E6%B0%B4%E5%8D%B0/index.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz1gr9mae8j30qo0qomy4.jpg">
-      <meta itemprop="name" content="jiaxin">
-      <meta itemprop="description" content="加薪不应该是废物捏">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="诗酒趁年华">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/02/12/%E7%9B%B2%E6%B0%B4%E5%8D%B0/index.html" class="post-title-link" itemprop="url">hgame misc week4-摆烂</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-02-12 19:58:14" itemprop="dateCreated datePublished" datetime="2022-02-12T19:58:14+08:00">2022-02-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-02-22 16:52:27" itemprop="dateModified" datetime="2022-02-22T16:52:27+08:00">2022-02-22</time>
-    </span>
-
-  
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>994</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>一道解到一半就不想解的misc题，（好吧，也过期了没法解了）</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/02/12/%E7%9B%B2%E6%B0%B4%E5%8D%B0/index.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      
-
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
@@ -1198,14 +1203,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">133k</span>
+    <span title="站点总字数">137k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">2:01</span>
+    <span title="站点阅读时长">2:04</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
